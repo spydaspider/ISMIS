@@ -1,0 +1,12 @@
+export default class CreateCart{
+    constructor(itemName,quantity,costPrice,sellingPrice,bought,totalCost)
+    {
+        this.itemName = itemName;
+        this.quantity = quantity;
+        this.costPrice = costPrice;
+        this.sellingPrice = sellingPrice;
+        this.bought = bought;
+        this.totalCost = totalCost;
+    } 
+
+}

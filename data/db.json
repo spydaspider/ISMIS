@@ -1,0 +1,59 @@
+{
+  "items": [
+    {
+      "itemName": "Amoxaclin 8",
+      "quantity": "7",
+      "costPrice": "34.5",
+      "sellingPrice": "54.4",
+      "id": 1
+    },
+    {
+      "itemName": "twedie bitters",
+      "quantity": "7",
+      "costPrice": "344.5",
+      "sellingPrice": "564.4",
+      "id": 2
+    },
+    {
+      "itemName": "Ginger",
+      "quantity": "8",
+      "costPrice": "344.5",
+      "sellingPrice": "564.4",
+      "id": 3
+    },
+    {
+      "itemName": "twecuit",
+      "quantity": "3",
+      "costPrice": "344.6",
+      "sellingPrice": "564.4",
+      "id": 4
+    },
+    {
+      "itemName": "Amoxaclin 4",
+      "quantity": "3",
+      "costPrice": "344.6",
+      "sellingPrice": "564.4",
+      "id": 4
+    }
+  ],
+  "users": [
+    {
+      "username": "Derick",
+      "password": "filament",
+      "id": 1
+    },
+    {
+      "username": "Emmanuella",
+      "password": "filament",
+      "id": 2
+    },
+    {
+      "username": "Emmanu",
+      "password": "filament",
+      "id": 3
+    }
+  ],
+  "sales": [
+   
+  ]
+}
