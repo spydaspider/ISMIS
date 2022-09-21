@@ -168,6 +168,7 @@ const HomePage = () =>{
         }
         const handlePay = (e,total) =>{
              //get the cumulative total.
+
              e.preventDefault();
             
              let balance = 0.0;
@@ -212,8 +213,27 @@ const HomePage = () =>{
                         headers: {"Content-type": "Application/json"},
                         body: JSON.stringify(ct)
                      })
+                     
+                     
                     
                      })
+                    /*  for(let i = 0; i < cart.length; i++)
+                     {
+                       for(let j = 0; j < items.length; j++)
+                       {
+                           if(cart[i].itemName === items[j].itemName)
+                           {
+                               fetch('http://localhost:8000/items',{
+                                   method: "PATCH",
+                                   headers: {"Content-type":"Application/json"},
+                                   body: JSON.stringify({"quantity": items[j].quantity - cart[i].quantity})
+   
+   
+   
+                               })
+                           }
+                       }
+                     } */
                      
                    localStorage.removeItem('cart');
 
@@ -236,6 +256,24 @@ const HomePage = () =>{
                     console.log("sent");
                  })
                   })
+                /*   for(let i = 0; i < cart.length; i++)
+                  {
+                    for(let j = 0; j < items.length; j++)
+                    {
+                        if(cart[i].itemName === items[j].itemName)
+                        {
+                            fetch('http://localhost:8000/items',{
+                                method: "PATCH",
+                                headers: {"Content-type":"Application/json"},
+                                body: JSON.stringify({"quantity": items[j].quantity - cart[i].quantity})
+
+
+
+                            })
+                        }
+                    }
+                  } */
+
                   localStorage.removeItem('cart');
 
                   

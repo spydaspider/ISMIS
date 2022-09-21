@@ -59,71 +59,24 @@
       "quantity": 7,
       "costPrice": 34.5,
       "sellingPrice": 54.4,
-      "bought": 3,
-      "totalCost": 163.2,
+      "bought": 1,
+      "totalCost": 54.4,
       "date": "2022-09-21",
-      "time": "01:10:05.267Z",
+      "time": "14:08:39.349Z",
+      "momo": false,
       "id": 1
     },
     {
-      "itemName": "Amoxaclin 8",
-      "quantity": 7,
-      "costPrice": 34.5,
-      "sellingPrice": 54.4,
-      "bought": 4,
-      "totalCost": 217.6,
-      "date": "2022-09-21",
-      "time": "04:46:41.339Z",
-      "momo": false,
-      "id": 2
-    },
-    {
-      "itemName": "Ginger",
-      "quantity": 8,
-      "costPrice": 344.5,
-      "sellingPrice": 564.4,
-      "bought": 2,
-      "totalCost": 1128.8,
-      "date": "2022-09-21",
-      "time": "04:57:47.025Z",
-      "momo": false,
-      "id": 3
-    },
-    {
-      "itemName": "twecuit",
+      "itemName": "Amoxaclin 4",
       "quantity": 3,
       "costPrice": 344.6,
       "sellingPrice": 564.4,
       "bought": 1,
       "totalCost": 564.4,
       "date": "2022-09-21",
-      "time": "04:57:53.849Z",
+      "time": "14:08:43.196Z",
       "momo": false,
-      "id": 4
-    },
-    {
-      "itemName": "Amoxaclin 8",
-      "quantity": 7,
-      "costPrice": 34.5,
-      "sellingPrice": 54.4,
-      "bought": 1,
-      "totalCost": 54.4,
-      "date": "2022-09-21",
-      "time": "04:59:47.578Z",
-      "momo": false,
-      "id": 5
-    },
-    {
-      "itemName": "Ginger",
-      "quantity": 8,
-      "costPrice": 344.5,
-      "sellingPrice": 564.4,
-      "bought": 2,
-      "totalCost": 1128.8,
-      "date": "2022-09-21",
-      "time": "05:00:27.937Z",
-      "momo": false,
-      "id": 6
+      "id": 2
     }
   ]
 }
