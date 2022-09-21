@@ -63,7 +63,9 @@ const HomePage = () =>{
        const handlePlus = (itemName) =>
         {
             
-            
+            let dateTime = new Date();
+            let time = dateTime.toISOString().split('T')[1];
+            let date = dateTime.toISOString().split('T')[0];
 
             let buyingList = []; 
             let searchCounter = 0;
@@ -79,6 +81,8 @@ const HomePage = () =>{
             setPayable(true);
             setInvalidAmount(false);
             setEmptyCart(false);
+            setBalance(false);
+            setNoBalance(false);
             if(items.length !== 0)
             {
                 items.forEach((ct)=>{
@@ -100,7 +104,7 @@ const HomePage = () =>{
                 {
                     
                     setShowCart(false);
-                    let cartObj = new CreateCart(itemName,Number(quantity),Number(costPrice),Number(sellingPrice),Number(bought),Number(sellingPrice));
+                    let cartObj = new CreateCart(itemName,Number(quantity),Number(costPrice),Number(sellingPrice),Number(bought),Number(sellingPrice),date,time,false);
                     cart.push(cartObj);
                 Store.addLocalStorage('cart', cart);
                 setShowCart(true);
@@ -122,7 +126,7 @@ const HomePage = () =>{
                     {
                     
                         
-                        let cartObj = new CreateCart(itemName,Number(quantity),Number(costPrice),Number(sellingPrice),Number(bought),Number(totalCost));
+                        let cartObj = new CreateCart(itemName,Number(quantity),Number(costPrice),Number(sellingPrice),Number(bought),Number(totalCost),date,time,false);
                         cart.push(cartObj);
                         Store.addLocalStorage('cart', cart);
                         
@@ -171,11 +175,16 @@ const HomePage = () =>{
              if((amount <= 0)||(amount === ''))
              {
                setInvalidAmount(true);
+               setBalance(false);
+               setNoBalance(false);
+               setEmptyCart(false);
              }
              else if(cart.length === 0)
              {
                 setInvalidAmount(false);
                 setEmptyCart(true);
+                setBalance(false);
+                setNoBalance(false);
              }
              else{
                 setInvalidAmount(false);
@@ -203,31 +212,64 @@ const HomePage = () =>{
                         headers: {"Content-type": "Application/json"},
                         body: JSON.stringify(ct)
                      })
+                    
                      })
                      
-                     
+                   localStorage.removeItem('cart');
+
                      
                       
                }
-               else if(Number(total).toFixed(2) === Number(amount).toFixed(2))
+               else if(Number(total) === Number(amount))
                {
             
                   setBalance(false);
                   setNoBalance(true); 
+                  setLessAmount(false);
                   let cart = Store.getLocalStorage('cart');
                   cart.forEach((ct)=>{
                      fetch('http://localhost:8000/sales',{
                      method: "POST",
                      headers: {"Content-type": "Application/json"},
                      body: JSON.stringify(ct)
+                  }).then(()=>{
+                    console.log("sent");
+                 })
                   })
-                  })
-                  
+                  localStorage.removeItem('cart');
+
                   
                }
                
                 
              }
+        }
+        const handleCheckBox = (e)=>{
+            let cart = Store.getLocalStorage('cart');
+             if(e.checked)
+            {
+                
+                if(cart.length !== 0)
+                {
+                    cart.forEach((crt)=>{
+                        crt.momo = true;
+                    })
+                }
+            
+                 Store.addLocalStorage('cart',cart);
+ 
+            }
+            else
+            {
+                if(cart.length !== 0)
+                {
+                    cart.forEach((crt)=>{
+                        crt.momo = false;
+                    })
+                }
+                
+                 Store.addLocalStorage('cart',cart);
+            } 
         }
         const handleMinus = (itemName) =>
         {
@@ -295,7 +337,7 @@ const HomePage = () =>{
         <div className = "home-content">
         <div className = "search-wrapper">
             {finishedItemError && <p className = "f-i-error">No more of the items can be found.</p>}
-        <input type = "text" onKeyUp = {(e)=>handleKeyUp(e.target.value)} placeholder = "Search Item"/>
+        <input type = "text" className = "search" onKeyUp = {(e)=>handleKeyUp(e.target.value)} placeholder = "Search Item"/>
         <table className = "search-table">
                 <tr>
                     <th>Item Name</th>
@@ -313,12 +355,12 @@ const HomePage = () =>{
                     <td>{item.quantity}</td>
                     <td>{item.costPrice}cedis</td>
                     <td>{item.sellingPrice}cedis</td>
-                    {showAddButton && <button onClick = {() => handlePlus(item.itemName)}>+</button>}
-                    {!showAddButton && <button onClick = {handlePlus}disabled>+</button>}
+                    {showAddButton && <button className = "plus" onClick = {() => handlePlus(item.itemName)}>+</button>}
+                    {!showAddButton && <button className = "plus" onClick = {handlePlus}disabled>+</button>}
 
                     
 
-                    <button onClick =  {() => handleMinus(item.itemName)}>-</button>
+                    <button className = "minus" onClick =  {() => handleMinus(item.itemName)}>-</button>
                 
 
                 </tr>
@@ -359,12 +401,15 @@ const HomePage = () =>{
             {emptyCart && <p className = "empty-cart-error">There is nothing to pay for, click the add button</p>}
             {lessAmount && <p className = "less-amount-error">Amount is less than the total.</p>}
             {balance && <p className = "balance">Payment was successful with a balance of {handleBalance().toFixed(2)}cedis</p>}
-            {noBalance && <p className = "no-balance">Payment was successfull with no balance</p>}
+            {noBalance && <p className = "no-balance">Payment was successful with no balance</p>}
             <form onSubmit = {(e)=>handlePay(e,ctTotal())}className = "payment-form">
             <label className = "pay-label">Pay:</label>
-            <input type = "number" value = {amount}  onChange = {(e)=>setAmount(e.target.value)} placeholder = "amount"/>
-            {payable && <button>Pay</button>}
-            {!payable && <button disabled>Pay</button>}
+            <input type = "number" value = {amount} className = "pay-field" onChange = {(e)=>setAmount(e.target.value)} placeholder = "amount"/>
+            {payable && <button className = "pay-button">Pay</button>}
+            {!payable && <button className = "pay-button" disabled>Pay</button>}
+            <label className = "momo">Mobile Money</label>
+            <input type = "checkbox" onChange = {(e)=>handleCheckBox(e.target)} value = "mobile money"/>
+
 
             </form>
         </div>    

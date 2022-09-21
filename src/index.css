@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+body{
+    font-family: "Quicksand";
+    font-weight: 500;
+}
+.search-wrapper{
+max-width: 900px;
+margin: auto;
+display: flex;
+flex-direction: column;
+padding-bottom: 3em;
+
+}
+.search{
+    height: 35px;
+    border-radius: 6px;
+    font-size: 22px  ;
+  
+}
+.search-table{
+    margin-top: 2em;
+}
+.search-table th{
+    background: red;
+    padding: 0.5em;
+    font-size: 20px;
+}
+.search-table td{
+    background: rgb(241, 241, 241);
+    padding: 0.5em;
+    font-size: 20px;
+}
+.cart-table{
+    margin-top: 2em;
+}
+.cart-table th{
+   background: blue;
+   padding: 0.5em;
+   font-size: 20px;
+}
+.cart-table td{
+    background: rgb(241, 241, 241);
+    padding: 0.5em;
+    font-size: 20px;
+}
+.cumulative-total{
+    font-size: 25px;
+    margin-top: 1em;
+}
+.pay-label{
+    font-size: 25px;
+    margin-top: 1em;
+}
+.pay-field{
+    font-size: 25px;
+    padding: 0.2em;
+    margin-left: 1em;
+    border-radius: 6px;
+    
+}
+.pay-button{
+    background: green;
+    color: #fff;
+    border-radius:6px;
+    padding: 0.4em;
+    font-size: 20px;
+    margin-left:0.5em;
+    margin-top: 1em;
+    
+   
+}
+.momo{
+    margin-left: 1em;
+    font-size: 20px;
+}
+.plus{
+    padding: 0.5em;
+    font-size: 20px; 
+    width: 50px;
+    background: blue;
+    color: white;
+}
+.minus{
+    padding: 0.5em;
+    font-size: 20px; 
+    width: 50px;
+    background: red;
+    color: white;  
+}
+.invalid-amount-error{
+    background: red;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    border-radius: 6px;
+    width: 100%;
+    padding: 0.5em;
+   
+}
+.less-amount-error{
+    background: red;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    border-radius: 6px;
+    width: 100%;
+    padding: 0.5em;
+}
+.empty-cart-error{
+    background: red;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    border-radius: 6px;
+    width: 100%;
+    padding: 0.5em;
+}
+.balance{
+    background: green;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    border-radius: 6px;
+    width: 100%;
+    padding: 0.5em;
+}
+.no-balance{
+    background: green;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    border-radius: 6px;
+    width: 100%;
+    padding: 0.5em;
+   
+}
+.f-i-error{
+    background: red;
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    border-radius: 6px;
+    width: 98%;
+    padding: 0.5em;
+
+}
+
