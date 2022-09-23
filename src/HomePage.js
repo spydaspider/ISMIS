@@ -71,7 +71,7 @@ const HomePage = () =>{
             let searchCounter = 0;
             let bought = count;
             let boughtLimit;
-            let quantity,costPrice,sellingPrice;
+            let quantity,costPrice,sellingPrice,itemId,quantityRemain;
 
             let cart = Store.getLocalStorage('cart');
             //calculate total.
@@ -91,6 +91,8 @@ const HomePage = () =>{
                         sellingPrice = ct.sellingPrice;
                         costPrice = ct.costPrice;
                         quantity = ct.quantity;
+                        itemId = ct.id;
+                        quantityRemain = ct.quantity;
                     }
                 })
 
@@ -104,7 +106,7 @@ const HomePage = () =>{
                 {
                     
                     setShowCart(false);
-                    let cartObj = new CreateCart(itemName,Number(quantity),Number(costPrice),Number(sellingPrice),Number(bought),Number(sellingPrice),date,time,false);
+                    let cartObj = new CreateCart(itemName,Number(quantity),Number(costPrice),Number(sellingPrice),Number(bought),Number(totalCost),itemId,quantityRemain-1,date,time,false);
                     cart.push(cartObj);
                 Store.addLocalStorage('cart', cart);
                 setShowCart(true);
@@ -126,7 +128,7 @@ const HomePage = () =>{
                     {
                     
                         
-                        let cartObj = new CreateCart(itemName,Number(quantity),Number(costPrice),Number(sellingPrice),Number(bought),Number(totalCost),date,time,false);
+                        let cartObj = new CreateCart(itemName,Number(quantity),Number(costPrice),Number(sellingPrice),Number(bought),Number(totalCost),itemId,quantityRemain-1,date,time,false);
                         cart.push(cartObj);
                         Store.addLocalStorage('cart', cart);
                         
@@ -150,6 +152,7 @@ const HomePage = () =>{
                                 setFinishedItemError(false);
 
                                 ct.bought = ct.bought + 1;
+                                ct.quantityRemain = ct.quantityRemain - 1;
                              
                                 ct.totalCost = ct.sellingPrice * ct.bought;
                                 Store.addLocalStorage('cart',cart);
@@ -217,25 +220,28 @@ const HomePage = () =>{
                      
                     
                      })
-                    /*  for(let i = 0; i < cart.length; i++)
+                      for(let i = 0; i < cart.length; i++)
                      {
-                       for(let j = 0; j < items.length; j++)
-                       {
-                           if(cart[i].itemName === items[j].itemName)
-                           {
-                               fetch('http://localhost:8000/items',{
+                    
+                     
+                           fetch('http://localhost:8000/items/'+cart[i].id,{
                                    method: "PATCH",
                                    headers: {"Content-type":"Application/json"},
-                                   body: JSON.stringify({"quantity": items[j].quantity - cart[i].quantity})
+                                   body: JSON.stringify({"quantity": cart[i].quantityRemain})
    
    
    
-                               })
-                           }
-                       }
-                     } */
+                                     }) 
+                     } 
+                    
                      
                    localStorage.removeItem('cart');
+                   setShowItem(false);
+                   setShowCart(false);
+                   setTimeout(()=>{
+                     setBalance(false);
+                     window.location.reload();
+                   },8000)
 
                      
                       
@@ -256,25 +262,31 @@ const HomePage = () =>{
                     console.log("sent");
                  })
                   })
-                /*   for(let i = 0; i < cart.length; i++)
+                  for(let i = 0; i < cart.length; i++)
                   {
-                    for(let j = 0; j < items.length; j++)
-                    {
-                        if(cart[i].itemName === items[j].itemName)
-                        {
-                            fetch('http://localhost:8000/items',{
+                
+                  
+                            fetch('http://localhost:8000/items/'+cart[i].id,{
                                 method: "PATCH",
                                 headers: {"Content-type":"Application/json"},
-                                body: JSON.stringify({"quantity": items[j].quantity - cart[i].quantity})
+                                body: JSON.stringify({"quantity": cart[i].quantityRemain})
 
 
 
-                            })
-                        }
-                    }
-                  } */
+                                  }) 
+                  } 
+                 
 
                   localStorage.removeItem('cart');
+                    
+                  localStorage.removeItem('cart');
+                  setShowItem(false);
+                  setShowCart(false);
+                  setTimeout(()=>{
+                    setNoBalance(false);
+                    window.location.reload();
+                  },8000)
+
 
                   
                }
@@ -315,7 +327,7 @@ const HomePage = () =>{
            
              setFinishedItemError(false);
              let cart = Store.getLocalStorage('cart');
-             let quantity,costPrice,sellingPrice;
+             let quantity,costPrice,sellingPrice,quantityRemain;
              setCartDisplay(cart); 
              if(items.length !== 0)
              {
@@ -325,6 +337,7 @@ const HomePage = () =>{
                          sellingPrice = ct.sellingPrice;
                          costPrice = ct.costPrice;
                          quantity = ct.quantity;
+                         quantityRemain = ct.quantity;
                      }
                  })
  
@@ -357,6 +370,7 @@ const HomePage = () =>{
                         }
                         else{
                         ct.bought = ct.bought - 1;
+                        ct.quantityRemain = ct.quantityRemain+1;
                         ct.totalCost = ct.totalCost - sellingPrice;
                         Store.addLocalStorage('cart',cart);
                         setShowAddButton(true);

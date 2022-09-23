@@ -2,38 +2,38 @@
   "items": [
     {
       "itemName": "Amoxaclin 8",
-      "quantity": "7",
+      "quantity": 27,
       "costPrice": "34.5",
       "sellingPrice": "54.4",
       "id": 1
     },
     {
       "itemName": "twedie bitters",
-      "quantity": "7",
+      "quantity": 4,
       "costPrice": "344.5",
       "sellingPrice": "564.4",
       "id": 2
     },
     {
       "itemName": "Ginger",
-      "quantity": "8",
+      "quantity": 30,
       "costPrice": "344.5",
       "sellingPrice": "564.4",
       "id": 3
     },
     {
       "itemName": "twecuit",
-      "quantity": "3",
+      "quantity": "34",
       "costPrice": "344.6",
       "sellingPrice": "564.4",
       "id": 4
     },
     {
       "itemName": "Amoxaclin 4",
-      "quantity": "3",
+      "quantity": 2,
       "costPrice": "344.6",
       "sellingPrice": "564.4",
-      "id": 4
+      "id": 5
     }
   ],
   "users": [
@@ -55,16 +55,54 @@
   ],
   "sales": [
     {
+      "itemName": "Ginger",
+      "quantity": 8,
+      "costPrice": 344.5,
+      "sellingPrice": 564.4,
+      "bought": 2,
+      "totalCost": 1128.8,
+      "id": 3,
+      "date": "2022-09-23",
+      "time": "00:34:48.087Z",
+      "momo": false
+    },
+    {
+      "itemName": "twecuit",
+      "quantity": 3,
+      "costPrice": 344.6,
+      "sellingPrice": 564.4,
+      "bought": 2,
+      "totalCost": 1128.8,
+      "id": 4,
+      "date": "2022-09-23",
+      "time": "00:34:55.919Z",
+      "momo": false
+    },
+    {
       "itemName": "Amoxaclin 8",
-      "quantity": 7,
+      "quantity": 34,
       "costPrice": 34.5,
       "sellingPrice": 54.4,
-      "bought": 1,
-      "totalCost": 54.4,
-      "date": "2022-09-21",
-      "time": "14:08:39.349Z",
-      "momo": false,
-      "id": 1
+      "bought": 3,
+      "totalCost": 163.2,
+      "id": 1,
+      "quantityRemain": 31,
+      "date": "2022-09-23",
+      "time": "01:04:07.499Z",
+      "momo": false
+    },
+    {
+      "itemName": "twedie bitters",
+      "quantity": 7,
+      "costPrice": 344.5,
+      "sellingPrice": 564.4,
+      "bought": 3,
+      "totalCost": 1693.1999999999998,
+      "id": 2,
+      "quantityRemain": 4,
+      "date": "2022-09-23",
+      "time": "01:05:36.283Z",
+      "momo": false
     },
     {
       "itemName": "Amoxaclin 4",
@@ -73,10 +111,11 @@
       "sellingPrice": 564.4,
       "bought": 1,
       "totalCost": 564.4,
-      "date": "2022-09-21",
-      "time": "14:08:43.196Z",
-      "momo": false,
-      "id": 2
+      "id": 5,
+      "quantityRemain": 2,
+      "date": "2022-09-23",
+      "time": "01:44:00.973Z",
+      "momo": false
     }
   ]
 }
