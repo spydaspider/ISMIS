@@ -1,12 +1,14 @@
 import { useState } from 'react';
 import useFetch from './useFetch';
 const ItemList = ({items,title}) =>{
+    const itemCount = items.length;
 
     return(
-        <div className = "home-content">
-        <div className = "homeContent">
-          <div className = "items-table">
-            <table>
+        <div className = "item-list-wrapper">
+        <div className = "item-list">
+            <h1 className = "item-list-title">List Of All Items.</h1>
+            <p className="item-count">Number Of items: {itemCount}</p>
+            <table className = "items-table">
                 <tr>
                     <th>Item Name</th>
                     <th>Quantity</th>
@@ -25,7 +27,6 @@ const ItemList = ({items,title}) =>{
                 )
                 }
             </table>
-          </div>
     
         </div>
         </div>

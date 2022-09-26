@@ -387,8 +387,9 @@ const HomePage = () =>{
         }
     return(
         <div className = "home-content">
+     {finishedItemError && <p className = "f-i-error">No more of the items can be found.</p>}
+
         <div className = "search-wrapper">
-            {finishedItemError && <p className = "f-i-error">No more of the items can be found.</p>}
         <input type = "text" className = "search" onKeyUp = {(e)=>handleKeyUp(e.target.value)} placeholder = "Search Item"/>
         <table className = "search-table">
                 <tr>
@@ -408,7 +409,7 @@ const HomePage = () =>{
                     <td>{item.costPrice}cedis</td>
                     <td>{item.sellingPrice}cedis</td>
                     {showAddButton && <button className = "plus" onClick = {() => handlePlus(item.itemName)}>+</button>}
-                    {!showAddButton && <button className = "plus" onClick = {handlePlus}disabled>+</button>}
+                    {!showAddButton && <button className = "plus-disabled" onClick = {handlePlus}disabled>+</button>}
 
                     
 
@@ -416,7 +417,7 @@ const HomePage = () =>{
                 
 
                 </tr>
-                
+            
                 )
                 )
             
@@ -458,7 +459,7 @@ const HomePage = () =>{
             <label className = "pay-label">Pay:</label>
             <input type = "number" value = {amount} className = "pay-field" onChange = {(e)=>setAmount(e.target.value)} placeholder = "amount"/>
             {payable && <button className = "pay-button">Pay</button>}
-            {!payable && <button className = "pay-button" disabled>Pay</button>}
+            {!payable && <button className = "pay-button-disabled" disabled>Pay</button>}
             <label className = "momo">Mobile Money</label>
             <input type = "checkbox" onChange = {(e)=>handleCheckBox(e.target)} value = "mobile money"/>
 
