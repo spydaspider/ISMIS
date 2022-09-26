@@ -387,9 +387,10 @@ const HomePage = () =>{
         }
     return(
         <div className = "home-content">
-     {finishedItemError && <p className = "f-i-error">No more of the items can be found.</p>}
 
         <div className = "search-wrapper">
+        {finishedItemError && <p className = "f-i-error">No more of the items can be found.</p>}
+
         <input type = "text" className = "search" onKeyUp = {(e)=>handleKeyUp(e.target.value)} placeholder = "Search Item"/>
         <table className = "search-table">
                 <tr>

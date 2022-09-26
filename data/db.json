@@ -40,7 +40,56 @@
       "quantity": 1,
       "costPrice": "344.6",
       "sellingPrice": "564.4",
-      "id": 5
+      "id": 6
+    },
+    {
+      "itemName": "efpac",
+      "quantity": "45",
+      "costPrice": "54",
+      "sellingPrice": "76",
+      "id": 7
+    },
+    {
+      "itemName": "lk",
+      "quantity": "23",
+      "costPrice": "34",
+      "sellingPrice": "4",
+      "id": 8
+    },
+    {
+      "itemName": "nicotin",
+      "quantity": "23",
+      "costPrice": "43",
+      "sellingPrice": "76",
+      "id": 9
+    },
+    {
+      "itemName": "astra",
+      "quantity": "23",
+      "costPrice": "32",
+      "sellingPrice": "43",
+      "id": 10
+    },
+    {
+      "itemName": "derin",
+      "quantity": "23",
+      "costPrice": "43",
+      "sellingPrice": "75",
+      "id": 11
+    },
+    {
+      "itemName": "item3",
+      "quantity": "23",
+      "costPrice": "65",
+      "sellingPrice": "78",
+      "id": 12
+    },
+    {
+      "itemName": "amoxaclin 96",
+      "quantity": "23",
+      "costPrice": "43.76",
+      "sellingPrice": "78",
+      "id": 13
     }
   ],
   "users": [
@@ -60,7 +109,5 @@
       "id": 3
     }
   ],
-  "sales": [
-   
-  ]
+  "sales": []
 }

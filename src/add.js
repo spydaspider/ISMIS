@@ -12,6 +12,7 @@ const AddToStore = () =>{
        const {data:items} = useFetch(' http://localhost:8000/items');
        const [invalidNumber,setInvalidNumber] = useState(false);
        const [success,setSuccess] = useState(false);
+       const [addError, setAddError] = useState(false);
        const handleSubmit=(e)=>{
          e.preventDefault();
          let searchCounter = 0;
@@ -21,24 +22,25 @@ const AddToStore = () =>{
               setItemExists(false);
               setInvalidNumber(false);
               setGreaterCostPrice(false);
+              setSuccess(false);
+
          }
          else
          {
          items.forEach((item)=>{
-            if(itemName.toLocaleLowerCase().trim() === item.itemName.toLocaleLowerCase().trim())
+            if(itemName.toLocaleLowerCase().replaceAll(" ","") === item.itemName.toLocaleLowerCase().replaceAll(" ",""))
             {
               searchCounter = searchCounter + 1;
             }
            }
          )
-         let itemN = itemName.toLocaleLowerCase().trim();
-         console.log(itemN);
          if(searchCounter !== 0)
          {
             setItemExists(true);
             setFieldEmpty(false);
             setInvalidNumber(false);
             setGreaterCostPrice(false);
+            setSuccess(false);
          }
             else if((quantity < 0) || (costPrice < 0) || (sellingPrice < 0))
             {
@@ -46,6 +48,8 @@ const AddToStore = () =>{
             setItemExists(false);
             setFieldEmpty(false);
             setGreaterCostPrice(false);
+            setSuccess(false);
+
 
 
 
@@ -56,16 +60,28 @@ const AddToStore = () =>{
                 setInvalidNumber(false);
                 setItemExists(false);
                 setFieldEmpty(false);
+                setSuccess(false);
+
             }
             else
             {
-                setSuccess(true);
-               /*  setTimeout(()=>{
-                    window.location.reload();
-                    setSuccess(false);
-                },
-                1000
-                ) */
+                const newItems = {itemName,quantity,costPrice,sellingPrice};
+                fetch('http://localhost:8000/items',{
+                    method: "POST",
+                    headers: {"Content-type": "Application/json"},
+                    body: JSON.stringify(newItems)
+                }).then(()=>{
+                    setSuccess(true);
+                     setTimeout(()=>{
+                       window.location.reload();
+                       setSuccess(false);
+                   },
+                   1000
+                   ) 
+                }).catch((err)=>{
+                    setAddError(true);
+                })
+              
                 setGreaterCostPrice(false);
                 setInvalidNumber(false);
                 setItemExists(false);
@@ -76,12 +92,13 @@ const AddToStore = () =>{
        }
     return(
         <div className = "add-items">
-            <h2 className = "add-item">Add New Item</h2>
+            <h2 className = "add-item-title">Add New Item</h2>
+            {addError && <p className = "error-message">Failed to add new items</p>}
             {success && <p className = "add-success">New item added successfully</p>}
-            {invalidNumber && <p className = "invalid-number">Negative number detected.</p>}
-            {fieldEmpty && <p className = "field-empty-error">All fields required</p>}
-            {greaterCostPrice && <p className = "greater-costprice">Cost price is greater than selling price.</p>}
-            {itemExists && <p className = "item-exists-error">Item already exists</p>}
+            {invalidNumber && <p className = "error-message">Negative number detected.</p>}
+            {fieldEmpty && <p className = "error-message">All fields required</p>}
+            {greaterCostPrice && <p className = "error-message">Cost price is greater than selling price.</p>}
+            {itemExists && <p className = "error-message">Item already exists</p>}
             <form onSubmit = {(e)=>handleSubmit(e)} className = "item-form">
             <input onChange = {(e)=>setItemName(e.target.value)} type = "text" value = {itemName} placeholder = "Name" required/>
             <input onChange = {(e)=>setQuantity(e.target.value)} type = "number" value = {quantity} placeholder = "Quantity" required/>
