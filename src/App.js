@@ -9,6 +9,7 @@ import { BrowserRouter as Router,Route,Switch} from 'react-router-dom';
 import Navigation from './nav';
 import AddToStore from './add';
 import ItemList from './itemList';
+import LogMessage from './logMessage.js';
 function App() {
   const [loggedIn,setLoggedIn] = useState(false);
  
@@ -51,9 +52,11 @@ function App() {
           </Route>
           <Route path = "/search">
             {loggedIn && <HomePage />}
+            {!loggedIn && <LogMessage/>}
             </Route>
             <Route path = "/add">
               {loggedIn && <AddToStore />}
+              {!loggedIn && <LogMessage/>}
 
             </Route>
             <Route path = "/store">

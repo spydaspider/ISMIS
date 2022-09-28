@@ -29,8 +29,8 @@ const Navigation = () =>{
         <Link to = "/search">Search</Link>
         <Link to = "/add">Add</Link>
         <Link to = "/store">Store</Link>
-        <span onClick = {handleLogin} className = "login-style">login</span>
-        <span onClick = {handleLogout} className = "logout-style">logout</span>
+        <span onClick = {handleLogin} className = "log-style">login</span>
+        <span onClick = {handleLogout} className = "log-style">logout</span>
         </div>
         
     </div>

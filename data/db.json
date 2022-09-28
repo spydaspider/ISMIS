@@ -16,7 +16,7 @@
     },
     {
       "itemName": "Ginger",
-      "quantity": 30,
+      "quantity": 29,
       "costPrice": "344.5",
       "sellingPrice": "564.4",
       "id": 3
@@ -107,7 +107,26 @@
       "username": "Emmanu",
       "password": "filament",
       "id": 3
+    },
+    {
+      "username": "DSonOfADick",
+      "password": "filament",
+      "id": 4
     }
   ],
-  "sales": []
+  "sales": [
+    {
+      "itemName": "Ginger",
+      "quantity": 30,
+      "costPrice": 344.5,
+      "sellingPrice": 564.4,
+      "bought": 1,
+      "totalCost": 564.4,
+      "id": 3,
+      "quantityRemain": 29,
+      "date": "2022-09-28",
+      "time": "19:27:01.357Z",
+      "momo": false
+    }
+  ]
 }

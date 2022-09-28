@@ -50,11 +50,11 @@ const CreateAccount = () =>{
 
    }
    return (
+      <div className = "create-account-wrapper">
     <div className = "create-account">
-      <div className = "form">
-         <h2>Create a new account</h2>
-         {nameTaken && <p className = "name-taken-error">Username is already taken</p>}
-         {!passMatch && <p className = "pass-match-error">Passwords do not match</p>}
+      <h2 className = "create-account-title">Create Account</h2>
+         {nameTaken && <p className = "create-account-error">Username is already taken</p>}
+         {!passMatch && <p className = "create-account-error">Passwords do not match</p>}
 
          <form onSubmit = {handleSubmit}>
                <input type = "text" value = {username} onChange = {(e)=>{setUsername(e.target.value)}} required />
@@ -62,7 +62,8 @@ const CreateAccount = () =>{
                <input type = "password" value = {passwordAgain} onChange = {(e)=>{setPasswordAgain(e.target.value)}} required/>
                <button>create account</button>
          </form>
-      </div>
+   
+    </div>
     </div>
    )
 }
