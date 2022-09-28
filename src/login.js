@@ -1,19 +1,37 @@
 import useFetch from './useFetch';
 import { useState } from 'react';
 import { useHistory } from 'react-router-dom';
+import CreateLog from './helpers/createLog';
 import { BrowserRouter as Router,Route,Switch} from 'react-router-dom'; 
+import Store from './helpers/storage';
 const Login = () =>{
   const history = useHistory();
   const [userExists,setUserExists] = useState(true);
   const [username,setUsername] = useState('');
   const [password,setPassword] = useState('');
+  const [logged,setLogged] = useState('false');
   const {data: users, isPending: isLoading, error} = useFetch('http://localhost:8000/users');
   const handleSignup =()=>{
      history.push("/signup");
   }
   const handleSubmit = e =>{
+   e.preventDefault();
+
        let count = 0;
-       e.preventDefault();
+       let log = Store.getLocalStorage('log');
+        if(log.logged === true)
+       {
+         setLogged(true);
+         setUserExists(false);
+         console.log("logged is true");
+       }
+       else
+       {
+         setLogged(false);
+         setUserExists(false);
+         console.log("Logged is false");
+         
+       } 
        users.forEach((user)=>{
         if(user.username === username && user.password === password)
         {
@@ -21,14 +39,18 @@ const Login = () =>{
            count += 1;
         }
        })
-       console.log(count);
+      
        if(count === 0)
        {
            setUserExists(false);
        }
  else
  {
-     history.push("/home");
+   const log = new CreateLog(true);
+     
+     Store.addLocalStorage('log',log);  
+     history.push("/search");
+     window.location.reload();
  }
   }
    return (
