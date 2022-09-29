@@ -57,9 +57,9 @@ const CreateAccount = () =>{
          {!passMatch && <p className = "create-account-error">Passwords do not match</p>}
 
          <form onSubmit = {handleSubmit}>
-               <input type = "text" value = {username} onChange = {(e)=>{setUsername(e.target.value)}} required />
-               <input type = "password" value = {password} onChange = {(e)=>{setPassword(e.target.value)}} required />
-               <input type = "password" value = {passwordAgain} onChange = {(e)=>{setPasswordAgain(e.target.value)}} required/>
+               <input type = "text" value = {username} onChange = {(e)=>{setUsername(e.target.value)}} placeholder = "Username" required />
+               <input type = "password" value = {password} onChange = {(e)=>{setPassword(e.target.value)}} placeholder = "password" required />
+               <input type = "password" value = {passwordAgain} onChange = {(e)=>{setPasswordAgain(e.target.value)}} placeholder = "password again" required/>
                <button>create account</button>
          </form>
    

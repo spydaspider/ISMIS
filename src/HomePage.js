@@ -6,6 +6,8 @@ import CreateCart from './helpers/createCart';
 import Store from './helpers/storage.js';
 import { useEffect } from 'react';
 import CreateBalance from './helpers/createBalance';
+import { Link } from 'react-router-dom';
+import editIcon from './images/edit-icon.png';
 const HomePage = () =>{
     const {data: items, isPending: isLoading, error} = useFetch('http://localhost:8000/items');
      const [showItem, setShowItem] = useState(false);
@@ -404,18 +406,23 @@ const HomePage = () =>{
                     showItem && 
                 
                 allItems.map((item)=>(
+                   
                 <tr key = {item.itemName}>
+                    
+
                     <td>{item.itemName}</td>
                     <td>{item.quantity}</td>
                     <td>{item.costPrice}cedis</td>
                     <td>{item.sellingPrice}cedis</td>
+                    
                     {showAddButton && <button className = "plus" onClick = {() => handlePlus(item.itemName)}>+</button>}
                     {!showAddButton && <button className = "plus-disabled" onClick = {handlePlus}disabled>+</button>}
 
-                    
+                  
+
 
                     <button className = "minus" onClick =  {() => handleMinus(item.itemName)}>-</button>
-                
+                   <Link to = {`/items/${item.id}`}> <img className = "edit-icon" src = {editIcon}/></Link>
 
                 </tr>
             

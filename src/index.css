@@ -63,6 +63,7 @@ body {
 .search-table {
   margin-top: 2em;
   grid-column: 1/13;
+  
 }
 .search-table th {
   background: #00695c;
@@ -70,8 +71,25 @@ body {
   font-size: 20px;
   color: #fff;
 }
+.edit-icon{
+  margin-bottom: -0.9em;
+  width:43px;
+  margin-left: 0.3em;
+  cursor: pointer;
+}
+.search-table tr a{
+  text-decoration: none;
+
+  
+}
+.search-table tr{
+  grid-column: 1/13;
+}
 tr:nth-child(even) {
   background: #bdbdbd;
+}
+.item{
+  font-size: 90px;
 }
 .search-table td {
   padding: 0.5em;
@@ -500,4 +518,67 @@ tr:nth-child(even) {
   font-size: 17px;
   padding: 0.5em;
  text-align: center;
+}
+.item-details{
+  margin: 12% auto;
+  max-width: 900px;
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+
+}
+.detail-table th{
+  font-size: 20px;
+  padding: 0.5em;
+  color: #fff;
+  background: #00695c;
+}
+.detail-table td{
+  padding: 0.5em;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+
+}
+
+.detail-table{
+  grid-column: 1/13;
+}
+.detail-buttons{
+  margin-top: 1em;
+  grid-column: 1/13;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.remove{
+  font-size: 18px;
+  padding: 0.5em;
+  background: #f44336;
+  color: #fff;
+  border:none;
+  width: 20%;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  grid-column: 1/13;
+}
+.edit{
+  
+  font-size: 18px;
+  padding: 0.5em;
+  color: #fff;
+  border: none;
+  width:20%;
+  background: #ab47bc;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  
+}
+.edit:hover{
+  background: #a431b8;
+}
+.remove:hover{
+  background:#dd2d2d;
+}
+.edit-wrapper p{
+  font-size: 100px;
 }

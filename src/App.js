@@ -10,6 +10,7 @@ import Navigation from './nav';
 import AddToStore from './add';
 import ItemList from './itemList';
 import LogMessage from './logMessage.js';
+import ItemDetails from './itemDetails.js';
 function App() {
   const [loggedIn,setLoggedIn] = useState(false);
  
@@ -63,6 +64,11 @@ function App() {
 
          {items && <ItemList items = {items} title = "All Items In the Store"/>}
             </Route>
+            <Route path = "/items/:id">
+              <ItemDetails />
+
+            </Route>
+          
         </Switch>
     </div>
     

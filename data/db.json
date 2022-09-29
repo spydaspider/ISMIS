@@ -1,13 +1,6 @@
 {
   "items": [
     {
-      "itemName": "Amoxaclin 8",
-      "quantity": 18,
-      "costPrice": "34.5",
-      "sellingPrice": "54.4",
-      "id": 1
-    },
-    {
       "itemName": "twedie bitters",
       "quantity": 2,
       "costPrice": "344.5",
@@ -15,25 +8,11 @@
       "id": 2
     },
     {
-      "itemName": "Ginger",
-      "quantity": 29,
-      "costPrice": "344.5",
-      "sellingPrice": "564.4",
-      "id": 3
-    },
-    {
       "itemName": "twecuit",
       "quantity": "34",
       "costPrice": "344.6",
       "sellingPrice": "564.4",
       "id": 4
-    },
-    {
-      "itemName": "Amoxaclin 4",
-      "quantity": 1,
-      "costPrice": "344.6",
-      "sellingPrice": "564.4",
-      "id": 5
     },
     {
       "itemName": "Destrin x45",
@@ -44,7 +23,7 @@
     },
     {
       "itemName": "efpac",
-      "quantity": "45",
+      "quantity": 43,
       "costPrice": "54",
       "sellingPrice": "76",
       "id": 7
@@ -66,8 +45,8 @@
     {
       "itemName": "astra",
       "quantity": "23",
-      "costPrice": "32",
-      "sellingPrice": "43",
+      "costPrice": "35",
+      "sellingPrice": "67",
       "id": 10
     },
     {
@@ -85,11 +64,18 @@
       "id": 12
     },
     {
-      "itemName": "amoxaclin 96",
-      "quantity": "23",
+      "itemName": "amoxaclin 876",
+      "quantity": "22",
       "costPrice": "43.76",
       "sellingPrice": "78",
       "id": 13
+    },
+    {
+      "itemName": "wormplex 400",
+      "quantity": "34",
+      "costPrice": "23",
+      "sellingPrice": "45",
+      "id": 14
     }
   ],
   "users": [
@@ -126,6 +112,45 @@
       "quantityRemain": 29,
       "date": "2022-09-28",
       "time": "19:27:01.357Z",
+      "momo": false
+    },
+    {
+      "itemName": "Amoxaclin 4",
+      "quantity": 1,
+      "costPrice": 344.6,
+      "sellingPrice": 564.4,
+      "bought": 1,
+      "totalCost": 564.4,
+      "id": 5,
+      "quantityRemain": 0,
+      "date": "2022-09-29",
+      "time": "15:12:38.261Z",
+      "momo": false
+    },
+    {
+      "itemName": "efpac",
+      "quantity": 45,
+      "costPrice": 54,
+      "sellingPrice": 76,
+      "bought": 2,
+      "totalCost": 152,
+      "id": 7,
+      "quantityRemain": 43,
+      "date": "2022-09-29",
+      "time": "15:12:40.340Z",
+      "momo": false
+    },
+    {
+      "itemName": "amoxaclin 96",
+      "quantity": 23,
+      "costPrice": 43.76,
+      "sellingPrice": 78,
+      "bought": 1,
+      "totalCost": 78,
+      "id": 13,
+      "quantityRemain": 22,
+      "date": "2022-09-29",
+      "time": "15:22:53.908Z",
       "momo": false
     }
   ]
