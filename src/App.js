@@ -11,6 +11,7 @@ import AddToStore from './add';
 import ItemList from './itemList';
 import LogMessage from './logMessage.js';
 import ItemDetails from './itemDetails.js';
+import Records from './records.js';
 function App() {
   const [loggedIn,setLoggedIn] = useState(false);
  
@@ -67,6 +68,9 @@ function App() {
             <Route path = "/items/:id">
               <ItemDetails />
 
+            </Route>
+            <Route path = "/records">
+              <Records />
             </Route>
           
         </Switch>

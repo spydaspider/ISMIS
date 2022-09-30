@@ -25,6 +25,8 @@ body {
   top:0;
   right:0;
   left:0;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
 }
 .nav-bar h1 {
   color: rgb(235, 234, 234);
@@ -332,6 +334,8 @@ tr:nth-child(even) {
   font-size: 25px;
   background: #6070ff;
   color: #fff;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
 }
 .add:hover{
   background:#495af9;
@@ -580,5 +584,11 @@ tr:nth-child(even) {
   background:#dd2d2d;
 }
 .edit-wrapper p{
+  font-size: 100px;
+}
+.records-wrapper{
+    margin-top: 10%;
+}
+.record-table{
   font-size: 100px;
 }
