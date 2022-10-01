@@ -1,13 +1,12 @@
 import useFetch from './useFetch';
 import {useState} from 'react';
-const RecordTable = ({startDate,endDate,transaction}) =>{
-    let itemCount = 0;
-    const {data: items, isPending: isLoading, error} = useFetch('http://localhost:8000/sales');
+import {useEffect} from 'react';
+const RecordTable = ({fItems,recTotalCost,recProfit}) =>{
+  
+    
     return (
         <div className = "item-list-wrapper">
-        <div className = "item-list">
-            <h1 className = "item-list-title">Sales.</h1>
-            <p className="item-count">Number Of items: {itemCount}</p>
+        <div className = "record-list">          
             <table className = "items-table">
                 <tr>
                     <th>Item Name</th>
@@ -20,7 +19,8 @@ const RecordTable = ({startDate,endDate,transaction}) =>{
                     <th>Time</th>
 
                 </tr>
-                {items && items.map((item)=>(
+
+                {fItems && fItems.map((item)=>(
                     <tr key = {item.itemName}>
                     <td>{item.itemName}</td>
                     <td>{item.quantity}</td>
@@ -35,6 +35,12 @@ const RecordTable = ({startDate,endDate,transaction}) =>{
                 )
                 }
             </table>
+           
+            </div>
+            <div className = "record-summary-wrapper">
+            <p className="record-summary">Number Of items: {fItems && fItems.length}</p>
+            <p className = "record-summary">Total Cost: {recTotalCost&&recTotalCost.toFixed(2)}cedis</p>
+            <p className = "record-summary">Gross Profit: {recProfit&& recProfit.toFixed(2)}cedis</p>
     
         </div>
         </div>

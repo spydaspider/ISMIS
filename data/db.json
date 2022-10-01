@@ -16,14 +16,14 @@
     },
     {
       "itemName": "Destrin x45",
-      "quantity": 1,
+      "quantity": 0,
       "costPrice": "344.6",
       "sellingPrice": "564.4",
       "id": 6
     },
     {
       "itemName": "efpac",
-      "quantity": 43,
+      "quantity": 41,
       "costPrice": "54",
       "sellingPrice": "76",
       "id": 7
@@ -37,14 +37,14 @@
     },
     {
       "itemName": "nicotin",
-      "quantity": "23",
+      "quantity": 21,
       "costPrice": "43",
       "sellingPrice": "76",
       "id": 9
     },
     {
       "itemName": "astra",
-      "quantity": "23",
+      "quantity": 21,
       "costPrice": "35",
       "sellingPrice": "67",
       "id": 10
@@ -152,6 +152,45 @@
       "date": "2022-09-29",
       "time": "15:22:53.908Z",
       "momo": false
+    },
+    {
+      "itemName": "astra",
+      "quantity": 23,
+      "costPrice": 35,
+      "sellingPrice": 67,
+      "bought": 2,
+      "totalCost": 134,
+      "id": 10,
+      "quantityRemain": 21,
+      "date": "2022-09-30",
+      "time": "22:30:11.642Z",
+      "momo": true
+    },
+    {
+      "itemName": "Destrin x45",
+      "quantity": 1,
+      "costPrice": 344.6,
+      "sellingPrice": 564.4,
+      "bought": 1,
+      "totalCost": 564.4,
+      "id": 6,
+      "quantityRemain": 0,
+      "date": "2022-09-30",
+      "time": "22:30:43.504Z",
+      "momo": true
+    },
+    {
+      "itemName": "nicotin",
+      "quantity": 23,
+      "costPrice": 43,
+      "sellingPrice": 76,
+      "bought": 2,
+      "totalCost": 152,
+      "id": 9,
+      "quantityRemain": 21,
+      "date": "2022-09-30",
+      "time": "22:31:10.266Z",
+      "momo": true
     }
   ]
 }

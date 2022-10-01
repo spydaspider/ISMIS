@@ -62,15 +62,16 @@ function App() {
 
             </Route>
             <Route path = "/store">
-
-         {items && <ItemList items = {items} title = "All Items In the Store"/>}
+            {!loggedIn && <LogMessage/>}
+         {loggedIn && items && <ItemList items = {items} title = "All Items In the Store"/>}
             </Route>
             <Route path = "/items/:id">
               <ItemDetails />
 
             </Route>
             <Route path = "/records">
-              <Records />
+            {!loggedIn && <LogMessage/>}
+             {loggedIn && <Records />}
             </Route>
           
         </Switch>
