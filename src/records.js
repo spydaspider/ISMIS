@@ -12,7 +12,7 @@ const Records = () =>{
     const [recTotalCost,setRecTotalCost] = useState(0);
     const [recProfit,setRecProfit] = useState(0);
     const [emptyDate,setEmptyDate] = useState(false);
-    const {data: items, isPending: isLoading, error} = useFetch('http://localhost:8000/sales');
+    const {data: items, isPending: isLoading, error} = useFetch('http://localhost:8050/sales');
     const [filterItems, setFilterItems] = useState([]);
     const handleSubmit =(e)=>{
 

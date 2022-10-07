@@ -1,6 +1,7 @@
 export default class CreateLog{
-    constructor(logged)
+    constructor(user,logged)
     {
+        this.user = user;
         this.logged = logged;
     }
 }

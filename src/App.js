@@ -15,7 +15,7 @@ import Records from './records.js';
 function App() {
   const [loggedIn,setLoggedIn] = useState(false);
  
-  const {data: items, isPending: isLoading, error} = useFetch('http://localhost:8000/items');
+  const {data: items, isPending: isLoading, error} = useFetch('http://localhost:8050/items');
   let log = Store.getLocalStorage('log');
 
     const useLogin =()=>{

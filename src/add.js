@@ -9,7 +9,7 @@ const AddToStore = () =>{
        const [fieldEmpty,setFieldEmpty] = useState(false);
        const [greaterCostPrice,setGreaterCostPrice] = useState(false);
        const [itemExists,setItemExists] = useState(false);
-       const {data:items} = useFetch(' http://localhost:8000/items');
+       const {data:items} = useFetch(' http://localhost:8050/items');
        const [invalidNumber,setInvalidNumber] = useState(false);
        const [success,setSuccess] = useState(false);
        const [addError, setAddError] = useState(false);
@@ -66,7 +66,7 @@ const AddToStore = () =>{
             else
             {
                 const newItems = {itemName,quantity,costPrice,sellingPrice};
-                fetch('http://localhost:8000/items',{
+                fetch('http://localhost:8050/items',{
                     method: "POST",
                     headers: {"Content-type": "Application/json"},
                     body: JSON.stringify(newItems)

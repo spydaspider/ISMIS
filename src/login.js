@@ -10,7 +10,7 @@ const Login = () =>{
   const [username,setUsername] = useState('');
   const [password,setPassword] = useState('');
   const [logged,setLogged] = useState('false');
-  const {data: users, isPending: isLoading, error} = useFetch('http://localhost:8000/users');
+  const {data: users, isPending: isLoading, error} = useFetch('http://localhost:8050/users');
   const handleSignup =()=>{
      history.push("/signup");
   }
@@ -46,7 +46,7 @@ const Login = () =>{
        }
  else
  {
-   const log = new CreateLog(true);
+   const log = new CreateLog(username,true);
      
      Store.addLocalStorage('log',log);  
      history.push("/search");

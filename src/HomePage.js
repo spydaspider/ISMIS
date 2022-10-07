@@ -3,13 +3,14 @@ import { useState } from 'react';
 import useFetch from './useFetch';
 import { forEach } from 'lodash';
 import CreateCart from './helpers/createCart';
+import CreateRecordCart from './helpers/createRecordCart.js';
 import Store from './helpers/storage.js';
 import { useEffect } from 'react';
 import CreateBalance from './helpers/createBalance';
 import { Link } from 'react-router-dom';
 import editIcon from './images/edit-icon.png';
 const HomePage = () =>{
-    const {data: items, isPending: isLoading, error} = useFetch('http://localhost:8000/items');
+    const {data: items, isPending: isLoading, error} = useFetch('http://localhost:8050/items');
      const [showItem, setShowItem] = useState(false);
      const [showCart, setShowCart] = useState(true);
      const [payable, setPayable] = useState(false);
@@ -74,8 +75,12 @@ const HomePage = () =>{
             let bought = count;
             let boughtLimit;
             let quantity,costPrice,sellingPrice,itemId,quantityRemain;
+            let log = Store.getLocalStorage('log');
+            let salesPerson = log.user;
+
 
             let cart = Store.getLocalStorage('cart');
+            let recordCart = Store.getLocalStorage('recordCart');
             //calculate total.
             
             setCartDisplay(cart);
@@ -108,9 +113,13 @@ const HomePage = () =>{
                 {
                     
                     setShowCart(false);
-                    let cartObj = new CreateCart(itemName,Number(quantity),Number(costPrice),Number(sellingPrice),Number(bought),Number(totalCost),itemId,quantityRemain-1,date,time,false);
+                    let cartObj = new CreateCart(itemName,Number(quantity),Number(costPrice),Number(sellingPrice),Number(bought),Number(totalCost),itemId,quantityRemain-1,date,time,false,salesPerson);
+                    let recordCartObj = new CreateRecordCart(itemName,Number(quantity),Number(costPrice),Number(sellingPrice),Number(bought),Number(totalCost),quantityRemain-1,date,time,false,salesPerson);
+
                     cart.push(cartObj);
+                    recordCart.push(recordCartObj);
                 Store.addLocalStorage('cart', cart);
+                Store.addLocalStorage('recordCart',recordCart);
                 setShowCart(true);
                 
                 
@@ -119,6 +128,13 @@ const HomePage = () =>{
                 else if(cart.length > 0)
                 {
                     setShowCart(true);
+                    recordCart.forEach((rct)=>{
+                        if(rct.itemName === itemName)
+                        {
+                            searchCounter += 1;
+                            boughtLimit = rct.bought;
+                        }
+                    })
                     cart.forEach((ct)=>{
                         if(ct.itemName === itemName)
                         {
@@ -130,9 +146,14 @@ const HomePage = () =>{
                     {
                     
                         
-                        let cartObj = new CreateCart(itemName,Number(quantity),Number(costPrice),Number(sellingPrice),Number(bought),Number(totalCost),itemId,quantityRemain-1,date,time,false);
+                        let cartObj = new CreateCart(itemName,Number(quantity),Number(costPrice),Number(sellingPrice),Number(bought),Number(totalCost),itemId,quantityRemain-1,date,time,false,salesPerson);
+                        let recordCartObj = new CreateRecordCart(itemName,Number(quantity),Number(costPrice),Number(sellingPrice),Number(bought),Number(totalCost),quantityRemain-1,date,time,false,salesPerson);
+                        
                         cart.push(cartObj);
+                        recordCart.push(recordCartObj);
                         Store.addLocalStorage('cart', cart);
+                        Store.addLocalStorage('recordCart',recordCart);
+
                         
                          
          
@@ -161,6 +182,20 @@ const HomePage = () =>{
                             
                             }
                         }) 
+                        recordCart.forEach((rct)=>{
+                            if(rct.itemName === itemName)
+                            {
+                                setShowAddButton(true);
+                                setFinishedItemError(false);
+
+                                rct.bought = rct.bought + 1;
+                                rct.quantityRemain = rct.quantityRemain - 1;
+                             
+                                rct.totalCost = rct.sellingPrice * rct.bought;
+                                Store.addLocalStorage('recordCart',recordCart);
+                            
+                            }
+                        }) 
                     }
                     }
                 }
@@ -178,12 +213,14 @@ const HomePage = () =>{
             
              let balance = 0.0;
               let cart = Store.getLocalStorage('cart');
+              let recordCart = Store.getLocalStorage('recordCart');
              if((amount <= 0)||(amount === ''))
              {
                setInvalidAmount(true);
                setBalance(false);
                setNoBalance(false);
                setEmptyCart(false);
+               setLessAmount(false);
              }
              else if(cart.length === 0)
              {
@@ -191,6 +228,7 @@ const HomePage = () =>{
                 setEmptyCart(true);
                 setBalance(false);
                 setNoBalance(false);
+                setLessAmount(false);
              }
              else{
                 setInvalidAmount(false);
@@ -211,9 +249,9 @@ const HomePage = () =>{
                      Store.addLocalStorage('balance',balanceObj);
                      setNoBalance(false);
                      setBalance(true);
-                     let cart = Store.getLocalStorage('cart');
-                     cart.forEach((ct)=>{
-                        fetch('http://localhost:8000/sales',{
+                     let recordCart = Store.getLocalStorage('recordCart');
+                     recordCart.forEach((ct)=>{
+                        fetch('http://localhost:8050/sales',{
                         method: "POST",
                         headers: {"Content-type": "Application/json"},
                         body: JSON.stringify(ct)
@@ -226,7 +264,7 @@ const HomePage = () =>{
                      {
                     
                      
-                           fetch('http://localhost:8000/items/'+cart[i].id,{
+                           fetch('http://localhost:8050/items/'+cart[i].id,{
                                    method: "PATCH",
                                    headers: {"Content-type":"Application/json"},
                                    body: JSON.stringify({"quantity": cart[i].quantityRemain})
@@ -238,6 +276,7 @@ const HomePage = () =>{
                     
                      
                    localStorage.removeItem('cart');
+                   localStorage.removeItem('recordCart')
                    setShowItem(false);
                    setShowCart(false);
                    setTimeout(()=>{
@@ -254,21 +293,21 @@ const HomePage = () =>{
                   setBalance(false);
                   setNoBalance(true); 
                   setLessAmount(false);
-                  let cart = Store.getLocalStorage('cart');
-                  cart.forEach((ct)=>{
-                     fetch('http://localhost:8000/sales',{
+                  let recordCart = Store.getLocalStorage('recordCart');
+                  recordCart.forEach((ct)=>{
+                     fetch('http://localhost:8050/sales',{
                      method: "POST",
                      headers: {"Content-type": "Application/json"},
                      body: JSON.stringify(ct)
                   }).then(()=>{
-                    console.log("sent");
+                    
                  })
                   })
                   for(let i = 0; i < cart.length; i++)
                   {
                 
                   
-                            fetch('http://localhost:8000/items/'+cart[i].id,{
+                            fetch('http://localhost:8050/items/'+cart[i].id,{
                                 method: "PATCH",
                                 headers: {"Content-type":"Application/json"},
                                 body: JSON.stringify({"quantity": cart[i].quantityRemain})
@@ -281,7 +320,7 @@ const HomePage = () =>{
 
                   localStorage.removeItem('cart');
                     
-                  localStorage.removeItem('cart');
+                  localStorage.removeItem('recordCart');
                   setShowItem(false);
                   setShowCart(false);
                   setTimeout(()=>{
@@ -298,6 +337,8 @@ const HomePage = () =>{
         }
         const handleCheckBox = (e)=>{
             let cart = Store.getLocalStorage('cart');
+            let recordCart = Store.getLocalStorage('recordCart');
+
              if(e.checked)
             {
                 
@@ -306,9 +347,14 @@ const HomePage = () =>{
                     cart.forEach((crt)=>{
                         crt.momo = true;
                     })
+                    recordCart.forEach((rcrt)=>{
+                        rcrt.momo = true;
+                    })
+                    
                 }
             
                  Store.addLocalStorage('cart',cart);
+                 Store.addLocalStorage('recordCart',recordCart);
  
             }
             else
@@ -318,9 +364,14 @@ const HomePage = () =>{
                     cart.forEach((crt)=>{
                         crt.momo = false;
                     })
+                    recordCart.forEach((rcrt)=>{
+                        rcrt.momo = false;
+                    })
                 }
                 
                  Store.addLocalStorage('cart',cart);
+                 Store.addLocalStorage('recordCart',recordCart);
+
             } 
         }
         const handleMinus = (itemName) =>
@@ -329,6 +380,8 @@ const HomePage = () =>{
            
              setFinishedItemError(false);
              let cart = Store.getLocalStorage('cart');
+             let recordCart = Store.getLocalStorage('recordCart');
+
              let quantity,costPrice,sellingPrice,quantityRemain;
              setCartDisplay(cart); 
              if(items.length !== 0)
@@ -364,8 +417,10 @@ const HomePage = () =>{
                     {
                         if(ct.bought === 1)
                         {
+
                             let filteredCart = cart.filter((ct)=> ct.itemName !== itemName);
                             Store.addLocalStorage('cart',filteredCart);
+
                             setShowAddButton(true);
                     
                             return;
@@ -380,6 +435,27 @@ const HomePage = () =>{
                         }
                     }
                 }) 
+                recordCart.forEach((rct)=>{
+                    if(rct.itemName === itemName)
+                    {
+                        if(rct.bought === 1)
+                        {
+
+                            let filteredRecordCart = recordCart.filter((rct)=> rct.itemName !== itemName);
+                            Store.addLocalStorage('recordCart',filteredRecordCart);
+                    
+                            return;
+                        }
+                        else{
+                        rct.bought = rct.bought - 1;
+                        rct.quantityRemain = rct.quantityRemain+1;
+                        rct.totalCost = rct.totalCost - sellingPrice;
+                        Store.addLocalStorage('recordCart',recordCart);
+                    
+                       
+                        }
+                    }
+                }) 
              }
              else
              {
@@ -387,13 +463,51 @@ const HomePage = () =>{
              } 
             
         }
+        const handleClearCart = () =>{
+            localStorage.removeItem('cart');
+            localStorage.removeItem('recordCart');
+            window.location.reload();
+        }
     return(
         <div className = "home-content">
+        
 
         <div className = "search-wrapper">
+        {error && <p className = "error-message">Failed to get data from the server, restart the server</p>}
         {finishedItemError && <p className = "f-i-error">No more of the items can be found.</p>}
-
+        <button onClick = {handleClearCart}className = "clear-cart">Clear Cart</button>
         <input type = "text" className = "search" onKeyUp = {(e)=>handleKeyUp(e.target.value)} placeholder = "Search Item"/>
+        <h2 className = "item-list-title">Buying List</h2>
+
+        <table className = "cart-table">
+                <tr>
+                    <th>Item Name</th>
+                    <th>Quantity</th>
+                    <th>Cost Price</th>
+                    <th>Selling Price</th>
+                    <th>Quantity Bought</th>
+                    <th>Total Cost</th>
+                    <th>Sales Person</th>
+
+                </tr>
+                {
+                    showCart &&
+                 cartDisplay.map((ctDp)=>(
+                <tr key = {ctDp.itemName}>
+                    <td>{ctDp.itemName}</td>
+                    <td>{ctDp.quantity}</td>
+                    <td>{ctDp.costPrice}cedis</td>
+                    <td>{ctDp.sellingPrice}cedis</td>
+                    <td>{ctDp.bought}</td>
+                    <td>{ctDp.totalCost.toFixed(2)}cedis</td>
+                    <td>{ctDp.salesPerson}</td>
+                </tr>
+                 )
+                 )
+                }
+            </table>
+            <h2 className = "item-list-title">Item Search Result Table </h2>
+
         <table className = "search-table">
                 <tr>
                     <th>Item Name</th>
@@ -432,31 +546,7 @@ const HomePage = () =>{
                }
                
             </table>  
-            <table className = "cart-table">
-                <tr>
-                    <th>Item Name</th>
-                    <th>Quantity</th>
-                    <th>Cost Price</th>
-                    <th>Selling Price</th>
-                    <th>Quantity Bought</th>
-                    <th>Total Cost</th>
-
-                </tr>
-                {
-                    showCart &&
-                 cartDisplay.map((ctDp)=>(
-                <tr key = {ctDp.itemName}>
-                    <td>{ctDp.itemName}</td>
-                    <td>{ctDp.quantity}</td>
-                    <td>{ctDp.costPrice}cedis</td>
-                    <td>{ctDp.sellingPrice}cedis</td>
-                    <td>{ctDp.bought}</td>
-                    <td>{ctDp.totalCost.toFixed(2)}cedis</td>
-                </tr>
-                 )
-                 )
-                }
-            </table>
+           
          <p className = "cumulative-total">Cumulative Total: {ctTotal().toFixed(2)}cedis</p>
             {invalidAmount && <p className = "invalid-amount-error">Please enter a valid amount</p>}
             {emptyCart && <p className = "empty-cart-error">There is nothing to pay for, click the add button</p>}

@@ -14,14 +14,14 @@ const [itemName,setItemName] = useState('');
        const [fieldEmpty,setFieldEmpty] = useState(false);
        const [greaterCostPrice,setGreaterCostPrice] = useState(false);
        const [itemExists,setItemExists] = useState(false);
-       const {data:items} = useFetch(' http://localhost:8000/items');
+       const {data:items} = useFetch(' http://localhost:8050/items');
        const [invalidNumber,setInvalidNumber] = useState(false);
        const [success,setSuccess] = useState(false);
        const [addError, setAddError] = useState(false);
-const {data:item, isPending: isLoading, error} = useFetch('http://localhost:8000/items/'+id);
+const {data:item, isPending: isLoading, error} = useFetch('http://localhost:8050/items/'+id);
 const handleRemove = () =>{
 
-    fetch('http://localhost:8000/items/'+item.id,{
+    fetch('http://localhost:8050/items/'+item.id,{
         method: 'DELETE'
 
     }).then(()=>{
@@ -68,7 +68,7 @@ const handleSubmit = (e) =>{
        else
        {
            const newItems = {itemName,quantity,costPrice,sellingPrice};
-           fetch('http://localhost:8000/items/'+item.id,{
+           fetch('http://localhost:8050/items/'+item.id,{
                method: "PUT",
                headers: {"Content-type": "Application/json"},
                body: JSON.stringify(newItems)
