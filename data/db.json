@@ -2,24 +2,17 @@
   "items": [
     {
       "itemName": "vermox tab",
-      "quantity": 478,
-      "costPrice": "7.86",
+      "quantity": 470,
+      "costPrice": "12",
       "sellingPrice": "13",
       "id": 1
     },
     {
       "itemName": "wormplex 400 tab",
-      "quantity": 492,
+      "quantity": 490,
       "costPrice": "5.15",
       "sellingPrice": "8",
       "id": 2
-    },
-    {
-      "itemName": "zentel tab 200mg",
-      "quantity": 495,
-      "costPrice": "7.64",
-      "sellingPrice": "10.0",
-      "id": 3
     },
     {
       "itemName": "wormplex suspension",
@@ -30,21 +23,21 @@
     },
     {
       "itemName": "tanzol tab",
-      "quantity": 495,
+      "quantity": 493,
       "costPrice": "1.51",
       "sellingPrice": "4",
       "id": 5
     },
     {
-      "itemName": "nezben tab 200mg",
-      "quantity": 500,
+      "itemName": "nezben tab 200mg ty",
+      "quantity": 499,
       "costPrice": "3.47",
       "sellingPrice": "6",
       "id": 6
     },
     {
       "itemName": "lufart ds tab 6",
-      "quantity": 500,
+      "quantity": 494,
       "costPrice": "13.37",
       "sellingPrice": "20",
       "id": 7
@@ -135,7 +128,7 @@
     },
     {
       "itemName": "lufart suspension",
-      "quantity": 500,
+      "quantity": 498,
       "costPrice": "9.41",
       "sellingPrice": "15",
       "id": 20
@@ -240,7 +233,7 @@
     },
     {
       "itemName": "pure codliver oil syr 150ml (ayrtons)",
-      "quantity": 500,
+      "quantity": 498,
       "costPrice": "31.19",
       "sellingPrice": "44.0",
       "id": 35
@@ -3551,7 +3544,7 @@
     },
     {
       "itemName": "vermox susp",
-      "quantity": 500,
+      "quantity": 498,
       "costPrice": "16",
       "sellingPrice": "22.0",
       "id": 508
@@ -3690,11 +3683,18 @@
       "id": 527
     },
     {
+      "itemName": "Pen",
+      "quantity": "34",
+      "costPrice": "56",
+      "sellingPrice": "65",
+      "id": 529
+    },
+    {
       "itemName": "Pencil",
-      "quantity": "78",
-      "costPrice": "40",
-      "sellingPrice": "67",
-      "id": 528
+      "quantity": 3,
+      "costPrice": "5",
+      "sellingPrice": "12",
+      "id": 530
     }
   ],
   "users": [
@@ -3717,6 +3717,21 @@
       "username": "Dickson",
       "password": "filament",
       "id": 4
+    },
+    {
+      "username": "spyda",
+      "password": "filament",
+      "id": 5
+    },
+    {
+      "username": "shadow234",
+      "password": "filament",
+      "id": 6
+    },
+    {
+      "username": "chronicles",
+      "password": "filament",
+      "id": 7
     }
   ],
   "sales": [
@@ -18278,6 +18293,202 @@
       "momo": false,
       "salesPerson": "Dickson",
       "id": 1040
+    },
+    {
+      "itemName": "Pencil",
+      "quantity": 78,
+      "costPrice": 40,
+      "sellingPrice": 67,
+      "bought": 2,
+      "totalCost": 134,
+      "quantityRemain": 76,
+      "date": "2022-10-07",
+      "time": "16:19:53.747Z",
+      "momo": false,
+      "salesPerson": "chronicles",
+      "id": 1041
+    },
+    {
+      "itemName": "vermox tab",
+      "quantity": 478,
+      "costPrice": 7.86,
+      "sellingPrice": 13,
+      "bought": 2,
+      "totalCost": 26,
+      "quantityRemain": 476,
+      "date": "2022-10-07",
+      "time": "16:28:11.158Z",
+      "momo": true,
+      "salesPerson": "chronicles",
+      "id": 1042
+    },
+    {
+      "itemName": "vermox susp",
+      "quantity": 500,
+      "costPrice": 16,
+      "sellingPrice": 22,
+      "bought": 2,
+      "totalCost": 44,
+      "quantityRemain": 498,
+      "date": "2022-10-07",
+      "time": "16:28:12.873Z",
+      "momo": true,
+      "salesPerson": "chronicles",
+      "id": 1043
+    },
+    {
+      "itemName": "nezben tab 200mg",
+      "quantity": 500,
+      "costPrice": 3.47,
+      "sellingPrice": 6,
+      "bought": 1,
+      "totalCost": 6,
+      "quantityRemain": 499,
+      "date": "2022-11-03",
+      "time": "09:47:48.516Z",
+      "momo": false,
+      "salesPerson": "spyda",
+      "id": 1044
+    },
+    {
+      "itemName": "tanzol tab",
+      "quantity": 495,
+      "costPrice": 1.51,
+      "sellingPrice": 4,
+      "bought": 2,
+      "totalCost": 8,
+      "quantityRemain": 493,
+      "date": "2022-11-03",
+      "time": "09:47:49.597Z",
+      "momo": false,
+      "salesPerson": "spyda",
+      "id": 1045
+    },
+    {
+      "itemName": "vermox tab",
+      "quantity": 476,
+      "costPrice": 7.86,
+      "sellingPrice": 13,
+      "bought": 3,
+      "totalCost": 39,
+      "quantityRemain": 473,
+      "date": "2022-11-03",
+      "time": "09:47:52.620Z",
+      "momo": false,
+      "salesPerson": "spyda",
+      "id": 1046
+    },
+    {
+      "itemName": "lufart ds tab 6",
+      "quantity": 500,
+      "costPrice": 13.37,
+      "sellingPrice": 20,
+      "bought": 3,
+      "totalCost": 60,
+      "quantityRemain": 497,
+      "date": "2022-12-06",
+      "time": "10:35:41.997Z",
+      "momo": false,
+      "salesPerson": "Dickson",
+      "id": 1047
+    },
+    {
+      "itemName": "lufart suspension",
+      "quantity": 500,
+      "costPrice": 9.41,
+      "sellingPrice": 15,
+      "bought": 2,
+      "totalCost": 30,
+      "quantityRemain": 498,
+      "date": "2022-12-06",
+      "time": "10:35:52.124Z",
+      "momo": false,
+      "salesPerson": "Dickson",
+      "id": 1048
+    },
+    {
+      "itemName": "vermox tab",
+      "quantity": 473,
+      "costPrice": 12,
+      "sellingPrice": 13,
+      "bought": 2,
+      "totalCost": 26,
+      "quantityRemain": 471,
+      "date": "2023-03-08",
+      "time": "11:22:33.476Z",
+      "momo": false,
+      "salesPerson": "Dickson",
+      "id": 1049
+    },
+    {
+      "itemName": "lufart ds tab 6",
+      "quantity": 497,
+      "costPrice": 13.37,
+      "sellingPrice": 20,
+      "bought": 3,
+      "totalCost": 60,
+      "quantityRemain": 494,
+      "date": "2023-03-08",
+      "time": "11:22:47.828Z",
+      "momo": false,
+      "salesPerson": "Dickson",
+      "id": 1050
+    },
+    {
+      "itemName": "vermox tab",
+      "quantity": 471,
+      "costPrice": 12,
+      "sellingPrice": 13,
+      "bought": 1,
+      "totalCost": 13,
+      "quantityRemain": 470,
+      "date": "2023-03-08",
+      "time": "12:06:43.985Z",
+      "momo": false,
+      "salesPerson": "Dickson",
+      "id": 1051
+    },
+    {
+      "itemName": "wormplex 400 tab",
+      "quantity": 492,
+      "costPrice": 5.15,
+      "sellingPrice": 8,
+      "bought": 2,
+      "totalCost": 16,
+      "quantityRemain": 490,
+      "date": "2023-03-08",
+      "time": "12:07:14.513Z",
+      "momo": false,
+      "salesPerson": "Dickson",
+      "id": 1052
+    },
+    {
+      "itemName": "pure codliver oil syr 150ml (ayrtons)",
+      "quantity": 500,
+      "costPrice": 31.19,
+      "sellingPrice": 44,
+      "bought": 2,
+      "totalCost": 88,
+      "quantityRemain": 498,
+      "date": "2023-03-08",
+      "time": "12:08:02.841Z",
+      "momo": false,
+      "salesPerson": "Dickson",
+      "id": 1053
+    },
+    {
+      "itemName": "Pencil",
+      "quantity": 5,
+      "costPrice": 10,
+      "sellingPrice": 12,
+      "bought": 2,
+      "totalCost": 24,
+      "quantityRemain": 3,
+      "date": "2023-03-08",
+      "time": "12:09:00.697Z",
+      "momo": false,
+      "salesPerson": "Dickson",
+      "id": 1054
     }
   ]
 }

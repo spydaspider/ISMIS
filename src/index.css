@@ -1,19 +1,34 @@
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
-body {
-  font-family: "Quicksand";
-  font-weight: 500;
-  margin: 0;
-  padding: 0;
-}
 *{
-    box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: myFont;
+
+}
+@font-face{
+font-family: myFont;
+src:url(gm.ttf);
+}
+html{
+  min-height: 100%;
+}
+body{
+  font-family: myFont;
+  margin:0;
+  padding:0;
+  color: #4d5666;
+  background: url(/public/images/hardware.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: fixed;
+  background-color: #fcfcfc;
+
 }
 .search-wrapper {
   display:flex;
   flex-flow: column;
-  max-width: 1000px;
+  max-width: 1100px;
   margin:2em auto;
-  padding: 5% 0;
+  padding: 5% 1%;
+  background: white;
 }
 .nav-bar {
   display: flex;
@@ -256,14 +271,28 @@ tr:nth-child(even) {
   
 }
 /*Styles for the item list*/
+.record-list-wrapper{
+  padding:5% 0;
+  
+  
+  
+
+}
 .item-list-wrapper{
   padding:5% 0;
+  
+}
+.records-wrapper{
+  margin-top:3%;
+ 
 }
 .item-list{
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 1em auto;
     display: grid;
     grid-template-columns: repeat(12,1fr);
+    background: white;
+    padding: 0% 1%;
 }
 .item-list-title{
     text-align: center;
@@ -298,6 +327,7 @@ tr:nth-child(even) {
   display: grid;
   grid-template-columns: repeat(12,1fr);
   padding: 5% 1em;
+  background: white;
 
 }
 
@@ -606,10 +636,18 @@ tr:nth-child(even) {
   font-size: 100px;
 }
 .record-list{
-  max-width: 1200px;
+  max-width: 100%;
   margin: 1em auto;
   display: grid;
   grid-template-columns: repeat(12,1fr);
+  background: white;
+  
+}
+.records-list-wrapper{
+  background: url(/public/images/hardware.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: fixed;
 }
 .records-wrapper form{
   max-width: 900px;

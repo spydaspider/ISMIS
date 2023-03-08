@@ -5,7 +5,7 @@ const RecordTable = ({fItems,recTotalCost,recProfit}) =>{
   
     
     return (
-        <div className = "item-list-wrapper">
+        <div className = "record-list-wrapper">
         <div className = "record-list"> 
         <div className = "record-summary-wrapper">
             <p className="record-summary">Number Of items: <span className = "amount-style">{fItems && fItems.length}</span></p>
@@ -22,7 +22,7 @@ const RecordTable = ({fItems,recTotalCost,recProfit}) =>{
                     <th>Bought</th>
                     <th>Total Cost</th>
                     <th>Date</th>
-                    <th>Time</th>
+                    
                     <th>Sales Person</th>
 
                 </tr>
@@ -36,7 +36,6 @@ const RecordTable = ({fItems,recTotalCost,recProfit}) =>{
                     <td>{item.bought}</td>
                     <td>{item.totalCost}cedis</td>
                     <td>{item.date}</td>
-                    <td>{item.time}</td>
                     <td>{item.salesPerson}</td>
 
                    </tr>

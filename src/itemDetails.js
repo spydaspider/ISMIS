@@ -1,10 +1,11 @@
-import {useState} from 'react';
+import {useState,useEffect} from 'react';
 import {useParams} from 'react-router-dom';
 import useFetch from './useFetch';
 import {Link} from 'react-router-dom';
 import { useHistory } from 'react-router-dom';
 
 const ItemDetails = () =>{
+
     const history = useHistory();
 const {id} = useParams();
 const [itemName,setItemName] = useState('');
@@ -19,6 +20,15 @@ const [itemName,setItemName] = useState('');
        const [success,setSuccess] = useState(false);
        const [addError, setAddError] = useState(false);
 const {data:item, isPending: isLoading, error} = useFetch('http://localhost:8050/items/'+id);
+ useEffect(()=>{
+      if(item)
+      {
+     setQuantity(item.quantity);
+     setCostPrice(item.costPrice);
+     setSellingPrice(item.sellingPrice);
+     setItemName(item.itemName);
+      }
+},[item]) 
 const handleRemove = () =>{
 
     fetch('http://localhost:8050/items/'+item.id,{
@@ -56,7 +66,7 @@ const handleSubmit = (e) =>{
 
 
        }
-       else if(costPrice > sellingPrice)
+       else if(Number(costPrice) > Number(sellingPrice))
        {
            setGreaterCostPrice(true);
            setInvalidNumber(false);
@@ -98,10 +108,14 @@ return(
             {fieldEmpty && <p className = "error-message">All fields required</p>}
             {greaterCostPrice && <p className = "error-message">Cost price is greater than selling price.</p>}
             {itemExists && <p className = "error-message">Item already exists</p>}
-            <input onChange = {(e)=>setItemName(e.target.value)} type = "text" value = {itemName} placeholder = {item && item.itemName} required/>
-            <input onChange = {(e)=>setQuantity(e.target.value)} type = "number" value = {quantity} placeholder = {item && item.quantity} required/>
-            <input onChange = {(e)=>setCostPrice(e.target.value)} type = "number" value = {costPrice} placeholder = {item && item.costPrice+"cedis"} required/>
-            <input onChange = {(e)=>setSellingPrice(e.target.value)} type = "number" value = {sellingPrice} placeholder = {item && item.sellingPrice+"cedis"} required/>
+            <label>Item Name</label>
+            <input onChange = {(e)=>setItemName(e.target.value)} type = "text" value = {itemName}  required/>
+            <label>Quantity</label>
+            <input onChange = {(e)=>setQuantity(e.target.value)} type = "number" value = {quantity}  required/>
+            <label>Cost Price</label>
+            <input onChange = {(e)=>setCostPrice(e.target.value)} type = "number" value = {costPrice}  required/>
+            <label>Selling Price</label>
+            <input onChange = {(e)=>setSellingPrice(e.target.value)} type = "number" value = {sellingPrice} required/>
               
             
             <div className = "detail-buttons">  

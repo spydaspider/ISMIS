@@ -13,7 +13,9 @@ const CreateAccount = () =>{
    const handleSubmit = (e) =>{
       let count = 0;
       e.preventDefault();
-      users.forEach((user)=>{
+      if(users)
+      {
+            users.forEach((user)=>{
          if(user.username.toLowerCase() === username.toLowerCase())
          {
            count += 1;
@@ -21,6 +23,7 @@ const CreateAccount = () =>{
          }
        
       })
+   }
       if(count !== 0)
       {
          setNameTaken(true);
