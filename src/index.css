@@ -1,0 +1,732 @@
+*{
+  box-sizing: border-box;
+  font-family: myFont;
+
+}
+@font-face{
+font-family: myFont;
+src:url(gm.ttf);
+}
+html{
+  min-height: 100%;
+}
+body{
+  font-family: myFont;
+  margin:0;
+  padding:0;
+  color: #4d5666;
+  background: url(/public/images/hardware.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: fixed;
+  background-color: #fcfcfc;
+
+}
+.search-wrapper {
+  display:flex;
+  flex-flow: column;
+  max-width: 1100px;
+  margin:2em auto;
+  padding: 5% 1%;
+  background: white;
+}
+.nav-bar {
+  display: flex;
+  background: #00695c;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  position: fixed;
+  top:0;
+  right:0;
+  left:0;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+.nav-bar h1 {
+  color: rgb(235, 234, 234);
+}
+.links {
+  width: 25%;
+  display: flex;
+  justify-content: space-around;
+}
+.links a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+  padding: 0.7em;
+}
+.links a:hover {
+  background: #004d40;
+  transition: background-color 1s ease-out;
+}
+.search{
+  height: 45px;
+  border-radius: 6px;
+  font-size: 22px;
+  outline: none;
+  border:2px solid #e0e0e0;
+  width: 100%;
+
+  
+ 
+}
+.search:hover {
+  box-shadow: 3px 5px 5px rgba(0,0,0,0.1);
+}
+.search-table {
+  margin-top: 2em;
+  grid-column: 1/13;
+  
+}
+.search-table th {
+  background: #00695c;
+  padding: 0.5em;
+  font-size: 20px;
+  color: #fff;
+}
+.edit-icon{
+  margin-bottom: -0.9em;
+  width:43px;
+  margin-left: 0.3em;
+  cursor: pointer;
+}
+.search-table tr a{
+  text-decoration: none;
+
+  
+}
+.search-table tr{
+  grid-column: 1/13;
+}
+tr:nth-child(even) {
+  background: #bdbdbd;
+}
+.item{
+  font-size: 90px;
+}
+.search-table td {
+  padding: 0.5em;
+  font-size: 20px;
+  text-align: center;
+}
+.cart-table {
+  margin-top: 2em;
+}
+.cart-table th {
+  background: #00695c;
+  color: #fff;
+  padding: 0.5em;
+  font-size: 20px;
+}
+.cart-table td {
+  padding: 0.5em;
+  font-size: 20px;
+  text-align: center;
+}
+.cumulative-total {
+  font-size: 25px;
+  margin-top: 1em;
+  background: #cfd8dc;
+  padding: 0.5em;
+  font-weight: 600;
+  color: #333;
+}
+.payment-form {
+  display: flex;
+  align-items: center;
+  gap: 2%;
+}
+.pay-label {
+  font-size: 25px;
+}
+.pay-field {
+  font-size: 25px;
+  padding: 0.2em;
+  margin-left: 1em;
+  border-radius: 6px;
+  font-weight: 500;
+  border:2px solid #e0e0e0;
+  outline: none;
+}
+.pay-field:hover{
+  box-shadow: 3px 5px 5px rgba(0,0,0,0.1);
+}
+.pay-button {
+  background: #2e7d32;
+  color: #fff;
+  border-radius: 6px;
+  padding: 0.4em;
+  font-size: 20px;
+  border:none;
+}
+.pay-button-disabled{
+    border-radius: 6px;
+    padding: 0.4em;
+    font-size: 20px;
+    color: rgb(100, 99, 99);
+    border-radius: 4px;
+    font-weight: 600;
+}
+.momo {
+  margin-left: 1em;
+  font-size: 20px;
+  font-weight: 700;
+}
+.plus {
+  padding: 0.5em;
+  font-size: 20px;
+  width: 50px;
+  background: #0091ea;
+  color: white;
+  border-radius: 4px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+.plus-disabled {
+  background: rgb(219, 217, 217);
+  border: 2px solid rgb(125, 125, 125);
+  padding: 0.5em;
+  font-size: 20px;
+  width: 50px;
+  color: #333;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.minus {
+  margin-left: 0.2em;
+  padding: 0.5em;
+  font-size: 20px;
+  width: 50px;
+  background: #f44336;
+  color: white;
+  border-radius: 4px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+.invalid-amount-error {
+  background: #c62828;
+  font-size: 20px;
+  text-align: center;
+  margin: 1em auto;
+  color: #fff;
+  border-radius: 6px;
+  width: 100%;
+  padding: 0.5em;
+}
+.less-amount-error {
+  background: #c62828;
+  font-size: 20px;
+  text-align: center;
+  margin: 1em auto;
+  color: #fff;
+  border-radius: 6px;
+  width: 100%;
+  padding: 0.5em;
+}
+.empty-cart-error {
+  background: #c62828;
+  font-size: 20px;
+  text-align: center;
+  margin: 1em auto;
+  color: #fff;
+  border-radius: 6px;
+  width: 100%;
+  padding: 0.5em;
+}
+.balance {
+  background: #2e7d32;
+  font-size: 20px;
+  text-align: center;
+  margin: 1em auto;
+  color: #fff;
+  border-radius: 6px;
+  width: 100%;
+  padding: 0.5em;
+}
+.no-balance {
+  background: #2e7d32;
+  font-size: 20px;
+  text-align: center;
+  margin: 1em auto;
+  color: #fff;
+  border-radius: 6px;
+  width: 100%;
+  padding: 0.5em;
+}
+.f-i-error {
+  background: #c62828;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  padding: 0.5em;
+  margin-top: -2em;
+  
+}
+/*Styles for the item list*/
+.record-list-wrapper{
+  padding:5% 0;
+  
+  
+  
+
+}
+.item-list-wrapper{
+  padding:5% 0;
+  
+}
+.records-wrapper{
+  margin-top:3%;
+ 
+}
+.item-list{
+    max-width: 1100px;
+    margin: 1em auto;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    background: white;
+    padding: 0% 1%;
+}
+.item-list-title{
+    text-align: center;
+    grid-column:1/10;
+    color: #344563;
+
+}
+.items-table{
+    grid-column: 1/13;
+}
+.items-table td{
+    padding: 0.5em;
+    font-size: 20px;
+    text-align: center;
+}
+.items-table th{
+  background: #00695c;
+  color: #fff;
+  padding: 0.5em;
+  font-size: 20px;
+}
+.item-count{
+    grid-column: 10/13;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 0.5em;
+}
+/*Styles for the add new item*/
+.add-items{
+  max-width: 800px;
+  margin: 2em auto;
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  padding: 5% 1em;
+  background: white;
+
+}
+
+.add-item-title{
+  grid-column: 1/13;
+  text-align: center;
+  font-size: 30px;
+  color:#344563;
+
+}
+.item-form{
+  grid-column: 1/13;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2em;
+}
+.item-form input{
+  width: 100%;
+  height: 40px;
+  font-size: 18px;
+  border: 1px solid #bdbdbd;
+  outline: none;
+}
+.item-form input:hover{
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+
+.add{
+  height: 45px;
+  width: 30%;
+  align-self: center;
+  cursor: pointer;
+  font-size: 18px;
+  border: none;
+  font-size: 25px;
+  background: #6070ff;
+  color: #fff;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+.add:hover{
+  background:#495af9;
+}
+.add-success{
+  background: #6070ff;
+  color: #fff;
+  grid-column: 1/13;
+  height: 40px;
+  text-align: center;
+  font-size:20px;
+  padding-top:0.2em;
+  font-weight: 420;
+}
+.error-message{
+  background: #f44336;
+  color: #fff;
+  grid-column: 1/13;
+  height: 40px;
+  text-align: center;
+  font-size:20px;
+  padding-top:0.2em;
+  font-weight: 420;
+}
+/*Styles for the login page*/
+.log-style{
+  color: #fff;
+  padding: 0.8em;
+  margin-left: 1em;
+  cursor:pointer;
+}
+.log-style:hover{
+  background:#004d40;
+}
+.log-wrapper{
+  margin-top: 15%;
+}
+.log-message{
+  font-size: 40px;
+  text-align: center;
+  color: rgb(119, 119, 119);
+  
+}
+.login-container{
+  background: rgb(227, 225, 225);
+  top:8%;
+  left:0;
+  right:0;
+  bottom:0;
+  position: absolute;
+}
+.login-form{
+  max-width:500px;
+  height: auto;
+  border: 2px solid rgb(214, 212, 212);
+  margin:10% auto;
+  display: grid;
+  padding-bottom:1em;
+  grid-template-columns: repeat(12,1fr);
+  background: #fff;
+  border-radius:8px;
+ 
+}
+.login-title{
+  text-align: center;
+  font-size: 35px;
+  grid-column: 1/13;
+}
+.login-form form{
+  grid-column: 1/13;
+  padding-left: 0.8em;
+  padding-right: 0.8em;
+  padding-bottom: 1em;
+}
+
+.login-form input{
+  width: 100%;
+  height:40px;
+  margin-top: 1em;
+  font-size: 18px;
+  outline: none;
+}
+.login-form input:hover{
+  box-shadow: 3px 5px 5px rgba(0,0,0,0.1);
+  border: 1px solid #00695c;
+  
+}
+.login-form button{
+  margin-top: 1em;
+  color: #fff;
+  border:none;
+  cursor: pointer;
+}
+.login-button{
+  font-size: 18px;
+  padding: 0.5em;
+  background:#00695c;
+ 
+  
+}
+.login-button:hover{
+  background:#004d40;
+}
+.signup-button{
+  font-size: 18px;
+  padding: 0.5em;
+  background: #6070ff;
+  
+  float: right;
+  border-radius:8px;
+  
+}
+.signup-button:hover{
+  background: #4f60f4;
+}
+.not-exist{
+  grid-column: 1/13;
+  background: #c62828;
+  color: #fff;
+  font-size: 17px;
+  padding: 0.5em;
+ text-align: center;
+}
+.create-account-wrapper{
+  background: rgb(226, 226, 226);
+  position: absolute;
+  top:8%;
+  left:0;
+  right:0;
+  bottom:0;
+}
+.create-account{
+  max-width:500px;
+  height: auto;
+  border: 2px solid rgb(214, 212, 212);
+  margin:5% auto;
+  display: grid;
+  padding-bottom:1em;
+  grid-template-columns: repeat(12,1fr);
+  background: #fff;
+  border-radius:8px;
+}
+.create-account-title{
+  grid-column: 1/13;
+  text-align: center;
+  font-size: 35px;
+}
+.create-account form{
+  grid-column: 1/13;
+  padding-left: 1em;
+  padding-right: 1em;
+  display: grid;
+
+}
+.clear-cart{
+  margin-bottom: 2em;
+  width: 100px;
+  padding: 0.3em;
+  font-size: 15px;
+  border: 3px solid #00695c;
+  color: #00695c;
+  font-weight: 600;
+  background: #ffffff;
+  cursor:pointer;
+  align-self: flex-end;
+}
+.create-account input{
+  width: 100%;
+  height:40px;
+  margin-top: 1em;
+  font-size: 18px;
+  outline: none;
+}
+.create-account input:hover{
+  box-shadow: 3px 5px 5px rgba(0,0,0,0.1);
+  border: 1px solid #00695c;
+  
+} 
+.create-account button{
+  margin-top: 1em;
+  padding: 0.5em;
+  font-size: 18px;
+  justify-self: center;
+  cursor: pointer;
+  background: #00695c;
+  color: #fff;
+  border:none;
+}
+.create-account button:hover{
+  background:#004d40;
+}
+.create-account-error{
+  grid-column: 1/13;
+  background: #c62828;
+  color: #fff;
+  font-size: 17px;
+  padding: 0.5em;
+ text-align: center;
+}
+.item-details{
+  margin: 12% auto;
+  max-width: 900px;
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+
+}
+.detail-table th{
+  font-size: 20px;
+  padding: 0.5em;
+  color: #fff;
+  background: #00695c;
+}
+.detail-table td{
+  padding: 0.5em;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+
+}
+
+.detail-table{
+  grid-column: 1/13;
+}
+.detail-buttons{
+  margin-top: 1em;
+  grid-column: 1/13;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.remove{
+  font-size: 18px;
+  padding: 0.5em;
+  background: #f44336;
+  color: #fff;
+  border:none;
+  width: 20%;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  grid-column: 1/13;
+}
+.edit{
+  
+  font-size: 18px;
+  padding: 0.5em;
+  color: #fff;
+  border: none;
+  width:20%;
+  background: #ab47bc;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  
+}
+.edit:hover{
+  background: #a431b8;
+}
+.remove:hover{
+  background:#dd2d2d;
+}
+.edit-wrapper p{
+  font-size: 100px;
+}
+.records-wrapper{
+    margin-top: 10%;
+}
+.record-table{
+  font-size: 100px;
+}
+.record-list{
+  max-width: 100%;
+  margin: 1em auto;
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  background: white;
+  
+}
+.records-list-wrapper{
+  background: url(/public/images/hardware.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: fixed;
+}
+.records-wrapper form{
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  height: auto;
+}
+.records-wrapper input{
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+  padding: 0.5em;
+  border-radius: 20px;
+  border: 2px solid rgb(208, 205, 205);
+  outline: none;
+}
+.records-wrapper input:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+.records-wrapper select{
+  margin-top: 1em;
+  width: 40%;
+  height: 45px;
+  align-self: center;
+  font-size: 20px;
+  font-weight: 500;
+  outline: none;
+  border: 2px solid rgb(180, 180, 180);
+  color: #333;
+}
+.records-wrapper select:hover{
+  border: 2px solid #00695c;
+}
+.search-record{
+  margin-top: 1em;
+  font-size: 20px;
+  padding: 0.6em;
+  width: 25%;
+  align-self: center;
+  background: #fff;
+  border: 2px solid #00695c;
+  color: #00695c
+  
+}
+.search-record:hover{
+  background: #00695c;
+  transition: background-color 1s ease-out;
+  color: #fff;
+ 
+}
+.sales{
+  text-align: center;
+  margin-bottom: -2em;
+  padding-top: 1em;
+  font-size: 35px;
+  font-weight: 600;
+}
+.record-summary-wrapper{
+  width: 100%;
+  grid-column: 1/13;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1%;
+
+}
+.record-summary{
+  text-align: center;
+  background: #dedbdb;
+  font-size: 25px;
+  font-weight: 600;
+  padding: 1em;
+  color: #00695c;
+  background: #fffffF;
+  border: 3px solid #00695c;
+}
+.amount-style{
+  color: #333;
+}
