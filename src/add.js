@@ -103,7 +103,7 @@ const AddToStore = () =>{
             <input onChange = {(e)=>setQuantity(e.target.value)} type = "number" value = {quantity} placeholder = "Quantity" required/>
             <input onChange = {(e)=>setCostPrice(e.target.value)} type = "number" value = {costPrice} placeholder = "Cost Price" required/>
             <input onChange = {(e)=>setSellingPrice(e.target.value)} type = "number" value = {sellingPrice} placeholder = "Selling Price" required/>
-            <button className = "add">Add</button>
+            <button className = "add">save</button>
             </form>
         </div>
     )

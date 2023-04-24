@@ -39,9 +39,20 @@ const HomePage = () =>{
         }
         else{
         let filteredItems = items.filter((ct)=>ct.itemName.toLowerCase().indexOf(searchLetter.toLowerCase()) !== -1);
+        filteredItems.forEach((item)=>{
+            if(item.quantity === 0)
+            {
+                setShowAddButton(null);
+
+            }
+            else
+            {
+                setShowAddButton(true);
+
+            }
+        })
          setAllItems(filteredItems);
          setShowItem(true);
-         setShowAddButton(true);
          setFinishedItemError(false);
         }
        
@@ -92,6 +103,7 @@ const HomePage = () =>{
             setNoBalance(false);
             if(items.length !== 0)
             {
+                
                 items.forEach((ct)=>{
                     if(ct.itemName === itemName)
                     {
@@ -104,7 +116,7 @@ const HomePage = () =>{
                 })
 
             }
-
+            
             let totalCost = Number(sellingPrice) * bought;
         
         
@@ -477,9 +489,10 @@ const HomePage = () =>{
         {finishedItemError && <p className = "f-i-error">No more of the items can be found.</p>}
         <button onClick = {handleClearCart}className = "clear-cart">Clear Cart</button>
         <input type = "text" className = "search" onKeyUp = {(e)=>handleKeyUp(e.target.value)} placeholder = "Search Item"/>
-        <h2 className = "item-list-title">Buying List</h2>
+        <h2 className = "item-list-title">Cart</h2>
 
         <table className = "cart-table">
+            <thead>
                 <tr>
                     <th>Item Name</th>
                     <th>Quantity</th>
@@ -490,6 +503,7 @@ const HomePage = () =>{
                     <th>Sales Person</th>
 
                 </tr>
+                </thead>
                 {
                     showCart &&
                  cartDisplay.map((ctDp)=>(
@@ -506,7 +520,7 @@ const HomePage = () =>{
                  )
                 }
             </table>
-            <h2 className = "item-list-title">Item Search Result Table </h2>
+            <h2 className = "item-list-title">Items </h2>
 
         <table className = "search-table">
                 <tr>

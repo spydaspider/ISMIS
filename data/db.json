@@ -2,7 +2,7 @@
   "items": [
     {
       "itemName": "vermox tab",
-      "quantity": 470,
+      "quantity": 467,
       "costPrice": "12",
       "sellingPrice": "13",
       "id": 1
@@ -233,7 +233,7 @@
     },
     {
       "itemName": "pure codliver oil syr 150ml (ayrtons)",
-      "quantity": 498,
+      "quantity": 494,
       "costPrice": "31.19",
       "sellingPrice": "44.0",
       "id": 35
@@ -18489,6 +18489,62 @@
       "momo": false,
       "salesPerson": "Dickson",
       "id": 1054
+    },
+    {
+      "itemName": "pure codliver oil syr 150ml (ayrtons)",
+      "quantity": 498,
+      "costPrice": 31.19,
+      "sellingPrice": 44,
+      "bought": 2,
+      "totalCost": 88,
+      "quantityRemain": 496,
+      "date": "2023-04-20",
+      "time": "23:11:34.649Z",
+      "momo": false,
+      "salesPerson": "Derick",
+      "id": 1055
+    },
+    {
+      "itemName": "kotidro",
+      "quantity": 5,
+      "costPrice": 32,
+      "sellingPrice": 35,
+      "bought": 5,
+      "totalCost": 175,
+      "quantityRemain": 0,
+      "date": "2023-04-20",
+      "time": "23:15:18.954Z",
+      "momo": false,
+      "salesPerson": "Derick",
+      "id": 1056
+    },
+    {
+      "itemName": "vermox tab",
+      "quantity": 470,
+      "costPrice": 12,
+      "sellingPrice": 13,
+      "bought": 3,
+      "totalCost": 39,
+      "quantityRemain": 467,
+      "date": "2023-04-24",
+      "time": "01:21:26.531Z",
+      "momo": false,
+      "salesPerson": "Derick",
+      "id": 1057
+    },
+    {
+      "itemName": "pure codliver oil syr 150ml (ayrtons)",
+      "quantity": 496,
+      "costPrice": 31.19,
+      "sellingPrice": 44,
+      "bought": 2,
+      "totalCost": 88,
+      "quantityRemain": 494,
+      "date": "2023-04-24",
+      "time": "01:21:28.419Z",
+      "momo": false,
+      "salesPerson": "Derick",
+      "id": 1058
     }
   ]
 }
