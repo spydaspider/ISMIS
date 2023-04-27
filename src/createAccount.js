@@ -9,7 +9,7 @@ const CreateAccount = () =>{
    const [passMatch, setPassMatch] = useState(true);
    const [nameTaken, setNameTaken]= useState(false);
    const history = useHistory();
-   const {data: users, isPending: isLoading, error} = useFetch('http://localhost:8050/users');
+   const {data: users, isPending: isLoading, error} = useFetch('http://localhost:7600/users');
    const handleSubmit = (e) =>{
       let count = 0;
       e.preventDefault();
@@ -39,7 +39,7 @@ const CreateAccount = () =>{
       {
          //Proceed to save the users.
          const newUsers = {username,password};
-         fetch('http://localhost:8050/users',{
+         fetch('http://localhost:7600/users',{
             method: 'POST',
             headers: {"Content-type":"Application/json"},
             body: JSON.stringify(newUsers)

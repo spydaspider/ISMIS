@@ -378,8 +378,12 @@ td{
   width: 100%;
   height: 40px;
   font-size: 18px;
-  border: 1px solid #bdbdbd;
+  border: 2px solid #bdbdbd;
   outline: none;
+}
+.item-form label{
+  color: rgb(2, 134, 2);
+  font-size: 18px;
 }
 .item-form input:hover{
   box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
@@ -712,16 +716,20 @@ td{
   padding: 0.6em;
   width: 25%;
   align-self: center;
-  background: #fff;
-  border: 2px solid #00695c;
-  color: #00695c
+  background: rgb(2, 134, 2);
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
   
 }
 .search-record:hover{
-  background: #00695c;
+  background: rgb(102, 21, 21);
   transition: background-color 1s ease-out;
   color: #fff;
- 
+  -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -ms-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
 }
 .sales{
   text-align: center;

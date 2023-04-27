@@ -10,7 +10,7 @@ import CreateBalance from './helpers/createBalance';
 import { Link } from 'react-router-dom';
 import editIcon from './images/edit-icon.png';
 const HomePage = () =>{
-    const {data: items, isPending: isLoading, error} = useFetch('http://localhost:8050/items');
+    const {data: items, isPending: isLoading, error} = useFetch('http://localhost:7600/items');
      const [showItem, setShowItem] = useState(false);
      const [showCart, setShowCart] = useState(true);
      const [payable, setPayable] = useState(false);
@@ -263,7 +263,7 @@ const HomePage = () =>{
                      setBalance(true);
                      let recordCart = Store.getLocalStorage('recordCart');
                      recordCart.forEach((ct)=>{
-                        fetch('http://localhost:8050/sales',{
+                        fetch('http://localhost:7600/sales',{
                         method: "POST",
                         headers: {"Content-type": "Application/json"},
                         body: JSON.stringify(ct)
@@ -276,7 +276,7 @@ const HomePage = () =>{
                      {
                     
                      
-                           fetch('http://localhost:8050/items/'+cart[i].id,{
+                           fetch('http://localhost:7600/items/'+cart[i].id,{
                                    method: "PATCH",
                                    headers: {"Content-type":"Application/json"},
                                    body: JSON.stringify({"quantity": cart[i].quantityRemain})
@@ -307,7 +307,7 @@ const HomePage = () =>{
                   setLessAmount(false);
                   let recordCart = Store.getLocalStorage('recordCart');
                   recordCart.forEach((ct)=>{
-                     fetch('http://localhost:8050/sales',{
+                     fetch('http://localhost:7600/sales',{
                      method: "POST",
                      headers: {"Content-type": "Application/json"},
                      body: JSON.stringify(ct)
@@ -319,7 +319,7 @@ const HomePage = () =>{
                   {
                 
                   
-                            fetch('http://localhost:8050/items/'+cart[i].id,{
+                            fetch('http://localhost:7600/items/'+cart[i].id,{
                                 method: "PATCH",
                                 headers: {"Content-type":"Application/json"},
                                 body: JSON.stringify({"quantity": cart[i].quantityRemain})

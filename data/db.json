@@ -1,3737 +1,9 @@
 {
-  "items": [
-    {
-      "itemName": "vermox tab",
-      "quantity": 467,
-      "costPrice": "12",
-      "sellingPrice": "13",
-      "id": 1
-    },
-    {
-      "itemName": "wormplex 400 tab",
-      "quantity": 490,
-      "costPrice": "5.15",
-      "sellingPrice": "8",
-      "id": 2
-    },
-    {
-      "itemName": "wormplex suspension",
-      "quantity": 496,
-      "costPrice": "5.94",
-      "sellingPrice": "9",
-      "id": 4
-    },
-    {
-      "itemName": "tanzol tab",
-      "quantity": 493,
-      "costPrice": "1.51",
-      "sellingPrice": "4",
-      "id": 5
-    },
-    {
-      "itemName": "nezben tab 200mg ty",
-      "quantity": 499,
-      "costPrice": "3.47",
-      "sellingPrice": "6",
-      "id": 6
-    },
-    {
-      "itemName": "lufart ds tab 6",
-      "quantity": 494,
-      "costPrice": "13.37",
-      "sellingPrice": "20",
-      "id": 7
-    },
-    {
-      "itemName": "p-alaxin tab",
-      "quantity": 500,
-      "costPrice": "11.88",
-      "sellingPrice": "17.0",
-      "id": 8
-    },
-    {
-      "itemName": "cartef-ds 80/480",
-      "quantity": 500,
-      "costPrice": "6",
-      "sellingPrice": "12",
-      "id": 9
-    },
-    {
-      "itemName": "cartef tab 24",
-      "quantity": 500,
-      "costPrice": "5.118",
-      "sellingPrice": "7.0",
-      "id": 10
-    },
-    {
-      "itemName": "lonart tabs 24's",
-      "quantity": 500,
-      "costPrice": "4.90",
-      "sellingPrice": "9",
-      "id": 11
-    },
-    {
-      "itemName": "lonart ds",
-      "quantity": 500,
-      "costPrice": "16.34",
-      "sellingPrice": "23",
-      "id": 12
-    },
-    {
-      "itemName": "coatem 80/400mg",
-      "quantity": 500,
-      "costPrice": "36.82",
-      "sellingPrice": "50.0",
-      "id": 13
-    },
-    {
-      "itemName": "coartem orig. 12's(novartis)",
-      "quantity": 500,
-      "costPrice": "9.255",
-      "sellingPrice": "13.0",
-      "id": 14
-    },
-    {
-      "itemName": "tanzol suspension",
-      "quantity": 500,
-      "costPrice": "1.51",
-      "sellingPrice": "4",
-      "id": 15
-    },
-    {
-      "itemName": "nessben susp 5ml",
-      "quantity": 500,
-      "costPrice": "3.94",
-      "sellingPrice": "6.0",
-      "id": 16
-    },
-    {
-      "itemName": "malar-2 ds tab",
-      "quantity": 500,
-      "costPrice": "7.90",
-      "sellingPrice": "13",
-      "id": 17
-    },
-    {
-      "itemName": "arfan 20/120 mg 24'(letap)",
-      "quantity": 500,
-      "costPrice": "3.56",
-      "sellingPrice": "6.0",
-      "id": 18
-    },
-    {
-      "itemName": "goldy malaria suspension",
-      "quantity": 500,
-      "costPrice": "7.42",
-      "sellingPrice": "12",
-      "id": 19
-    },
-    {
-      "itemName": "lufart suspension",
-      "quantity": 498,
-      "costPrice": "9.41",
-      "sellingPrice": "15",
-      "id": 20
-    },
-    {
-      "itemName": "lonart suspension",
-      "quantity": 500,
-      "costPrice": "10.40",
-      "sellingPrice": "16",
-      "id": 21
-    },
-    {
-      "itemName": "malar-2 suspension",
-      "quantity": 498,
-      "costPrice": "8.51",
-      "sellingPrice": "13",
-      "id": 22
-    },
-    {
-      "itemName": "shimether oral suspension",
-      "quantity": 500,
-      "costPrice": "14.36",
-      "sellingPrice": "22",
-      "id": 23
-    },
-    {
-      "itemName": "cartef suspension 60ml",
-      "quantity": 500,
-      "costPrice": "5.12",
-      "sellingPrice": "9",
-      "id": 24
-    },
-    {
-      "itemName": "quinine suspension 100ml",
-      "quantity": 500,
-      "costPrice": "4.55",
-      "sellingPrice": "8",
-      "id": 25
-    },
-    {
-      "itemName": "kiss condom ",
-      "quantity": 494,
-      "costPrice": "1.48",
-      "sellingPrice": "3.0",
-      "id": 26
-    },
-    {
-      "itemName": "fiesta condom",
-      "quantity": 500,
-      "costPrice": "2.83",
-      "sellingPrice": "4.0",
-      "id": 27
-    },
-    {
-      "itemName": "rough rider condom",
-      "quantity": 500,
-      "costPrice": "6.23",
-      "sellingPrice": "9.0",
-      "id": 28
-    },
-    {
-      "itemName": "dragon spray",
-      "quantity": 500,
-      "costPrice": "22.90",
-      "sellingPrice": "30.0",
-      "id": 29
-    },
-    {
-      "itemName": "dragon tabs 4",
-      "quantity": 500,
-      "costPrice": "4.73",
-      "sellingPrice": "8",
-      "id": 30
-    },
-    {
-      "itemName": "imax delay spray 8ml",
-      "quantity": 500,
-      "costPrice": "21.78",
-      "sellingPrice": "30.0",
-      "id": 31
-    },
-    {
-      "itemName": "mr q ",
-      "quantity": 500,
-      "costPrice": "4.02",
-      "sellingPrice": "6.0",
-      "id": 32
-    },
-    {
-      "itemName": "comit 50mg",
-      "quantity": 500,
-      "costPrice": "2.2",
-      "sellingPrice": "4",
-      "id": 33
-    },
-    {
-      "itemName": "bonnisan gripe water",
-      "quantity": 500,
-      "costPrice": "15.57",
-      "sellingPrice": "22",
-      "id": 34
-    },
-    {
-      "itemName": "pure codliver oil syr 150ml (ayrtons)",
-      "quantity": 494,
-      "costPrice": "31.19",
-      "sellingPrice": "44.0",
-      "id": 35
-    },
-    {
-      "itemName": "primadol syrup",
-      "quantity": 500,
-      "costPrice": "3.92",
-      "sellingPrice": "6.0",
-      "id": 36
-    },
-    {
-      "itemName": "para syr (exeter)",
-      "quantity": 500,
-      "costPrice": "4.93",
-      "sellingPrice": "9",
-      "id": 37
-    },
-    {
-      "itemName": "lydia postpill",
-      "quantity": 500,
-      "costPrice": "7.08",
-      "sellingPrice": "10.0",
-      "id": 38
-    },
-    {
-      "itemName": "levon-2",
-      "quantity": 500,
-      "costPrice": "5.92",
-      "sellingPrice": "8.0",
-      "id": 39
-    },
-    {
-      "itemName": "dexatrol eye drop",
-      "quantity": 500,
-      "costPrice": "12.02",
-      "sellingPrice": "17.0",
-      "id": 40
-    },
-    {
-      "itemName": "neo-hycolex eye drop 5ml",
-      "quantity": 500,
-      "costPrice": "14.85",
-      "sellingPrice": "21",
-      "id": 41
-    },
-    {
-      "itemName": "cool eyes drop",
-      "quantity": 500,
-      "costPrice": "14.06",
-      "sellingPrice": "20.0",
-      "id": 42
-    },
-    {
-      "itemName": "ephedrine nasal drop (major)",
-      "quantity": 500,
-      "costPrice": "7.33",
-      "sellingPrice": "10.0",
-      "id": 43
-    },
-    {
-      "itemName": "sana nasal drops 10ml",
-      "quantity": 500,
-      "costPrice": "2.71",
-      "sellingPrice": "4.0",
-      "id": 44
-    },
-    {
-      "itemName": "genta eye/eardrops(hova)",
-      "quantity": 500,
-      "costPrice": "1.64",
-      "sellingPrice": "4.0",
-      "id": 45
-    },
-    {
-      "itemName": "normo tears eye drop",
-      "quantity": 500,
-      "costPrice": "16.73",
-      "sellingPrice": "24",
-      "id": 46
-    },
-    {
-      "itemName": "ciprolex eye & ear drop",
-      "quantity": 500,
-      "costPrice": "9.90",
-      "sellingPrice": "14.0",
-      "id": 47
-    },
-    {
-      "itemName": "refresh tears drop",
-      "quantity": 500,
-      "costPrice": "46.78",
-      "sellingPrice": "65.0",
-      "id": 48
-    },
-    {
-      "itemName": "se'clear eye drop",
-      "quantity": 500,
-      "costPrice": "7.92",
-      "sellingPrice": "11.0",
-      "id": 49
-    },
-    {
-      "itemName": "nostamine e/n drops",
-      "quantity": 500,
-      "costPrice": "13.85",
-      "sellingPrice": "19.0",
-      "id": 50
-    },
-    {
-      "itemName": "epicrom eye drop 2%",
-      "quantity": 500,
-      "costPrice": "14.74",
-      "sellingPrice": "20.0",
-      "id": 51
-    },
-    {
-      "itemName": "auntie mary gripe water 160ml",
-      "quantity": 500,
-      "costPrice": "7.8",
-      "sellingPrice": "11.0",
-      "id": 52
-    },
-    {
-      "itemName": "alpha garlic capsules ",
-      "quantity": 500,
-      "costPrice": "12.87",
-      "sellingPrice": "18",
-      "id": 53
-    },
-    {
-      "itemName": "ayulabs gripe water(promotion)",
-      "quantity": 500,
-      "costPrice": "7",
-      "sellingPrice": "9.0",
-      "id": 54
-    },
-    {
-      "itemName": "amiclox susp.(ecl)",
-      "quantity": 500,
-      "costPrice": "4.92",
-      "sellingPrice": "7.0",
-      "id": 55
-    },
-    {
-      "itemName": "cotri sus (m&g)",
-      "quantity": 500,
-      "costPrice": "3.59",
-      "sellingPrice": "5.0",
-      "id": 56
-    },
-    {
-      "itemName": "enamycin sus(ecl)",
-      "quantity": 500,
-      "costPrice": "5.54",
-      "sellingPrice": "8.0",
-      "id": 57
-    },
-    {
-      "itemName": "enacef suspension",
-      "quantity": 500,
-      "costPrice": "11.86",
-      "sellingPrice": "17.0",
-      "id": 58
-    },
-    {
-      "itemName": "enafix susp 100ml",
-      "quantity": 500,
-      "costPrice": "15.82",
-      "sellingPrice": "21.0",
-      "id": 59
-    },
-    {
-      "itemName": "amoxyl susp letap",
-      "quantity": 500,
-      "costPrice": "2.32",
-      "sellingPrice": "5.0",
-      "id": 60
-    },
-    {
-      "itemName": "exoclav susp 228mg",
-      "quantity": 500,
-      "costPrice": "8.50",
-      "sellingPrice": "12.0",
-      "id": 61
-    },
-    {
-      "itemName": "emgiflox susp",
-      "quantity": 500,
-      "costPrice": "3.92",
-      "sellingPrice": "6.0",
-      "id": 62
-    },
-    {
-      "itemName": "fluxacin susp 100ml",
-      "quantity": 500,
-      "costPrice": "6.44",
-      "sellingPrice": "9.0",
-      "id": 63
-    },
-    {
-      "itemName": "penflox sus(gr)",
-      "quantity": 500,
-      "costPrice": "4.16",
-      "sellingPrice": "6.0",
-      "id": 64
-    },
-    {
-      "itemName": "aziron 500mg tabs",
-      "quantity": 500,
-      "costPrice": "6.78",
-      "sellingPrice": "10.0",
-      "id": 65
-    },
-    {
-      "itemName": "azirocin tab",
-      "quantity": 500,
-      "costPrice": "5.35",
-      "sellingPrice": "8.0",
-      "id": 66
-    },
-    {
-      "itemName": "azilex 200mg suspension 15ml",
-      "quantity": 500,
-      "costPrice": "14",
-      "sellingPrice": "20.0",
-      "id": 67
-    },
-    {
-      "itemName": "azirocin suspension ",
-      "quantity": 500,
-      "costPrice": "6.72",
-      "sellingPrice": "10.0",
-      "id": 68
-    },
-    {
-      "itemName": "metagyl tab 200mg 500'",
-      "quantity": 500,
-      "costPrice": "0.05",
-      "sellingPrice": "1.0",
-      "id": 69
-    },
-    {
-      "itemName": "contra 72 (1)",
-      "quantity": 500,
-      "costPrice": "1.96",
-      "sellingPrice": "5.0",
-      "id": 70
-    },
-    {
-      "itemName": "borges cider vineger 355ml",
-      "quantity": 500,
-      "costPrice": "11.88",
-      "sellingPrice": "16.0",
-      "id": 71
-    },
-    {
-      "itemName": "accurate pregnancy test cassette",
-      "quantity": 500,
-      "costPrice": "1.20",
-      "sellingPrice": "5.0",
-      "id": 72
-    },
-    {
-      "itemName": "omega oil 50ml",
-      "quantity": 500,
-      "costPrice": "7",
-      "sellingPrice": "10.0",
-      "id": 73
-    },
-    {
-      "itemName": "borges 250ml",
-      "quantity": 500,
-      "costPrice": "18.81",
-      "sellingPrice": "28.5",
-      "id": 74
-    },
-    {
-      "itemName": "borges 125ml",
-      "quantity": 500,
-      "costPrice": "10.89",
-      "sellingPrice": "16.5",
-      "id": 75
-    },
-    {
-      "itemName": "savlon antisep.250ml (orange)",
-      "quantity": 500,
-      "costPrice": "12.52",
-      "sellingPrice": "20",
-      "id": 76
-    },
-    {
-      "itemName": "savlon 125ml (j&j)",
-      "quantity": 500,
-      "costPrice": "9.26",
-      "sellingPrice": "15",
-      "id": 77
-    },
-    {
-      "itemName": "savlon antisept.500ml",
-      "quantity": 500,
-      "costPrice": "22.60",
-      "sellingPrice": "30.0",
-      "id": 78
-    },
-    {
-      "itemName": "dettol 250ml",
-      "quantity": 500,
-      "costPrice": "19.80",
-      "sellingPrice": "28",
-      "id": 79
-    },
-    {
-      "itemName": "dettol 500ml",
-      "quantity": 500,
-      "costPrice": "27.23",
-      "sellingPrice": "33",
-      "id": 80
-    },
-    {
-      "itemName": "camel 250ml",
-      "quantity": 500,
-      "costPrice": "10.77",
-      "sellingPrice": "18",
-      "id": 81
-    },
-    {
-      "itemName": "camel 125ml",
-      "quantity": 500,
-      "costPrice": "8.98",
-      "sellingPrice": "17",
-      "id": 82
-    },
-    {
-      "itemName": "eskypan 10x10 ",
-      "quantity": 500,
-      "costPrice": "3.33",
-      "sellingPrice": "5.0",
-      "id": 83
-    },
-    {
-      "itemName": "morgan's anti bacteria soap 80g",
-      "quantity": 500,
-      "costPrice": "6.53",
-      "sellingPrice": "10.0",
-      "id": 84
-    },
-    {
-      "itemName": "dettol soap (twin pack) 200g",
-      "quantity": 500,
-      "costPrice": "9.90",
-      "sellingPrice": "7",
-      "id": 85
-    },
-    {
-      "itemName": "salicylic acid soap",
-      "quantity": 500,
-      "costPrice": "13.85",
-      "sellingPrice": "19.0",
-      "id": 86
-    },
-    {
-      "itemName": "m.m.t",
-      "quantity": 500,
-      "costPrice": "2.72",
-      "sellingPrice": "6",
-      "id": 87
-    },
-    {
-      "itemName": "nugel o susp",
-      "quantity": 500,
-      "costPrice": "18.54",
-      "sellingPrice": "26",
-      "id": 88
-    },
-    {
-      "itemName": "nugel susp",
-      "quantity": 500,
-      "costPrice": "15.30",
-      "sellingPrice": "23",
-      "id": 89
-    },
-    {
-      "itemName": "gastrone syrup 200ml",
-      "quantity": 500,
-      "costPrice": "9.21",
-      "sellingPrice": "15",
-      "id": 90
-    },
-    {
-      "itemName": "magacid susp 200ml",
-      "quantity": 500,
-      "costPrice": "7.29",
-      "sellingPrice": "12",
-      "id": 91
-    },
-    {
-      "itemName": "klire antacid susp b/s",
-      "quantity": 500,
-      "costPrice": "13.37",
-      "sellingPrice": "20",
-      "id": 92
-    },
-    {
-      "itemName": "martins liver salt",
-      "quantity": 500,
-      "costPrice": "0.40",
-      "sellingPrice": "1.0",
-      "id": 93
-    },
-    {
-      "itemName": "no. 10 liver salt",
-      "quantity": 500,
-      "costPrice": "0.70",
-      "sellingPrice": "1",
-      "id": 94
-    },
-    {
-      "itemName": "glucose orange (let)",
-      "quantity": 500,
-      "costPrice": "4.64",
-      "sellingPrice": "7.0",
-      "id": 95
-    },
-    {
-      "itemName": "mist sennaco",
-      "quantity": 500,
-      "costPrice": "2.72",
-      "sellingPrice": "6",
-      "id": 96
-    },
-    {
-      "itemName": "sevenseas syr",
-      "quantity": 500,
-      "costPrice": "28.07",
-      "sellingPrice": "39.0",
-      "id": 97
-    },
-    {
-      "itemName": "teeder ",
-      "quantity": 500,
-      "costPrice": "6.98",
-      "sellingPrice": "10.0",
-      "id": 98
-    },
-    {
-      "itemName": "enafen susp 60ml",
-      "quantity": 500,
-      "costPrice": "4.16",
-      "sellingPrice": "6.0",
-      "id": 99
-    },
-    {
-      "itemName": "calpol susp 6+ syrup",
-      "quantity": 500,
-      "costPrice": "33.52",
-      "sellingPrice": "46.0",
-      "id": 100
-    },
-    {
-      "itemName": "efpac jnr syr 100ml",
-      "quantity": 500,
-      "costPrice": "7.08",
-      "sellingPrice": "10",
-      "id": 101
-    },
-    {
-      "itemName": "paraking syr",
-      "quantity": 500,
-      "costPrice": "3.76",
-      "sellingPrice": "6.0",
-      "id": 102
-    },
-    {
-      "itemName": "teething mixure (ecl)",
-      "quantity": 500,
-      "costPrice": "5.92",
-      "sellingPrice": "10",
-      "id": 103
-    },
-    {
-      "itemName": "teething mixture (bels)",
-      "quantity": 500,
-      "costPrice": "18.12",
-      "sellingPrice": "25.0",
-      "id": 104
-    },
-    {
-      "itemName": "cetrizan syr 60ml",
-      "quantity": 500,
-      "costPrice": "5.37",
-      "sellingPrice": "7.5",
-      "id": 105
-    },
-    {
-      "itemName": "rhizin tab ",
-      "quantity": 500,
-      "costPrice": "4.95",
-      "sellingPrice": "2",
-      "id": 106
-    },
-    {
-      "itemName": "piriton tab (gsk)",
-      "quantity": 500,
-      "costPrice": "29.40",
-      "sellingPrice": "41.0",
-      "id": 107
-    },
-    {
-      "itemName": "promethazine syr 60ml",
-      "quantity": 500,
-      "costPrice": "2.56",
-      "sellingPrice": "6",
-      "id": 108
-    },
-    {
-      "itemName": "asmadrin tab",
-      "quantity": 500,
-      "costPrice": "13.86",
-      "sellingPrice": "20.0",
-      "id": 109
-    },
-    {
-      "itemName": "asmanol tab",
-      "quantity": 500,
-      "costPrice": "13.84",
-      "sellingPrice": "20.0",
-      "id": 110
-    },
-    {
-      "itemName": "colodium caps",
-      "quantity": 500,
-      "costPrice": "1.6",
-      "sellingPrice": "2.5",
-      "id": 111
-    },
-    {
-      "itemName": "kalamina lotion 120ml",
-      "quantity": 500,
-      "costPrice": "6.14",
-      "sellingPrice": "9.0",
-      "id": 112
-    },
-    {
-      "itemName": "drez oint 30g",
-      "quantity": 500,
-      "costPrice": "14.59",
-      "sellingPrice": "20.5",
-      "id": 113
-    },
-    {
-      "itemName": "drez powder",
-      "quantity": 500,
-      "costPrice": "6.85",
-      "sellingPrice": "10.0",
-      "id": 114
-    },
-    {
-      "itemName": "drez solution 30ml",
-      "quantity": 500,
-      "costPrice": "7.48",
-      "sellingPrice": "10.5",
-      "id": 115
-    },
-    {
-      "itemName": "mycolex powder",
-      "quantity": 500,
-      "costPrice": "19.80",
-      "sellingPrice": "28.0",
-      "id": 116
-    },
-    {
-      "itemName": "methylated spirit",
-      "quantity": 500,
-      "costPrice": "2.02",
-      "sellingPrice": "3.0",
-      "id": 117
-    },
-    {
-      "itemName": "gv paint ",
-      "quantity": 500,
-      "costPrice": "1.64",
-      "sellingPrice": "3.0",
-      "id": 118
-    },
-    {
-      "itemName": "hydrogen (ecl)",
-      "quantity": 500,
-      "costPrice": "4.95",
-      "sellingPrice": "8",
-      "id": 119
-    },
-    {
-      "itemName": "listerine 250ml",
-      "quantity": 500,
-      "costPrice": "15.35",
-      "sellingPrice": "22.0",
-      "id": 120
-    },
-    {
-      "itemName": "tcp (uk) 50ml",
-      "quantity": 500,
-      "costPrice": "30.51",
-      "sellingPrice": "43.0",
-      "id": 121
-    },
-    {
-      "itemName": "kamaclox mouth wash 300ml",
-      "quantity": 500,
-      "costPrice": "8.34",
-      "sellingPrice": "12.0",
-      "id": 122
-    },
-    {
-      "itemName": "polar ice l/s 227g",
-      "quantity": 500,
-      "costPrice": "14.85",
-      "sellingPrice": "21",
-      "id": 123
-    },
-    {
-      "itemName": "gacet supp 250mg",
-      "quantity": 500,
-      "costPrice": "0.6",
-      "sellingPrice": "1",
-      "id": 124
-    },
-    {
-      "itemName": "gacet supp 125mg ",
-      "quantity": 500,
-      "costPrice": "0.4",
-      "sellingPrice": "1",
-      "id": 125
-    },
-    {
-      "itemName": "contra 72",
-      "quantity": 500,
-      "costPrice": "1.96",
-      "sellingPrice": "5.0",
-      "id": 126
-    },
-    {
-      "itemName": "borges cider vinegar 355ml",
-      "quantity": 500,
-      "costPrice": "11.88",
-      "sellingPrice": "15.0",
-      "id": 127
-    },
-    {
-      "itemName": "accurate pregnancy test cassete",
-      "quantity": 500,
-      "costPrice": "1.2",
-      "sellingPrice": "5.0",
-      "id": 128
-    },
-    {
-      "itemName": "vomi 10mg ",
-      "quantity": 500,
-      "costPrice": "2.07",
-      "sellingPrice": "3.0",
-      "id": 129
-    },
-    {
-      "itemName": "vomi 30mg",
-      "quantity": 500,
-      "costPrice": "1.98",
-      "sellingPrice": "3.0",
-      "id": 130
-    },
-    {
-      "itemName": "diclo denk 100mg supp",
-      "quantity": 500,
-      "costPrice": "2.24",
-      "sellingPrice": "3.5",
-      "id": 131
-    },
-    {
-      "itemName": "anusol supp 12's ",
-      "quantity": 500,
-      "costPrice": "2.9",
-      "sellingPrice": "4.0",
-      "id": 132
-    },
-    {
-      "itemName": "ganymol 500mg supp 10'",
-      "quantity": 500,
-      "costPrice": "1.1",
-      "sellingPrice": "1.5",
-      "id": 133
-    },
-    {
-      "itemName": "top tonic",
-      "quantity": 500,
-      "costPrice": "10.5",
-      "sellingPrice": "14.0",
-      "id": 134
-    },
-    {
-      "itemName": "lowcare",
-      "quantity": 500,
-      "costPrice": "15",
-      "sellingPrice": "19.5",
-      "id": 135
-    },
-    {
-      "itemName": "taabea mix",
-      "quantity": 500,
-      "costPrice": "13",
-      "sellingPrice": "17",
-      "id": 136
-    },
-    {
-      "itemName": "rooter mixture",
-      "quantity": 500,
-      "costPrice": "8",
-      "sellingPrice": "11",
-      "id": 137
-    },
-    {
-      "itemName": "rooter tytonic",
-      "quantity": 500,
-      "costPrice": "14.5",
-      "sellingPrice": "21",
-      "id": 138
-    },
-    {
-      "itemName": "diagellates 125ml",
-      "quantity": 500,
-      "costPrice": "12.5",
-      "sellingPrice": "16.0",
-      "id": 139
-    },
-    {
-      "itemName": "diagellate 500",
-      "quantity": 500,
-      "costPrice": "35.5",
-      "sellingPrice": "46.0",
-      "id": 140
-    },
-    {
-      "itemName": "diagellates 250",
-      "quantity": 500,
-      "costPrice": "20.5",
-      "sellingPrice": "27.0",
-      "id": 141
-    },
-    {
-      "itemName": "masada syr",
-      "quantity": 500,
-      "costPrice": "10.50",
-      "sellingPrice": "15",
-      "id": 142
-    },
-    {
-      "itemName": "living bitters capsule",
-      "quantity": 500,
-      "costPrice": "20.15",
-      "sellingPrice": "27.0",
-      "id": 143
-    },
-    {
-      "itemName": "living s/s bitters",
-      "quantity": 500,
-      "costPrice": "16.62",
-      "sellingPrice": "22.0",
-      "id": 144
-    },
-    {
-      "itemName": "sparnis garlic bitters ",
-      "quantity": 500,
-      "costPrice": "10.50",
-      "sellingPrice": "14.0",
-      "id": 145
-    },
-    {
-      "itemName": "agbeve pheveh",
-      "quantity": 500,
-      "costPrice": "8",
-      "sellingPrice": "12",
-      "id": 146
-    },
-    {
-      "itemName": "agbeve tonic",
-      "quantity": 500,
-      "costPrice": "8",
-      "sellingPrice": "12",
-      "id": 147
-    },
-    {
-      "itemName": "adom koo caps",
-      "quantity": 500,
-      "costPrice": "13.5",
-      "sellingPrice": "19",
-      "id": 148
-    },
-    {
-      "itemName": "lucky v  care",
-      "quantity": 500,
-      "costPrice": "15",
-      "sellingPrice": "23",
-      "id": 149
-    },
-    {
-      "itemName": "franko herbal mixture",
-      "quantity": 500,
-      "costPrice": "15",
-      "sellingPrice": "21",
-      "id": 150
-    },
-    {
-      "itemName": "sibi men power caps",
-      "quantity": 500,
-      "costPrice": "12",
-      "sellingPrice": "19",
-      "id": 151
-    },
-    {
-      "itemName": "sibi women",
-      "quantity": 500,
-      "costPrice": "12",
-      "sellingPrice": "19",
-      "id": 152
-    },
-    {
-      "itemName": "pylin caps",
-      "quantity": 500,
-      "costPrice": "40",
-      "sellingPrice": "55",
-      "id": 153
-    },
-    {
-      "itemName": "pilief tab 60",
-      "quantity": 500,
-      "costPrice": "23",
-      "sellingPrice": "35",
-      "id": 154
-    },
-    {
-      "itemName": "tinatet venecare",
-      "quantity": 500,
-      "costPrice": "22",
-      "sellingPrice": "30",
-      "id": 155
-    },
-    {
-      "itemName": "givers koo caps",
-      "quantity": 500,
-      "costPrice": "21",
-      "sellingPrice": "27.0",
-      "id": 156
-    },
-    {
-      "itemName": "mist pot cit 200ml",
-      "quantity": 500,
-      "costPrice": "2.8",
-      "sellingPrice": "6",
-      "id": 157
-    },
-    {
-      "itemName": "gifas mix",
-      "quantity": 500,
-      "costPrice": "13",
-      "sellingPrice": "14.0",
-      "id": 158
-    },
-    {
-      "itemName": "adutwumwaa bitters",
-      "quantity": 500,
-      "costPrice": "8.2",
-      "sellingPrice": "12",
-      "id": 159
-    },
-    {
-      "itemName": "roll plaster ",
-      "quantity": 500,
-      "costPrice": "8",
-      "sellingPrice": "10.5",
-      "id": 160
-    },
-    {
-      "itemName": "madam catherine",
-      "quantity": 500,
-      "costPrice": "8.5",
-      "sellingPrice": "13",
-      "id": 161
-    },
-    {
-      "itemName": "kingdom garlic bitters",
-      "quantity": 500,
-      "costPrice": "15",
-      "sellingPrice": "21",
-      "id": 162
-    },
-    {
-      "itemName": "father martin",
-      "quantity": 500,
-      "costPrice": "11.5",
-      "sellingPrice": "15.0",
-      "id": 163
-    },
-    {
-      "itemName": "prostajoy caps",
-      "quantity": 500,
-      "costPrice": "29",
-      "sellingPrice": "40",
-      "id": 164
-    },
-    {
-      "itemName": "gana man caps",
-      "quantity": 500,
-      "costPrice": "30",
-      "sellingPrice": "40",
-      "id": 165
-    },
-    {
-      "itemName": "mist sennaco 200ml",
-      "quantity": 500,
-      "costPrice": "2.8",
-      "sellingPrice": "4.0",
-      "id": 166
-    },
-    {
-      "itemName": "wellman caps ",
-      "quantity": 500,
-      "costPrice": "64.58",
-      "sellingPrice": "84.0",
-      "id": 167
-    },
-    {
-      "itemName": "perfectil plus",
-      "quantity": 500,
-      "costPrice": "141.54",
-      "sellingPrice": "198.0",
-      "id": 168
-    },
-    {
-      "itemName": "vitafol cap",
-      "quantity": 500,
-      "costPrice": "8.17",
-      "sellingPrice": "11.5",
-      "id": 169
-    },
-    {
-      "itemName": "b-co strong 30's (krka)",
-      "quantity": 500,
-      "costPrice": "27.23",
-      "sellingPrice": "38.0",
-      "id": 170
-    },
-    {
-      "itemName": "valupak vit e 400iu",
-      "quantity": 500,
-      "costPrice": "21.78",
-      "sellingPrice": "30.0",
-      "id": 171
-    },
-    {
-      "itemName": "spemen tab",
-      "quantity": 500,
-      "costPrice": "39.89",
-      "sellingPrice": "56.0",
-      "id": 172
-    },
-    {
-      "itemName": "omega h3 cap",
-      "quantity": 500,
-      "costPrice": "47.68",
-      "sellingPrice": "67.3",
-      "id": 173
-    },
-    {
-      "itemName": "proman caps 30's",
-      "quantity": 500,
-      "costPrice": "31.65",
-      "sellingPrice": "45",
-      "id": 174
-    },
-    {
-      "itemName": "pro woman caps 30's",
-      "quantity": 500,
-      "costPrice": "38.58",
-      "sellingPrice": "54.0",
-      "id": 175
-    },
-    {
-      "itemName": "ovacare tabs 30's",
-      "quantity": 500,
-      "costPrice": "20.79",
-      "sellingPrice": "29.5",
-      "id": 176
-    },
-    {
-      "itemName": "ginsomin caps",
-      "quantity": 500,
-      "costPrice": "44.35",
-      "sellingPrice": "62.0",
-      "id": 177
-    },
-    {
-      "itemName": "ginsomin eve",
-      "quantity": 500,
-      "costPrice": "50.09",
-      "sellingPrice": "74.0",
-      "id": 178
-    },
-    {
-      "itemName": "pregnacare 19",
-      "quantity": 500,
-      "costPrice": "54.30",
-      "sellingPrice": "76.0",
-      "id": 179
-    },
-    {
-      "itemName": "enat 400iu caps",
-      "quantity": 500,
-      "costPrice": "38.69",
-      "sellingPrice": "55.0",
-      "id": 180
-    },
-    {
-      "itemName": "nat-b caps",
-      "quantity": 500,
-      "costPrice": "40.58",
-      "sellingPrice": "57.0",
-      "id": 181
-    },
-    {
-      "itemName": "ostecare tab(uk)",
-      "quantity": 500,
-      "costPrice": "27.81",
-      "sellingPrice": "39.0",
-      "id": 182
-    },
-    {
-      "itemName": "ideos ",
-      "quantity": 500,
-      "costPrice": "50.49",
-      "sellingPrice": "70.0",
-      "id": 183
-    },
-    {
-      "itemName": "m2 tone tab 20's",
-      "quantity": 500,
-      "costPrice": "51.48",
-      "sellingPrice": "72.0",
-      "id": 184
-    },
-    {
-      "itemName": "prostat 60mg 10's",
-      "quantity": 500,
-      "costPrice": "29.70",
-      "sellingPrice": "42.0",
-      "id": 185
-    },
-    {
-      "itemName": "prostat 60mg 30's",
-      "quantity": 500,
-      "costPrice": "89.09",
-      "sellingPrice": "124.6",
-      "id": 186
-    },
-    {
-      "itemName": "feroglobin",
-      "quantity": 500,
-      "costPrice": "38.63",
-      "sellingPrice": "54",
-      "id": 187
-    },
-    {
-      "itemName": "feroglobin cap",
-      "quantity": 500,
-      "costPrice": "38.12",
-      "sellingPrice": "53.0",
-      "id": 188
-    },
-    {
-      "itemName": "ferodex syr",
-      "quantity": 500,
-      "costPrice": "5.74",
-      "sellingPrice": "8.5",
-      "id": 189
-    },
-    {
-      "itemName": "polyfer syr 200ml",
-      "quantity": 500,
-      "costPrice": "5.69",
-      "sellingPrice": "10",
-      "id": 190
-    },
-    {
-      "itemName": "polyfer caps",
-      "quantity": 500,
-      "costPrice": "4.35",
-      "sellingPrice": "7",
-      "id": 191
-    },
-    {
-      "itemName": "zincofer syr",
-      "quantity": 500,
-      "costPrice": "13.55",
-      "sellingPrice": "17.0",
-      "id": 192
-    },
-    {
-      "itemName": "zincofer caps ",
-      "quantity": 500,
-      "costPrice": "14.60",
-      "sellingPrice": "21.0",
-      "id": 193
-    },
-    {
-      "itemName": "nexcofer syr l/s",
-      "quantity": 500,
-      "costPrice": "8.22",
-      "sellingPrice": "12.0",
-      "id": 194
-    },
-    {
-      "itemName": "nescofer caps",
-      "quantity": 500,
-      "costPrice": "5.34",
-      "sellingPrice": "8",
-      "id": 195
-    },
-    {
-      "itemName": "durol tonic 200ml",
-      "quantity": 500,
-      "costPrice": "8.61",
-      "sellingPrice": "12",
-      "id": 196
-    },
-    {
-      "itemName": "durol syr 300ml",
-      "quantity": 500,
-      "costPrice": "9.11",
-      "sellingPrice": "13.0",
-      "id": 197
-    },
-    {
-      "itemName": "foliron syr (letap)",
-      "quantity": 500,
-      "costPrice": "3.98",
-      "sellingPrice": "6.0",
-      "id": 198
-    },
-    {
-      "itemName": "finelife tonic",
-      "quantity": 500,
-      "costPrice": "6.20",
-      "sellingPrice": "9.0",
-      "id": 199
-    },
-    {
-      "itemName": "haemo forte 200ml",
-      "quantity": 500,
-      "costPrice": "16.36",
-      "sellingPrice": "23.0",
-      "id": 200
-    },
-    {
-      "itemName": "feroclear syr 200ml",
-      "quantity": 500,
-      "costPrice": "18.60",
-      "sellingPrice": "26.0",
-      "id": 201
-    },
-    {
-      "itemName": "foligrow syrup",
-      "quantity": 500,
-      "costPrice": "19.82",
-      "sellingPrice": "28.0",
-      "id": 202
-    },
-    {
-      "itemName": "foligrow caps ",
-      "quantity": 500,
-      "costPrice": "14.85",
-      "sellingPrice": "21.0",
-      "id": 203
-    },
-    {
-      "itemName": "city blood tonic 200ml",
-      "quantity": 500,
-      "costPrice": "7.90",
-      "sellingPrice": "11.0",
-      "id": 204
-    },
-    {
-      "itemName": "virol tonic ",
-      "quantity": 500,
-      "costPrice": "6.78",
-      "sellingPrice": "10.0",
-      "id": 205
-    },
-    {
-      "itemName": "jarifan 2 syrup",
-      "quantity": 500,
-      "costPrice": "12.16",
-      "sellingPrice": "17.0",
-      "id": 206
-    },
-    {
-      "itemName": "bioferon syrup",
-      "quantity": 500,
-      "costPrice": "19.75",
-      "sellingPrice": "28.0",
-      "id": 207
-    },
-    {
-      "itemName": "bioferon cap",
-      "quantity": 500,
-      "costPrice": "17.32",
-      "sellingPrice": "24.0",
-      "id": 208
-    },
-    {
-      "itemName": "rescofer syrup",
-      "quantity": 500,
-      "costPrice": "17.32",
-      "sellingPrice": "24.0",
-      "id": 209
-    },
-    {
-      "itemName": "neoferon syrup 200ml",
-      "quantity": 500,
-      "costPrice": "10.87",
-      "sellingPrice": "15.0",
-      "id": 210
-    },
-    {
-      "itemName": "tot'hema",
-      "quantity": 500,
-      "costPrice": "2.3",
-      "sellingPrice": "20",
-      "id": 211
-    },
-    {
-      "itemName": "haemoglobin syrup letap",
-      "quantity": 500,
-      "costPrice": "3.53",
-      "sellingPrice": "5.0",
-      "id": 212
-    },
-    {
-      "itemName": "haemoglobin syr (ayrton)",
-      "quantity": 500,
-      "costPrice": "4.41",
-      "sellingPrice": "6.0",
-      "id": 213
-    },
-    {
-      "itemName": "haemoglobin syrup m & g",
-      "quantity": 500,
-      "costPrice": "5.18",
-      "sellingPrice": "7.0",
-      "id": 214
-    },
-    {
-      "itemName": "magnavit syrup",
-      "quantity": 500,
-      "costPrice": "7.67",
-      "sellingPrice": "11.0",
-      "id": 215
-    },
-    {
-      "itemName": "glo power syrup",
-      "quantity": 500,
-      "costPrice": "11.06",
-      "sellingPrice": "15.0",
-      "id": 216
-    },
-    {
-      "itemName": "glo power caps",
-      "quantity": 500,
-      "costPrice": "9.80",
-      "sellingPrice": "14.0",
-      "id": 217
-    },
-    {
-      "itemName": "apeti syrup geo",
-      "quantity": 500,
-      "costPrice": "11.06",
-      "sellingPrice": "20.0",
-      "id": 218
-    },
-    {
-      "itemName": "super apeti plus tab",
-      "quantity": 500,
-      "costPrice": "1.51",
-      "sellingPrice": "2.0",
-      "id": 219
-    },
-    {
-      "itemName": "bonaplex syrup 200ml",
-      "quantity": 500,
-      "costPrice": "15.80",
-      "sellingPrice": "22.0",
-      "id": 220
-    },
-    {
-      "itemName": "cyprodin caps 30's",
-      "quantity": 500,
-      "costPrice": "29.5",
-      "sellingPrice": "41",
-      "id": 221
-    },
-    {
-      "itemName": "cyprodin syrup",
-      "quantity": 500,
-      "costPrice": "27.23",
-      "sellingPrice": "38.0",
-      "id": 222
-    },
-    {
-      "itemName": "leena syrup",
-      "quantity": 500,
-      "costPrice": "8.28",
-      "sellingPrice": "11.0",
-      "id": 223
-    },
-    {
-      "itemName": "tres orix syr 250ml l/s",
-      "quantity": 500,
-      "costPrice": "19.85",
-      "sellingPrice": "28.0",
-      "id": 224
-    },
-    {
-      "itemName": "becoactin tab",
-      "quantity": 500,
-      "costPrice": "9.90",
-      "sellingPrice": "14.0",
-      "id": 225
-    },
-    {
-      "itemName": "heptopep syr",
-      "quantity": 500,
-      "costPrice": "15.25",
-      "sellingPrice": "21.0",
-      "id": 226
-    },
-    {
-      "itemName": "dynewell syr",
-      "quantity": 500,
-      "costPrice": "3.38",
-      "sellingPrice": "5.0",
-      "id": 227
-    },
-    {
-      "itemName": "gudapet syr",
-      "quantity": 500,
-      "costPrice": "7.08",
-      "sellingPrice": "10.0",
-      "id": 228
-    },
-    {
-      "itemName": "zincovit syrup",
-      "quantity": 500,
-      "costPrice": "14.05",
-      "sellingPrice": "20.0",
-      "id": 229
-    },
-    {
-      "itemName": "zincovit tab",
-      "quantity": 500,
-      "costPrice": "18.16",
-      "sellingPrice": "27.0",
-      "id": 230
-    },
-    {
-      "itemName": "cyfen syr",
-      "quantity": 500,
-      "costPrice": "11.67",
-      "sellingPrice": "16.0",
-      "id": 231
-    },
-    {
-      "itemName": "cororange syr",
-      "quantity": 500,
-      "costPrice": "7.82",
-      "sellingPrice": "11.0",
-      "id": 232
-    },
-    {
-      "itemName": "multivitammin tab(pharm)",
-      "quantity": 500,
-      "costPrice": "0.2",
-      "sellingPrice": "0.5",
-      "id": 233
-    },
-    {
-      "itemName": "b-co tab",
-      "quantity": 500,
-      "costPrice": "0.3",
-      "sellingPrice": "0.5",
-      "id": 234
-    },
-    {
-      "itemName": "folic acid",
-      "quantity": 500,
-      "costPrice": "0.2",
-      "sellingPrice": "0.5",
-      "id": 235
-    },
-    {
-      "itemName": "vigorix syrup 200ml",
-      "quantity": 500,
-      "costPrice": "8.59",
-      "sellingPrice": "12.0",
-      "id": 236
-    },
-    {
-      "itemName": "salo apeti syrup",
-      "quantity": 500,
-      "costPrice": "9.90",
-      "sellingPrice": "14.0",
-      "id": 237
-    },
-    {
-      "itemName": "abyvita syr",
-      "quantity": 500,
-      "costPrice": "9.07",
-      "sellingPrice": "13.0",
-      "id": 238
-    },
-    {
-      "itemName": "wellkid syrup",
-      "quantity": 500,
-      "costPrice": "57.32",
-      "sellingPrice": "80.0",
-      "id": 239
-    },
-    {
-      "itemName": "vikil 20",
-      "quantity": 500,
-      "costPrice": "25.13",
-      "sellingPrice": "37",
-      "id": 240
-    },
-    {
-      "itemName": "prokid drops",
-      "quantity": 500,
-      "costPrice": "5.92",
-      "sellingPrice": "8.5",
-      "id": 241
-    },
-    {
-      "itemName": "abidec drop",
-      "quantity": 500,
-      "costPrice": "26.17",
-      "sellingPrice": "36.0",
-      "id": 242
-    },
-    {
-      "itemName": "ascoryl syr 125ml",
-      "quantity": 500,
-      "costPrice": "6.97",
-      "sellingPrice": "10",
-      "id": 243
-    },
-    {
-      "itemName": "ascovite cee syr 100ml",
-      "quantity": 500,
-      "costPrice": "6.24",
-      "sellingPrice": "9.0",
-      "id": 244
-    },
-    {
-      "itemName": "zincovit drop",
-      "quantity": 500,
-      "costPrice": "6.98",
-      "sellingPrice": "10.0",
-      "id": 245
-    },
-    {
-      "itemName": "lavet ",
-      "quantity": 500,
-      "costPrice": "15.25",
-      "sellingPrice": "22",
-      "id": 246
-    },
-    {
-      "itemName": "v/ firm cream",
-      "quantity": 500,
-      "costPrice": "16.87",
-      "sellingPrice": "24.0",
-      "id": 247
-    },
-    {
-      "itemName": "infa v pess",
-      "quantity": 500,
-      "costPrice": "18.81",
-      "sellingPrice": "27.0",
-      "id": 248
-    },
-    {
-      "itemName": "gogynax cream 30g ",
-      "quantity": 500,
-      "costPrice": "4.06",
-      "sellingPrice": "6",
-      "id": 249
-    },
-    {
-      "itemName": "gogynox tab",
-      "quantity": 500,
-      "costPrice": "3.47",
-      "sellingPrice": "5.0",
-      "id": 250
-    },
-    {
-      "itemName": "vaginax cream",
-      "quantity": 500,
-      "costPrice": "3.78",
-      "sellingPrice": "6.0",
-      "id": 251
-    },
-    {
-      "itemName": "vaginax vag tab 6'",
-      "quantity": 500,
-      "costPrice": "2.67",
-      "sellingPrice": "5.0",
-      "id": 252
-    },
-    {
-      "itemName": "gynomycolex pess",
-      "quantity": 500,
-      "costPrice": "25",
-      "sellingPrice": "18",
-      "id": 253
-    },
-    {
-      "itemName": "candiderm cream 15mg",
-      "quantity": 500,
-      "costPrice": "7.95",
-      "sellingPrice": "11.0",
-      "id": 254
-    },
-    {
-      "itemName": "candid v3 pess",
-      "quantity": 500,
-      "costPrice": "8.94",
-      "sellingPrice": "13.0",
-      "id": 255
-    },
-    {
-      "itemName": "candid v6 pess 6'",
-      "quantity": 500,
-      "costPrice": "7.58",
-      "sellingPrice": "11.0",
-      "id": 256
-    },
-    {
-      "itemName": "asnac 75ml",
-      "quantity": 500,
-      "costPrice": "4.94",
-      "sellingPrice": "7.0",
-      "id": 257
-    },
-    {
-      "itemName": "dymol tab",
-      "quantity": 500,
-      "costPrice": "3.57",
-      "sellingPrice": "6.0",
-      "id": 258
-    },
-    {
-      "itemName": "paingay2.8",
-      "quantity": 500,
-      "costPrice": "2.8",
-      "sellingPrice": "4.5",
-      "id": 259
-    },
-    {
-      "itemName": "cyfen tab ",
-      "quantity": 500,
-      "costPrice": "1.38",
-      "sellingPrice": "2.0",
-      "id": 260
-    },
-    {
-      "itemName": "kwick action",
-      "quantity": 500,
-      "costPrice": "0.61",
-      "sellingPrice": "1.0",
-      "id": 261
-    },
-    {
-      "itemName": "ibucap 10's s/s",
-      "quantity": 500,
-      "costPrice": "1.5",
-      "sellingPrice": "3",
-      "id": 262
-    },
-    {
-      "itemName": "fenebase extra",
-      "quantity": 500,
-      "costPrice": "2",
-      "sellingPrice": "3.0",
-      "id": 263
-    },
-    {
-      "itemName": "diclo denk 100mg tab",
-      "quantity": 500,
-      "costPrice": "12",
-      "sellingPrice": "16.0",
-      "id": 264
-    },
-    {
-      "itemName": "para tab letap",
-      "quantity": 500,
-      "costPrice": "0.6",
-      "sellingPrice": "1.0",
-      "id": 265
-    },
-    {
-      "itemName": "para tab exeter",
-      "quantity": 500,
-      "costPrice": "1",
-      "sellingPrice": "2.0",
-      "id": 266
-    },
-    {
-      "itemName": "para tab ayrton",
-      "quantity": 500,
-      "costPrice": "0.6",
-      "sellingPrice": "1.0",
-      "id": 267
-    },
-    {
-      "itemName": "efpac tab ",
-      "quantity": 500,
-      "costPrice": "1.3",
-      "sellingPrice": "2.0",
-      "id": 268
-    },
-    {
-      "itemName": "letacam caps",
-      "quantity": 500,
-      "costPrice": "0.5",
-      "sellingPrice": "1.5",
-      "id": 269
-    },
-    {
-      "itemName": "piroxilex 20mg caps",
-      "quantity": 500,
-      "costPrice": "1.5",
-      "sellingPrice": "2.5",
-      "id": 270
-    },
-    {
-      "itemName": "ibuprofen 400mg (eskay)",
-      "quantity": 500,
-      "costPrice": "0.7",
-      "sellingPrice": "1.5",
-      "id": 271
-    },
-    {
-      "itemName": "cafaprin tab (letap)",
-      "quantity": 500,
-      "costPrice": "0.6",
-      "sellingPrice": "1.5",
-      "id": 272
-    },
-    {
-      "itemName": "socomol tab 20x10",
-      "quantity": 500,
-      "costPrice": "1",
-      "sellingPrice": "2.0",
-      "id": 273
-    },
-    {
-      "itemName": "pain zab tab",
-      "quantity": 500,
-      "costPrice": "1.8",
-      "sellingPrice": "3.0",
-      "id": 274
-    },
-    {
-      "itemName": "pinpac extra ",
-      "quantity": 500,
-      "costPrice": "1",
-      "sellingPrice": "2.0",
-      "id": 275
-    },
-    {
-      "itemName": "parafenac tab ",
-      "quantity": 500,
-      "costPrice": "1.4",
-      "sellingPrice": "2.5",
-      "id": 276
-    },
-    {
-      "itemName": "zudrex tab",
-      "quantity": 500,
-      "costPrice": "2.7",
-      "sellingPrice": "4.0",
-      "id": 277
-    },
-    {
-      "itemName": "coldrilif caps",
-      "quantity": 500,
-      "costPrice": "3.3",
-      "sellingPrice": "5.0",
-      "id": 278
-    },
-    {
-      "itemName": "citro c tabs 25's",
-      "quantity": 500,
-      "costPrice": "1.4",
-      "sellingPrice": "2.0",
-      "id": 279
-    },
-    {
-      "itemName": "flurest tab",
-      "quantity": 500,
-      "costPrice": "14.85",
-      "sellingPrice": "21.0",
-      "id": 280
-    },
-    {
-      "itemName": "congestyl tabs",
-      "quantity": 500,
-      "costPrice": "6.44",
-      "sellingPrice": "9.0",
-      "id": 281
-    },
-    {
-      "itemName": "strobin l/s",
-      "quantity": 500,
-      "costPrice": "0.7",
-      "sellingPrice": "2",
-      "id": 282
-    },
-    {
-      "itemName": "fisherman's friend",
-      "quantity": 500,
-      "costPrice": "6.44",
-      "sellingPrice": "9.0",
-      "id": 283
-    },
-    {
-      "itemName": "malin loz",
-      "quantity": 500,
-      "costPrice": "2.27",
-      "sellingPrice": "4.0",
-      "id": 284
-    },
-    {
-      "itemName": "pofakof jnr syr",
-      "quantity": 500,
-      "costPrice": "6.85",
-      "sellingPrice": "10.0",
-      "id": 285
-    },
-    {
-      "itemName": "pofakof baby syr ",
-      "quantity": 500,
-      "costPrice": "6.64",
-      "sellingPrice": "9.0",
-      "id": 286
-    },
-    {
-      "itemName": "luex baby cough",
-      "quantity": 500,
-      "costPrice": "9.80",
-      "sellingPrice": "14.0",
-      "id": 287
-    },
-    {
-      "itemName": "luex adult chesty",
-      "quantity": 500,
-      "costPrice": "6.80",
-      "sellingPrice": "14.0",
-      "id": 288
-    },
-    {
-      "itemName": "samalin jnr",
-      "quantity": 500,
-      "costPrice": "4.65",
-      "sellingPrice": "8",
-      "id": 289
-    },
-    {
-      "itemName": "dyfex jnr",
-      "quantity": 500,
-      "costPrice": "5.84",
-      "sellingPrice": "8.5",
-      "id": 290
-    },
-    {
-      "itemName": "menthox adult ",
-      "quantity": 500,
-      "costPrice": "5.18",
-      "sellingPrice": "7.0",
-      "id": 291
-    },
-    {
-      "itemName": "malin jnr",
-      "quantity": 500,
-      "costPrice": "5.67",
-      "sellingPrice": "9",
-      "id": 292
-    },
-    {
-      "itemName": "malin baby",
-      "quantity": 500,
-      "costPrice": "6.21",
-      "sellingPrice": "9.0",
-      "id": 293
-    },
-    {
-      "itemName": "my baby cough syr 100ml",
-      "quantity": 500,
-      "costPrice": "4.36",
-      "sellingPrice": "7",
-      "id": 294
-    },
-    {
-      "itemName": "amcof jnr syr",
-      "quantity": 500,
-      "costPrice": "5.77",
-      "sellingPrice": "10",
-      "id": 295
-    },
-    {
-      "itemName": "amcof baby",
-      "quantity": 500,
-      "costPrice": "5.45",
-      "sellingPrice": "8.0",
-      "id": 296
-    },
-    {
-      "itemName": "flemex jnr syr",
-      "quantity": 500,
-      "costPrice": "6.44",
-      "sellingPrice": "10",
-      "id": 297
-    },
-    {
-      "itemName": "coldrilif susp",
-      "quantity": 500,
-      "costPrice": "5.24",
-      "sellingPrice": "7.0",
-      "id": 298
-    },
-    {
-      "itemName": "salocold syr",
-      "quantity": 500,
-      "costPrice": "6.93",
-      "sellingPrice": "10.0",
-      "id": 299
-    },
-    {
-      "itemName": "basecold syr",
-      "quantity": 500,
-      "costPrice": "3.92",
-      "sellingPrice": "6",
-      "id": 300
-    },
-    {
-      "itemName": "stopkof children syr 100ml",
-      "quantity": 500,
-      "costPrice": "6.91",
-      "sellingPrice": "10.0",
-      "id": 301
-    },
-    {
-      "itemName": "lintus child syr ",
-      "quantity": 500,
-      "costPrice": "3.56",
-      "sellingPrice": "7",
-      "id": 302
-    },
-    {
-      "itemName": "samalin jnr (non-drowsy)",
-      "quantity": 500,
-      "costPrice": "5.74",
-      "sellingPrice": "9",
-      "id": 303
-    },
-    {
-      "itemName": "menthodex s/s",
-      "quantity": 500,
-      "costPrice": "13.37",
-      "sellingPrice": "19.0",
-      "id": 304
-    },
-    {
-      "itemName": "menthodex l/s",
-      "quantity": 500,
-      "costPrice": "22.77",
-      "sellingPrice": "32",
-      "id": 305
-    },
-    {
-      "itemName": "pofakof adult syr",
-      "quantity": 500,
-      "costPrice": "7.19",
-      "sellingPrice": "10.0",
-      "id": 306
-    },
-    {
-      "itemName": "amcof adult syr",
-      "quantity": 500,
-      "costPrice": "5.25",
-      "sellingPrice": "10",
-      "id": 307
-    },
-    {
-      "itemName": "viscof  s syr",
-      "quantity": 500,
-      "costPrice": "11.82",
-      "sellingPrice": "17",
-      "id": 308
-    },
-    {
-      "itemName": "viscof d syr",
-      "quantity": 500,
-      "costPrice": "9.75",
-      "sellingPrice": "16",
-      "id": 309
-    },
-    {
-      "itemName": "viscof plain syr",
-      "quantity": 500,
-      "costPrice": "8.66",
-      "sellingPrice": "14",
-      "id": 310
-    },
-    {
-      "itemName": "go cough syr",
-      "quantity": 500,
-      "costPrice": "4.36",
-      "sellingPrice": "6.0",
-      "id": 311
-    },
-    {
-      "itemName": "malin adult",
-      "quantity": 500,
-      "costPrice": "7.10",
-      "sellingPrice": "10.0",
-      "id": 312
-    },
-    {
-      "itemName": "mist expect seed (mal)",
-      "quantity": 500,
-      "costPrice": "2.72",
-      "sellingPrice": "6",
-      "id": 313
-    },
-    {
-      "itemName": "bella cough mixture",
-      "quantity": 500,
-      "costPrice": "5.54",
-      "sellingPrice": "8.0",
-      "id": 314
-    },
-    {
-      "itemName": "carbozap adult syr",
-      "quantity": 500,
-      "costPrice": "5.10",
-      "sellingPrice": "10",
-      "id": 315
-    },
-    {
-      "itemName": "diphex jnr",
-      "quantity": 500,
-      "costPrice": "5.10",
-      "sellingPrice": "10",
-      "id": 316
-    },
-    {
-      "itemName": "diphex (broncho & mucolytic) syr",
-      "quantity": 500,
-      "costPrice": "6.93",
-      "sellingPrice": "10.0",
-      "id": 317
-    },
-    {
-      "itemName": "pronalin adult",
-      "quantity": 500,
-      "costPrice": "3.45",
-      "sellingPrice": "7",
-      "id": 318
-    },
-    {
-      "itemName": "sedalyn children syr",
-      "quantity": 500,
-      "costPrice": "5.15",
-      "sellingPrice": "8",
-      "id": 319
-    },
-    {
-      "itemName": "samalin adult",
-      "quantity": 500,
-      "costPrice": "5.10",
-      "sellingPrice": "7.0",
-      "id": 320
-    },
-    {
-      "itemName": "stopkof adult ",
-      "quantity": 500,
-      "costPrice": "5.83",
-      "sellingPrice": "10",
-      "id": 321
-    },
-    {
-      "itemName": "stopkof dry cough syr",
-      "quantity": 500,
-      "costPrice": "5.83",
-      "sellingPrice": "10",
-      "id": 322
-    },
-    {
-      "itemName": "joy ointment",
-      "quantity": 500,
-      "costPrice": "2.38",
-      "sellingPrice": "4",
-      "id": 323
-    },
-    {
-      "itemName": "deep heat rub 35g",
-      "quantity": 500,
-      "costPrice": "20.9",
-      "sellingPrice": "30",
-      "id": 324
-    },
-    {
-      "itemName": "deep heat spray 150ml",
-      "quantity": 500,
-      "costPrice": "26.13",
-      "sellingPrice": "36.5",
-      "id": 325
-    },
-    {
-      "itemName": "leorub gel 30g ",
-      "quantity": 500,
-      "costPrice": "3.44",
-      "sellingPrice": "5.0",
-      "id": 326
-    },
-    {
-      "itemName": "leopard cream ",
-      "quantity": 500,
-      "costPrice": "7.97",
-      "sellingPrice": "11",
-      "id": 327
-    },
-    {
-      "itemName": "diclolex gel",
-      "quantity": 500,
-      "costPrice": "5.94",
-      "sellingPrice": "9",
-      "id": 328
-    },
-    {
-      "itemName": "lofnac gel",
-      "quantity": 500,
-      "costPrice": "5.20",
-      "sellingPrice": "9",
-      "id": 329
-    },
-    {
-      "itemName": "aboniki oint",
-      "quantity": 500,
-      "costPrice": "3.96",
-      "sellingPrice": "6.0",
-      "id": 330
-    },
-    {
-      "itemName": "chocho cream",
-      "quantity": 500,
-      "costPrice": "4.90",
-      "sellingPrice": "7.0",
-      "id": 331
-    },
-    {
-      "itemName": "epiderm cream 30g l/s",
-      "quantity": 500,
-      "costPrice": "4.24",
-      "sellingPrice": "6.0",
-      "id": 332
-    },
-    {
-      "itemName": "mycolex-3",
-      "quantity": 500,
-      "costPrice": "16.73",
-      "sellingPrice": "24.0",
-      "id": 333
-    },
-    {
-      "itemName": "mycolex cream 20g",
-      "quantity": 500,
-      "costPrice": "14.85",
-      "sellingPrice": "21.0",
-      "id": 334
-    },
-    {
-      "itemName": "funbact a cream",
-      "quantity": 500,
-      "costPrice": "7.92",
-      "sellingPrice": "11.0",
-      "id": 335
-    },
-    {
-      "itemName": "ketazol cream",
-      "quantity": 500,
-      "costPrice": "5.41",
-      "sellingPrice": "8.0",
-      "id": 336
-    },
-    {
-      "itemName": "always pad single",
-      "quantity": 500,
-      "costPrice": "8",
-      "sellingPrice": "10.0",
-      "id": 337
-    },
-    {
-      "itemName": "faytex pad",
-      "quantity": 500,
-      "costPrice": "8",
-      "sellingPrice": "10.0",
-      "id": 338
-    },
-    {
-      "itemName": "softcare pad",
-      "quantity": 500,
-      "costPrice": "6",
-      "sellingPrice": "8.0",
-      "id": 339
-    },
-    {
-      "itemName": "propa pad",
-      "quantity": 500,
-      "costPrice": "7",
-      "sellingPrice": "9.0",
-      "id": 340
-    },
-    {
-      "itemName": "a+ panty liner ",
-      "quantity": 500,
-      "costPrice": "3",
-      "sellingPrice": "4.0",
-      "id": 341
-    },
-    {
-      "itemName": "yazz pad",
-      "quantity": 500,
-      "costPrice": "7",
-      "sellingPrice": "9.0",
-      "id": 342
-    },
-    {
-      "itemName": "cotten 25g",
-      "quantity": 500,
-      "costPrice": "2",
-      "sellingPrice": "4.0",
-      "id": 343
-    },
-    {
-      "itemName": "vit c 1gm",
-      "quantity": 500,
-      "costPrice": "16",
-      "sellingPrice": "20.0",
-      "id": 344
-    },
-    {
-      "itemName": "co-trim tab(letap)",
-      "quantity": 500,
-      "costPrice": "0.6",
-      "sellingPrice": "1.5",
-      "id": 345
-    },
-    {
-      "itemName": "cipro 500mg tab 10'(gr)",
-      "quantity": 500,
-      "costPrice": "3.7",
-      "sellingPrice": "5.0",
-      "id": 346
-    },
-    {
-      "itemName": "ciprolex tab",
-      "quantity": 500,
-      "costPrice": "11.88",
-      "sellingPrice": "17.0",
-      "id": 347
-    },
-    {
-      "itemName": "cloxa cap 250mg ",
-      "quantity": 500,
-      "costPrice": "1.3",
-      "sellingPrice": "2.0",
-      "id": 348
-    },
-    {
-      "itemName": "ampicllin 250mg caps(letap)",
-      "quantity": 500,
-      "costPrice": "1.2",
-      "sellingPrice": "2.0",
-      "id": 349
-    },
-    {
-      "itemName": "amoxyl 250mg caps",
-      "quantity": 500,
-      "costPrice": "1.1",
-      "sellingPrice": "1.5",
-      "id": 350
-    },
-    {
-      "itemName": "amoxyl 500mg caps",
-      "quantity": 500,
-      "costPrice": "4",
-      "sellingPrice": "6.0",
-      "id": 351
-    },
-    {
-      "itemName": "amoksiklav 625mg tab",
-      "quantity": 500,
-      "costPrice": "23.58",
-      "sellingPrice": "30.0",
-      "id": 352
-    },
-    {
-      "itemName": "amoksiklav 1g tab",
-      "quantity": 500,
-      "costPrice": "34.16",
-      "sellingPrice": "47.0",
-      "id": 353
-    },
-    {
-      "itemName": "ciprolex tz tab 14's",
-      "quantity": 500,
-      "costPrice": "25",
-      "sellingPrice": "34",
-      "id": 354
-    },
-    {
-      "itemName": "enacin-c 150mg caps",
-      "quantity": 500,
-      "costPrice": "6",
-      "sellingPrice": "8.0",
-      "id": 355
-    },
-    {
-      "itemName": "klinda 300mg",
-      "quantity": 500,
-      "costPrice": "10",
-      "sellingPrice": "14.0",
-      "id": 356
-    },
-    {
-      "itemName": "enacef 500mg(ecl)",
-      "quantity": 500,
-      "costPrice": "24.73",
-      "sellingPrice": "42",
-      "id": 357
-    },
-    {
-      "itemName": "foxitil 250mg",
-      "quantity": 500,
-      "costPrice": "12.87",
-      "sellingPrice": "18.0",
-      "id": 358
-    },
-    {
-      "itemName": "zinnat tab 250mg",
-      "quantity": 500,
-      "costPrice": "59.50",
-      "sellingPrice": "83.0",
-      "id": 359
-    },
-    {
-      "itemName": "t-sec(secnidazole)1gm",
-      "quantity": 500,
-      "costPrice": "2.62",
-      "sellingPrice": "5.0",
-      "id": 360
-    },
-    {
-      "itemName": "doxycycline tabs 200 '(ecl)",
-      "quantity": 500,
-      "costPrice": "2.2",
-      "sellingPrice": "3.0",
-      "id": 361
-    },
-    {
-      "itemName": "fluconazole 150mg",
-      "quantity": 500,
-      "costPrice": "8.41",
-      "sellingPrice": "12",
-      "id": 362
-    },
-    {
-      "itemName": "flucron 150mg",
-      "quantity": 500,
-      "costPrice": "1",
-      "sellingPrice": "5.0",
-      "id": 363
-    },
-    {
-      "itemName": "grisoral susp(hovi)",
-      "quantity": 500,
-      "costPrice": "8.70",
-      "sellingPrice": "12.0",
-      "id": 364
-    },
-    {
-      "itemName": "letavin 125mg tab",
-      "quantity": 500,
-      "costPrice": "0.9",
-      "sellingPrice": "1.5",
-      "id": 365
-    },
-    {
-      "itemName": "letavin 500mg tab",
-      "quantity": 500,
-      "costPrice": "5.8",
-      "sellingPrice": "8.0",
-      "id": 366
-    },
-    {
-      "itemName": "nifedi-denk 20mg",
-      "quantity": 500,
-      "costPrice": "5.3",
-      "sellingPrice": "7.0",
-      "id": 367
-    },
-    {
-      "itemName": "pinek 20mg tab",
-      "quantity": 500,
-      "costPrice": "1.1",
-      "sellingPrice": "2.0",
-      "id": 368
-    },
-    {
-      "itemName": "bendro 2.5mg 500's (ecl)",
-      "quantity": 500,
-      "costPrice": "0.5",
-      "sellingPrice": "150.0",
-      "id": 369
-    },
-    {
-      "itemName": "bendro 2.5mg (uk)",
-      "quantity": 500,
-      "costPrice": "6.75",
-      "sellingPrice": "9.5",
-      "id": 370
-    },
-    {
-      "itemName": "amlodipine 5mg",
-      "quantity": 500,
-      "costPrice": "6.92",
-      "sellingPrice": "10.0",
-      "id": 371
-    },
-    {
-      "itemName": "amlodipine 10mg",
-      "quantity": 500,
-      "costPrice": "7.92",
-      "sellingPrice": "11.0",
-      "id": 372
-    },
-    {
-      "itemName": "nifecard xl tab 30mg",
-      "quantity": 500,
-      "costPrice": "26.4",
-      "sellingPrice": "36.0",
-      "id": 373
-    },
-    {
-      "itemName": "lisinopril 10mg ",
-      "quantity": 500,
-      "costPrice": "12",
-      "sellingPrice": "17.0",
-      "id": 374
-    },
-    {
-      "itemName": "lisinopril 5mg (uk)",
-      "quantity": 500,
-      "costPrice": "16.4",
-      "sellingPrice": "22.0",
-      "id": 375
-    },
-    {
-      "itemName": "atenolol 50mg 28's (uk)",
-      "quantity": 500,
-      "costPrice": "6.53",
-      "sellingPrice": "9.0",
-      "id": 376
-    },
-    {
-      "itemName": "o- formin 500mg tab 100'",
-      "quantity": 500,
-      "costPrice": "0.4",
-      "sellingPrice": "1",
-      "id": 377
-    },
-    {
-      "itemName": "metformin denk 500mg",
-      "quantity": 500,
-      "costPrice": "5.5",
-      "sellingPrice": "8.0",
-      "id": 378
-    },
-    {
-      "itemName": "ominprazole tabs 10*10 (omesk)",
-      "quantity": 500,
-      "costPrice": "1.4",
-      "sellingPrice": "5",
-      "id": 379
-    },
-    {
-      "itemName": "omzole caps 30's (omiprazole) bedita",
-      "quantity": 500,
-      "costPrice": "2.6",
-      "sellingPrice": "10",
-      "id": 380
-    },
-    {
-      "itemName": "ventolin inhaler",
-      "quantity": 500,
-      "costPrice": "29.70",
-      "sellingPrice": "40.0",
-      "id": 381
-    },
-    {
-      "itemName": "salamol cfc inhaler",
-      "quantity": 500,
-      "costPrice": "21.78",
-      "sellingPrice": "30.0",
-      "id": 382
-    },
-    {
-      "itemName": "salbutamol 4mg 500'(ecl)",
-      "quantity": 500,
-      "costPrice": "0.3",
-      "sellingPrice": "1.0",
-      "id": 383
-    },
-    {
-      "itemName": "predimisolone 5mg (letap)",
-      "quantity": 500,
-      "costPrice": "0.5",
-      "sellingPrice": "1.0",
-      "id": 384
-    },
-    {
-      "itemName": "jet2 inhaler 6",
-      "quantity": 500,
-      "costPrice": "6",
-      "sellingPrice": "9",
-      "id": 385
-    },
-    {
-      "itemName": "zulu tab 10",
-      "quantity": 500,
-      "costPrice": "3.37",
-      "sellingPrice": "5.0",
-      "id": 386
-    },
-    {
-      "itemName": "zulu extra tabs",
-      "quantity": 500,
-      "costPrice": "3.96",
-      "sellingPrice": "8.0",
-      "id": 387
-    },
-    {
-      "itemName": "panadol extral ",
-      "quantity": 500,
-      "costPrice": "2.8",
-      "sellingPrice": "4.0",
-      "id": 388
-    },
-    {
-      "itemName": "panadol plain",
-      "quantity": 500,
-      "costPrice": "2.8",
-      "sellingPrice": "4.0",
-      "id": 389
-    },
-    {
-      "itemName": "polygel susp 200ml",
-      "quantity": 500,
-      "costPrice": "7.62",
-      "sellingPrice": "12",
-      "id": 390
-    },
-    {
-      "itemName": "polygel susp 120ml",
-      "quantity": 500,
-      "costPrice": "4.94",
-      "sellingPrice": "8",
-      "id": 391
-    },
-    {
-      "itemName": "ayulabs gripe water ",
-      "quantity": 500,
-      "costPrice": "4",
-      "sellingPrice": "6.0",
-      "id": 392
-    },
-    {
-      "itemName": "gebedol forte",
-      "quantity": 500,
-      "costPrice": "1.5",
-      "sellingPrice": "3.0",
-      "id": 393
-    },
-    {
-      "itemName": "gebedol tablet",
-      "quantity": 500,
-      "costPrice": "1.2",
-      "sellingPrice": "2.0",
-      "id": 394
-    },
-    {
-      "itemName": "zubes loz",
-      "quantity": 500,
-      "costPrice": "0.5",
-      "sellingPrice": "1.0",
-      "id": 395
-    },
-    {
-      "itemName": "lubrica",
-      "quantity": 500,
-      "costPrice": "10",
-      "sellingPrice": "15.0",
-      "id": 396
-    },
-    {
-      "itemName": "fluxacin cap 250mg",
-      "quantity": 500,
-      "costPrice": "2",
-      "sellingPrice": "3.0",
-      "id": 397
-    },
-    {
-      "itemName": "fluxamox 500 cap",
-      "quantity": 500,
-      "costPrice": "6",
-      "sellingPrice": "8.0",
-      "id": 398
-    },
-    {
-      "itemName": "indocine 250 cap",
-      "quantity": 500,
-      "costPrice": "1",
-      "sellingPrice": "1.5",
-      "id": 399
-    },
-    {
-      "itemName": "metrolex f tab",
-      "quantity": 500,
-      "costPrice": "12.87",
-      "sellingPrice": "19",
-      "id": 400
-    },
-    {
-      "itemName": "amalfi shower gel",
-      "quantity": 500,
-      "costPrice": "12",
-      "sellingPrice": "18",
-      "id": 401
-    },
-    {
-      "itemName": "fine liquid soap",
-      "quantity": 500,
-      "costPrice": "12",
-      "sellingPrice": "15.0",
-      "id": 402
-    },
-    {
-      "itemName": "postinor 2",
-      "quantity": 500,
-      "costPrice": "3",
-      "sellingPrice": "5.0",
-      "id": 403
-    },
-    {
-      "itemName": "plaster roll 2inches",
-      "quantity": 500,
-      "costPrice": "6",
-      "sellingPrice": "8.0",
-      "id": 404
-    },
-    {
-      "itemName": "plaster roll 3inches",
-      "quantity": 500,
-      "costPrice": "8",
-      "sellingPrice": "10.0",
-      "id": 405
-    },
-    {
-      "itemName": "plaster roll",
-      "quantity": 500,
-      "costPrice": "10",
-      "sellingPrice": "12.0",
-      "id": 406
-    },
-    {
-      "itemName": "augmentin ta 625mg",
-      "quantity": 500,
-      "costPrice": "72.00",
-      "sellingPrice": "100.0",
-      "id": 407
-    },
-    {
-      "itemName": "painzap ",
-      "quantity": 500,
-      "costPrice": "1.8",
-      "sellingPrice": "3.0",
-      "id": 408
-    },
-    {
-      "itemName": "lofnac 100mg",
-      "quantity": 500,
-      "costPrice": "1.4",
-      "sellingPrice": "2.0",
-      "id": 409
-    },
-    {
-      "itemName": "paingay",
-      "quantity": 500,
-      "costPrice": "2.8",
-      "sellingPrice": "4.5",
-      "id": 410
-    },
-    {
-      "itemName": "cyfen tab",
-      "quantity": 500,
-      "costPrice": "1.38",
-      "sellingPrice": "2.0",
-      "id": 411
-    },
-    {
-      "itemName": "kwik action tab",
-      "quantity": 500,
-      "costPrice": "0.6",
-      "sellingPrice": "1.0",
-      "id": 412
-    },
-    {
-      "itemName": "ibucap 10's/s",
-      "quantity": 500,
-      "costPrice": "1.5",
-      "sellingPrice": "2.5",
-      "id": 413
-    },
-    {
-      "itemName": "cheers condom",
-      "quantity": 500,
-      "costPrice": "1.00",
-      "sellingPrice": "2.0",
-      "id": 414
-    },
-    {
-      "itemName": "ibuprofen 400mg",
-      "quantity": 500,
-      "costPrice": "0.7",
-      "sellingPrice": "1.5",
-      "id": 415
-    },
-    {
-      "itemName": "ronfit forte",
-      "quantity": 500,
-      "costPrice": "3.00",
-      "sellingPrice": "5.0",
-      "id": 416
-    },
-    {
-      "itemName": "becoactin",
-      "quantity": 500,
-      "costPrice": "9.90",
-      "sellingPrice": "14.0",
-      "id": 417
-    },
-    {
-      "itemName": "major nasal drop",
-      "quantity": 500,
-      "costPrice": "6",
-      "sellingPrice": "11",
-      "id": 418
-    },
-    {
-      "itemName": "chloram cap",
-      "quantity": 500,
-      "costPrice": "1.8",
-      "sellingPrice": "3.0",
-      "id": 419
-    },
-    {
-      "itemName": "panadol tablet",
-      "quantity": 500,
-      "costPrice": "2.8",
-      "sellingPrice": "4.0",
-      "id": 420
-    },
-    {
-      "itemName": "metagyl susp",
-      "quantity": 500,
-      "costPrice": "4.84",
-      "sellingPrice": "7.0",
-      "id": 421
-    },
-    {
-      "itemName": "koffex adult syr",
-      "quantity": 500,
-      "costPrice": "5",
-      "sellingPrice": "8.0",
-      "id": 422
-    },
-    {
-      "itemName": "kidiron syr 200ml",
-      "quantity": 500,
-      "costPrice": "7.92",
-      "sellingPrice": "13",
-      "id": 423
-    },
-    {
-      "itemName": "kidicare syr",
-      "quantity": 500,
-      "costPrice": "13.86",
-      "sellingPrice": "19.0",
-      "id": 424
-    },
-    {
-      "itemName": "kidivite syr 200ml",
-      "quantity": 500,
-      "costPrice": "9.48",
-      "sellingPrice": "14",
-      "id": 425
-    },
-    {
-      "itemName": "gyprone plus tab ",
-      "quantity": 500,
-      "costPrice": "1.8",
-      "sellingPrice": "4",
-      "id": 426
-    },
-    {
-      "itemName": "surfaz cream",
-      "quantity": 500,
-      "costPrice": "10.45",
-      "sellingPrice": "15",
-      "id": 427
-    },
-    {
-      "itemName": "imboost mix",
-      "quantity": 500,
-      "costPrice": "13.37",
-      "sellingPrice": "19.0",
-      "id": 428
-    },
-    {
-      "itemName": "time herbal mix",
-      "quantity": 500,
-      "costPrice": "15",
-      "sellingPrice": "20",
-      "id": 429
-    },
-    {
-      "itemName": "letavit syr 125ml",
-      "quantity": 500,
-      "costPrice": "1.98",
-      "sellingPrice": "5",
-      "id": 430
-    },
-    {
-      "itemName": "bx syr 100ml",
-      "quantity": 500,
-      "costPrice": "5.45",
-      "sellingPrice": "9",
-      "id": 431
-    },
-    {
-      "itemName": "bx syr 200ml",
-      "quantity": 500,
-      "costPrice": "7.08",
-      "sellingPrice": "12",
-      "id": 432
-    },
-    {
-      "itemName": "wellbay drop",
-      "quantity": 500,
-      "costPrice": "54.95",
-      "sellingPrice": "80",
-      "id": 433
-    },
-    {
-      "itemName": "amoksiklav 457 susp",
-      "quantity": 500,
-      "costPrice": "23.66",
-      "sellingPrice": "34.0",
-      "id": 434
-    },
-    {
-      "itemName": "amoxi+clav 228.5",
-      "quantity": 500,
-      "costPrice": "12.00",
-      "sellingPrice": "17.0",
-      "id": 435
-    },
-    {
-      "itemName": "chocho tea",
-      "quantity": 500,
-      "costPrice": "6.21",
-      "sellingPrice": "9.0",
-      "id": 436
-    },
-    {
-      "itemName": "becoactin syr",
-      "quantity": 500,
-      "costPrice": "10.89",
-      "sellingPrice": "15.0",
-      "id": 437
-    },
-    {
-      "itemName": "prenacare conception ",
-      "quantity": 500,
-      "costPrice": "54.30",
-      "sellingPrice": "76.0",
-      "id": 438
-    },
-    {
-      "itemName": "brenex syr",
-      "quantity": 500,
-      "costPrice": "14.36",
-      "sellingPrice": "21",
-      "id": 439
-    },
-    {
-      "itemName": "pen v tab",
-      "quantity": 500,
-      "costPrice": "0.80",
-      "sellingPrice": "1.5",
-      "id": 440
-    },
-    {
-      "itemName": "letalin expect",
-      "quantity": 500,
-      "costPrice": "2.22",
-      "sellingPrice": "4.0",
-      "id": 441
-    },
-    {
-      "itemName": "ernest oint",
-      "quantity": 500,
-      "costPrice": "2.7",
-      "sellingPrice": "5",
-      "id": 442
-    },
-    {
-      "itemName": "zubes extra strong cough mix",
-      "quantity": 500,
-      "costPrice": "15.31",
-      "sellingPrice": "22.0",
-      "id": 443
-    },
-    {
-      "itemName": "saline nasal drop",
-      "quantity": 500,
-      "costPrice": "3.00",
-      "sellingPrice": "5.0",
-      "id": 444
-    },
-    {
-      "itemName": "c-h eye drop",
-      "quantity": 500,
-      "costPrice": "1.65",
-      "sellingPrice": "5.0",
-      "id": 445
-    },
-    {
-      "itemName": "chloramphenicol eye oint",
-      "quantity": 500,
-      "costPrice": "2.20",
-      "sellingPrice": "4.0",
-      "id": 446
-    },
-    {
-      "itemName": "fumet susp",
-      "quantity": 500,
-      "costPrice": "4.21",
-      "sellingPrice": "6.0",
-      "id": 447
-    },
-    {
-      "itemName": "metrolex f susp",
-      "quantity": 500,
-      "costPrice": "16.9",
-      "sellingPrice": "24.0",
-      "id": 448
-    },
-    {
-      "itemName": "permoxyl susp",
-      "quantity": 500,
-      "costPrice": "5.98",
-      "sellingPrice": "8.5",
-      "id": 449
-    },
-    {
-      "itemName": "metronidazole susp ",
-      "quantity": 500,
-      "costPrice": "4.41",
-      "sellingPrice": "6.0",
-      "id": 450
-    },
-    {
-      "itemName": "unidus comdom",
-      "quantity": 500,
-      "costPrice": "6.7",
-      "sellingPrice": "13",
-      "id": 451
-    },
-    {
-      "itemName": "ncp 100ml",
-      "quantity": 500,
-      "costPrice": "20.04",
-      "sellingPrice": "28.0",
-      "id": 452
-    },
-    {
-      "itemName": "givers p caps",
-      "quantity": 500,
-      "costPrice": "21",
-      "sellingPrice": "27.0",
-      "id": 453
-    },
-    {
-      "itemName": "rapinol tab",
-      "quantity": 500,
-      "costPrice": "0.5",
-      "sellingPrice": "1.0",
-      "id": 454
-    },
-    {
-      "itemName": "apetamin syr",
-      "quantity": 500,
-      "costPrice": "16",
-      "sellingPrice": "29",
-      "id": 455
-    },
-    {
-      "itemName": "unidus condom",
-      "quantity": 500,
-      "costPrice": "7.7",
-      "sellingPrice": "13.0",
-      "id": 456
-    },
-    {
-      "itemName": "cotton 50g",
-      "quantity": 500,
-      "costPrice": "3",
-      "sellingPrice": "5.0",
-      "id": 457
-    },
-    {
-      "itemName": "chocho soap",
-      "quantity": 500,
-      "costPrice": "4.5",
-      "sellingPrice": "6.5",
-      "id": 458
-    },
-    {
-      "itemName": "adutwumwaa cap",
-      "quantity": 500,
-      "costPrice": "13.5",
-      "sellingPrice": "19.0",
-      "id": 459
-    },
-    {
-      "itemName": "mono preg kit",
-      "quantity": 500,
-      "costPrice": "1",
-      "sellingPrice": "3.0",
-      "id": 460
-    },
-    {
-      "itemName": "zin tab 20mg",
-      "quantity": 500,
-      "costPrice": "0.70",
-      "sellingPrice": "1.5",
-      "id": 461
-    },
-    {
-      "itemName": "conbact.n cream",
-      "quantity": 500,
-      "costPrice": "5.6",
-      "sellingPrice": "8.0",
-      "id": 462
-    },
-    {
-      "itemName": "roxidol tab",
-      "quantity": 500,
-      "costPrice": "1.73",
-      "sellingPrice": "2.5",
-      "id": 463
-    },
-    {
-      "itemName": "k-y jelly",
-      "quantity": 500,
-      "costPrice": "29.8",
-      "sellingPrice": "40.0",
-      "id": 464
-    },
-    {
-      "itemName": "naklofen duo cap ",
-      "quantity": 500,
-      "costPrice": "2.1",
-      "sellingPrice": "3.0",
-      "id": 465
-    },
-    {
-      "itemName": "para syr riddles",
-      "quantity": 500,
-      "costPrice": "6.2",
-      "sellingPrice": "9.0",
-      "id": 466
-    },
-    {
-      "itemName": "riddles baby",
-      "quantity": 500,
-      "costPrice": "6.4",
-      "sellingPrice": "10.0",
-      "id": 467
-    },
-    {
-      "itemName": "co-trimoxazole susp",
-      "quantity": 500,
-      "costPrice": "2.9",
-      "sellingPrice": "5.0",
-      "id": 468
-    },
-    {
-      "itemName": "ors",
-      "quantity": 500,
-      "costPrice": "0.5",
-      "sellingPrice": "1.0",
-      "id": 469
-    },
-    {
-      "itemName": "promicine syr",
-      "quantity": 500,
-      "costPrice": "2.2",
-      "sellingPrice": "4.0",
-      "id": 470
-    },
-    {
-      "itemName": "dexitrolite",
-      "quantity": 500,
-      "costPrice": "0.6",
-      "sellingPrice": "1.5",
-      "id": 471
-    },
-    {
-      "itemName": "dicnac supp 100mg",
-      "quantity": 500,
-      "costPrice": "1",
-      "sellingPrice": "1.5",
-      "id": 472
-    },
-    {
-      "itemName": "calcium  soluble",
-      "quantity": 500,
-      "costPrice": "15",
-      "sellingPrice": "22.0",
-      "id": 473
-    },
-    {
-      "itemName": "magnesium soluble",
-      "quantity": 500,
-      "costPrice": "15",
-      "sellingPrice": "22.0",
-      "id": 474
-    },
-    {
-      "itemName": "vit c with zinc",
-      "quantity": 500,
-      "costPrice": "15",
-      "sellingPrice": "22.0",
-      "id": 475
-    },
-    {
-      "itemName": "longrich paste",
-      "quantity": 500,
-      "costPrice": "25",
-      "sellingPrice": "38",
-      "id": 476
-    },
-    {
-      "itemName": "gauze bandage",
-      "quantity": 500,
-      "costPrice": "1",
-      "sellingPrice": "1.5",
-      "id": 477
-    },
-    {
-      "itemName": "gloves",
-      "quantity": 500,
-      "costPrice": "0.6",
-      "sellingPrice": "1.0",
-      "id": 478
-    },
-    {
-      "itemName": "magacid tablet",
-      "quantity": 500,
-      "costPrice": "0.5",
-      "sellingPrice": "1.0",
-      "id": 479
-    },
-    {
-      "itemName": "irovit baby drop",
-      "quantity": 500,
-      "costPrice": "26.17",
-      "sellingPrice": "37",
-      "id": 480
-    },
-    {
-      "itemName": "honey ",
-      "quantity": 500,
-      "costPrice": "60.00",
-      "sellingPrice": "75.0",
-      "id": 481
-    },
-    {
-      "itemName": "nazo ",
-      "quantity": 500,
-      "costPrice": "1.5",
-      "sellingPrice": "3.0",
-      "id": 482
-    },
-    {
-      "itemName": "victory galic mix",
-      "quantity": 500,
-      "costPrice": "11",
-      "sellingPrice": "16.0",
-      "id": 483
-    },
-    {
-      "itemName": "adusa capsules",
-      "quantity": 500,
-      "costPrice": "18.5",
-      "sellingPrice": "26.0",
-      "id": 484
-    },
-    {
-      "itemName": "adusa mix",
-      "quantity": 500,
-      "costPrice": "17.8",
-      "sellingPrice": "25.0",
-      "id": 485
-    },
-    {
-      "itemName": "hepa plus",
-      "quantity": 500,
-      "costPrice": "9",
-      "sellingPrice": "13.0",
-      "id": 486
-    },
-    {
-      "itemName": "zubes expect",
-      "quantity": 500,
-      "costPrice": "12.98",
-      "sellingPrice": "18.0",
-      "id": 487
-    },
-    {
-      "itemName": "fluxamox susp",
-      "quantity": 500,
-      "costPrice": "10.98",
-      "sellingPrice": "16.0",
-      "id": 488
-    },
-    {
-      "itemName": "salicylic acid oint",
-      "quantity": 500,
-      "costPrice": "6.50",
-      "sellingPrice": "9.0",
-      "id": 489
-    },
-    {
-      "itemName": "doreta tab",
-      "quantity": 500,
-      "costPrice": "1.4",
-      "sellingPrice": "2",
-      "id": 490
-    },
-    {
-      "itemName": "adom ladies mix",
-      "quantity": 500,
-      "costPrice": "12",
-      "sellingPrice": "17.0",
-      "id": 491
-    },
-    {
-      "itemName": "dangyl tab 400mg",
-      "quantity": 500,
-      "costPrice": "1",
-      "sellingPrice": "2.0",
-      "id": 492
-    },
-    {
-      "itemName": "combat n",
-      "quantity": 500,
-      "costPrice": "6",
-      "sellingPrice": "8.0",
-      "id": 493
-    },
-    {
-      "itemName": "voltic",
-      "quantity": 500,
-      "costPrice": "2.8",
-      "sellingPrice": "4.0",
-      "id": 494
-    },
-    {
-      "itemName": "vitamilk",
-      "quantity": 500,
-      "costPrice": "5.8",
-      "sellingPrice": "7.0",
-      "id": 495
-    },
-    {
-      "itemName": "lucozade",
-      "quantity": 500,
-      "costPrice": "5.8",
-      "sellingPrice": "7.0",
-      "id": 496
-    },
-    {
-      "itemName": "don simon 1.5l",
-      "quantity": 500,
-      "costPrice": "12.5",
-      "sellingPrice": "15.0",
-      "id": 497
-    },
-    {
-      "itemName": "don simon 0.5l",
-      "quantity": 500,
-      "costPrice": "5",
-      "sellingPrice": "8.0",
-      "id": 498
-    },
-    {
-      "itemName": "fan max ",
-      "quantity": 500,
-      "costPrice": "4.3",
-      "sellingPrice": "6.0",
-      "id": 499
-    },
-    {
-      "itemName": "hollandia 1t",
-      "quantity": 500,
-      "costPrice": "15",
-      "sellingPrice": "18.0",
-      "id": 500
-    },
-    {
-      "itemName": "hollandia 300ml",
-      "quantity": 500,
-      "costPrice": "4",
-      "sellingPrice": "6.0",
-      "id": 501
-    },
-    {
-      "itemName": "fruteli 1t",
-      "quantity": 500,
-      "costPrice": "10",
-      "sellingPrice": "12.0",
-      "id": 502
-    },
-    {
-      "itemName": "malt",
-      "quantity": 500,
-      "costPrice": "4",
-      "sellingPrice": "6.0",
-      "id": 503
-    },
-    {
-      "itemName": "paingay gel",
-      "quantity": 500,
-      "costPrice": "5",
-      "sellingPrice": "7.0",
-      "id": 504
-    },
-    {
-      "itemName": "panacin tab",
-      "quantity": 500,
-      "costPrice": "0.7",
-      "sellingPrice": "1.5",
-      "id": 505
-    },
-    {
-      "itemName": "gana balm s/s",
-      "quantity": 500,
-      "costPrice": "4.5",
-      "sellingPrice": "6.0",
-      "id": 506
-    },
-    {
-      "itemName": "voltic m/s",
-      "quantity": 500,
-      "costPrice": "1.3",
-      "sellingPrice": "2.0",
-      "id": 507
-    },
-    {
-      "itemName": "vermox susp",
-      "quantity": 498,
-      "costPrice": "16",
-      "sellingPrice": "22.0",
-      "id": 508
-    },
-    {
-      "itemName": "metro susp m/g",
-      "quantity": 500,
-      "costPrice": "4.57",
-      "sellingPrice": "7.0",
-      "id": 509
-    },
-    {
-      "itemName": "delayman cap",
-      "quantity": 500,
-      "costPrice": "14",
-      "sellingPrice": "20.0",
-      "id": 510
-    },
-    {
-      "itemName": "yodi tab",
-      "quantity": 500,
-      "costPrice": "0.8",
-      "sellingPrice": "2.0",
-      "id": 511
-    },
-    {
-      "itemName": "wellwoman 50plus",
-      "quantity": 500,
-      "costPrice": "58.94",
-      "sellingPrice": "83.0",
-      "id": 512
-    },
-    {
-      "itemName": "folic acid crescent",
-      "quantity": 500,
-      "costPrice": "8.71",
-      "sellingPrice": "13.0",
-      "id": 513
-    },
-    {
-      "itemName": "no spa 400mg tab",
-      "quantity": 500,
-      "costPrice": "7.2",
-      "sellingPrice": "10.0",
-      "id": 514
-    },
-    {
-      "itemName": "dexone tab",
-      "quantity": 500,
-      "costPrice": "1.8",
-      "sellingPrice": "3.0",
-      "id": 515
-    },
-    {
-      "itemName": "magacid fastmelt",
-      "quantity": 500,
-      "costPrice": "0.4",
-      "sellingPrice": "1.0",
-      "id": 516
-    },
-    {
-      "itemName": "durol tonic 300ml",
-      "quantity": 500,
-      "costPrice": "11.68",
-      "sellingPrice": "16.0",
-      "id": 517
-    },
-    {
-      "itemName": "hi lady",
-      "quantity": 500,
-      "costPrice": "16.33",
-      "sellingPrice": "23.0",
-      "id": 518
-    },
-    {
-      "itemName": "coldiron syr",
-      "quantity": 500,
-      "costPrice": "7.43",
-      "sellingPrice": "13",
-      "id": 519
-    },
-    {
-      "itemName": "basecold tab 10s",
-      "quantity": 500,
-      "costPrice": "1",
-      "sellingPrice": "3",
-      "id": 520
-    },
-    {
-      "itemName": "basecold tab 4s",
-      "quantity": 500,
-      "costPrice": "1.00",
-      "sellingPrice": "2.0",
-      "id": 521
-    },
-    {
-      "itemName": "epanol syr",
-      "quantity": 500,
-      "costPrice": "3.00",
-      "sellingPrice": "6.0",
-      "id": 522
-    },
-    {
-      "itemName": "living bitters tonic",
-      "quantity": 500,
-      "costPrice": "16",
-      "sellingPrice": "22.0",
-      "id": 523
-    },
-    {
-      "itemName": "riddles adult",
-      "quantity": 500,
-      "costPrice": "6",
-      "sellingPrice": "9.0",
-      "id": 524
-    },
-    {
-      "itemName": "living bitters cap",
-      "quantity": 500,
-      "costPrice": "21",
-      "sellingPrice": "30.0",
-      "id": 525
-    },
-    {
-      "itemName": "malaria test ",
-      "quantity": 500,
-      "costPrice": "1.5",
-      "sellingPrice": "5.0",
-      "id": 526
-    },
-    {
-      "itemName": "",
-      "quantity": 0,
-      "costPrice": "",
-      "sellingPrice": "",
-      "id": 527
-    },
-    {
-      "itemName": "Pen",
-      "quantity": "34",
-      "costPrice": "56",
-      "sellingPrice": "65",
-      "id": 529
-    },
-    {
-      "itemName": "Pencil",
-      "quantity": 3,
-      "costPrice": "5",
-      "sellingPrice": "12",
-      "id": 530
-    }
-  ],
   "users": [
-    {
-      "username": "Derick",
-      "password": "filament",
-      "id": 1
-    },
-    {
-      "username": "Emmanu",
-      "password": "filament",
-      "id": 2
-    },
-    {
-      "username": "DSonOfADick",
-      "password": "filament",
-      "id": 3
-    },
     {
       "username": "Dickson",
       "password": "filament",
-      "id": 4
-    },
-    {
-      "username": "spyda",
-      "password": "filament",
-      "id": 5
-    },
-    {
-      "username": "shadow234",
-      "password": "filament",
-      "id": 6
-    },
-    {
-      "username": "chronicles",
-      "password": "filament",
-      "id": 7
+      "id": 1
     }
   ],
   "sales": [
@@ -18198,353 +14470,3737 @@
       "salesPerson": ""
     },
     {
-      "itemName": "wormplex suspension",
-      "quantity": 500,
-      "costPrice": 5.94,
-      "sellingPrice": 9,
-      "bought": 4,
-      "totalCost": 36,
-      "quantityRemain": 496,
-      "date": "2022-10-06",
-      "time": "12:30:42.340Z",
+      "itemName": "vermox tab",
+      "quantity": 496,
+      "costPrice": 7.86,
+      "sellingPrice": 13,
+      "bought": 1,
+      "totalCost": 13,
+      "quantityRemain": 495,
+      "date": "2023-04-26",
+      "time": "14:04:28.948Z",
       "momo": false,
+      "salesPerson": "Dickson",
       "id": 1034
     },
     {
-      "itemName": "vermox tab",
-      "quantity": 484,
-      "costPrice": 7.86,
+      "itemName": "coartem orig. 12's(novartis)",
+      "quantity": 500,
+      "costPrice": 9.255,
       "sellingPrice": 13,
-      "bought": 4,
-      "totalCost": 52,
-      "quantityRemain": 480,
-      "date": "2022-10-06",
-      "time": "12:39:17.621Z",
+      "bought": 1,
+      "totalCost": 13,
+      "quantityRemain": 499,
+      "date": "2023-04-26",
+      "time": "14:04:30.943Z",
       "momo": false,
       "salesPerson": "Dickson",
       "id": 1035
+    }
+  ],
+  "items": [
+    {
+      "itemName": "vermox tabl",
+      "quantity": "49",
+      "costPrice": "7.86",
+      "sellingPrice": "13",
+      "id": 1
+    },
+    {
+      "itemName": "wormplex 400 tab",
+      "quantity": 500,
+      "costPrice": "5.15",
+      "sellingPrice": "8",
+      "id": 2
+    },
+    {
+      "itemName": "zentel tab 200mg",
+      "quantity": 498,
+      "costPrice": "7.64",
+      "sellingPrice": "10.0",
+      "id": 3
+    },
+    {
+      "itemName": "wormplex suspension",
+      "quantity": 500,
+      "costPrice": "5.94",
+      "sellingPrice": "9",
+      "id": 4
     },
     {
       "itemName": "tanzol tab",
       "quantity": 496,
-      "costPrice": 1.51,
-      "sellingPrice": 4,
-      "bought": 1,
-      "totalCost": 4,
-      "quantityRemain": 495,
-      "date": "2022-10-06",
-      "time": "12:39:31.172Z",
-      "momo": false,
-      "salesPerson": "Dickson",
-      "id": 1036
-    },
-    {
-      "itemName": "zentel tab 200mg",
-      "quantity": 497,
-      "costPrice": 7.64,
-      "sellingPrice": 10,
-      "bought": 2,
-      "totalCost": 20,
-      "quantityRemain": 495,
-      "date": "2022-10-06",
-      "time": "12:39:32.755Z",
-      "momo": false,
-      "salesPerson": "Dickson",
-      "id": 1037
-    },
-    {
-      "itemName": "wormplex 400 tab",
-      "quantity": 497,
-      "costPrice": 5.15,
-      "sellingPrice": 8,
-      "bought": 3,
-      "totalCost": 24,
-      "quantityRemain": 494,
-      "date": "2022-10-06",
-      "time": "12:39:40.617Z",
-      "momo": false,
-      "salesPerson": "Dickson",
-      "id": 1038
-    },
-    {
-      "itemName": "vermox tab",
-      "quantity": 480,
-      "costPrice": 7.86,
-      "sellingPrice": 13,
-      "bought": 2,
-      "totalCost": 26,
-      "quantityRemain": 478,
-      "date": "2022-10-06",
-      "time": "12:50:35.982Z",
-      "momo": false,
-      "salesPerson": "Dickson",
-      "id": 1039
-    },
-    {
-      "itemName": "wormplex 400 tab",
-      "quantity": 494,
-      "costPrice": 5.15,
-      "sellingPrice": 8,
-      "bought": 2,
-      "totalCost": 16,
-      "quantityRemain": 492,
-      "date": "2022-10-06",
-      "time": "12:50:38.185Z",
-      "momo": false,
-      "salesPerson": "Dickson",
-      "id": 1040
-    },
-    {
-      "itemName": "Pencil",
-      "quantity": 78,
-      "costPrice": 40,
-      "sellingPrice": 67,
-      "bought": 2,
-      "totalCost": 134,
-      "quantityRemain": 76,
-      "date": "2022-10-07",
-      "time": "16:19:53.747Z",
-      "momo": false,
-      "salesPerson": "chronicles",
-      "id": 1041
-    },
-    {
-      "itemName": "vermox tab",
-      "quantity": 478,
-      "costPrice": 7.86,
-      "sellingPrice": 13,
-      "bought": 2,
-      "totalCost": 26,
-      "quantityRemain": 476,
-      "date": "2022-10-07",
-      "time": "16:28:11.158Z",
-      "momo": true,
-      "salesPerson": "chronicles",
-      "id": 1042
-    },
-    {
-      "itemName": "vermox susp",
-      "quantity": 500,
-      "costPrice": 16,
-      "sellingPrice": 22,
-      "bought": 2,
-      "totalCost": 44,
-      "quantityRemain": 498,
-      "date": "2022-10-07",
-      "time": "16:28:12.873Z",
-      "momo": true,
-      "salesPerson": "chronicles",
-      "id": 1043
+      "costPrice": "1.51",
+      "sellingPrice": "4",
+      "id": 5
     },
     {
       "itemName": "nezben tab 200mg",
       "quantity": 500,
-      "costPrice": 3.47,
-      "sellingPrice": 6,
-      "bought": 1,
-      "totalCost": 6,
-      "quantityRemain": 499,
-      "date": "2022-11-03",
-      "time": "09:47:48.516Z",
-      "momo": false,
-      "salesPerson": "spyda",
-      "id": 1044
+      "costPrice": "3.47",
+      "sellingPrice": "6",
+      "id": 6
     },
     {
-      "itemName": "tanzol tab",
-      "quantity": 495,
-      "costPrice": 1.51,
-      "sellingPrice": 4,
-      "bought": 2,
-      "totalCost": 8,
-      "quantityRemain": 493,
-      "date": "2022-11-03",
-      "time": "09:47:49.597Z",
-      "momo": false,
-      "salesPerson": "spyda",
-      "id": 1045
-    },
-    {
-      "itemName": "vermox tab",
-      "quantity": 476,
-      "costPrice": 7.86,
-      "sellingPrice": 13,
-      "bought": 3,
-      "totalCost": 39,
-      "quantityRemain": 473,
-      "date": "2022-11-03",
-      "time": "09:47:52.620Z",
-      "momo": false,
-      "salesPerson": "spyda",
-      "id": 1046
-    },
-    {
-      "itemName": "lufart ds tab 6",
+      "itemName": "p-alaxin tab",
       "quantity": 500,
-      "costPrice": 13.37,
-      "sellingPrice": 20,
-      "bought": 3,
-      "totalCost": 60,
-      "quantityRemain": 497,
-      "date": "2022-12-06",
-      "time": "10:35:41.997Z",
-      "momo": false,
-      "salesPerson": "Dickson",
-      "id": 1047
+      "costPrice": "11.88",
+      "sellingPrice": "17.0",
+      "id": 8
+    },
+    {
+      "itemName": "cartef-ds 80/480",
+      "quantity": 500,
+      "costPrice": "6",
+      "sellingPrice": "12",
+      "id": 9
+    },
+    {
+      "itemName": "cartef tab 24",
+      "quantity": 500,
+      "costPrice": "5.118",
+      "sellingPrice": "7.0",
+      "id": 10
+    },
+    {
+      "itemName": "lonart tabs 24's",
+      "quantity": 500,
+      "costPrice": "4.90",
+      "sellingPrice": "9",
+      "id": 11
+    },
+    {
+      "itemName": "lonart ds",
+      "quantity": 500,
+      "costPrice": "16.34",
+      "sellingPrice": "23",
+      "id": 12
+    },
+    {
+      "itemName": "coatem 80/400mg",
+      "quantity": 500,
+      "costPrice": "36.82",
+      "sellingPrice": "50.0",
+      "id": 13
+    },
+    {
+      "itemName": "coartem orig. 12's(novartis)",
+      "quantity": 499,
+      "costPrice": "9.255",
+      "sellingPrice": "13.0",
+      "id": 14
+    },
+    {
+      "itemName": "tanzol suspension",
+      "quantity": 500,
+      "costPrice": "1.51",
+      "sellingPrice": "4",
+      "id": 15
+    },
+    {
+      "itemName": "nessben susp 5ml",
+      "quantity": 500,
+      "costPrice": "3.94",
+      "sellingPrice": "6.0",
+      "id": 16
+    },
+    {
+      "itemName": "malar-2 ds tab",
+      "quantity": 500,
+      "costPrice": "7.90",
+      "sellingPrice": "13",
+      "id": 17
+    },
+    {
+      "itemName": "arfan 20/120 mg 24'(letap)",
+      "quantity": 500,
+      "costPrice": "3.56",
+      "sellingPrice": "6.0",
+      "id": 18
+    },
+    {
+      "itemName": "goldy malaria suspension",
+      "quantity": 500,
+      "costPrice": "7.42",
+      "sellingPrice": "12",
+      "id": 19
     },
     {
       "itemName": "lufart suspension",
       "quantity": 500,
-      "costPrice": 9.41,
-      "sellingPrice": 15,
-      "bought": 2,
-      "totalCost": 30,
-      "quantityRemain": 498,
-      "date": "2022-12-06",
-      "time": "10:35:52.124Z",
-      "momo": false,
-      "salesPerson": "Dickson",
-      "id": 1048
+      "costPrice": "9.41",
+      "sellingPrice": "15",
+      "id": 20
     },
     {
-      "itemName": "vermox tab",
-      "quantity": 473,
-      "costPrice": 12,
-      "sellingPrice": 13,
-      "bought": 2,
-      "totalCost": 26,
-      "quantityRemain": 471,
-      "date": "2023-03-08",
-      "time": "11:22:33.476Z",
-      "momo": false,
-      "salesPerson": "Dickson",
-      "id": 1049
+      "itemName": "lonart suspension",
+      "quantity": 500,
+      "costPrice": "10.40",
+      "sellingPrice": "16",
+      "id": 21
     },
     {
-      "itemName": "lufart ds tab 6",
-      "quantity": 497,
-      "costPrice": 13.37,
-      "sellingPrice": 20,
-      "bought": 3,
-      "totalCost": 60,
-      "quantityRemain": 494,
-      "date": "2023-03-08",
-      "time": "11:22:47.828Z",
-      "momo": false,
-      "salesPerson": "Dickson",
-      "id": 1050
+      "itemName": "malar-2 suspension",
+      "quantity": 498,
+      "costPrice": "8.51",
+      "sellingPrice": "13",
+      "id": 22
     },
     {
-      "itemName": "vermox tab",
-      "quantity": 471,
-      "costPrice": 12,
-      "sellingPrice": 13,
-      "bought": 1,
-      "totalCost": 13,
-      "quantityRemain": 470,
-      "date": "2023-03-08",
-      "time": "12:06:43.985Z",
-      "momo": false,
-      "salesPerson": "Dickson",
-      "id": 1051
+      "itemName": "shimether oral suspension",
+      "quantity": 500,
+      "costPrice": "14.36",
+      "sellingPrice": "22",
+      "id": 23
     },
     {
-      "itemName": "wormplex 400 tab",
-      "quantity": 492,
-      "costPrice": 5.15,
-      "sellingPrice": 8,
-      "bought": 2,
-      "totalCost": 16,
-      "quantityRemain": 490,
-      "date": "2023-03-08",
-      "time": "12:07:14.513Z",
-      "momo": false,
-      "salesPerson": "Dickson",
-      "id": 1052
+      "itemName": "cartef suspension 60ml",
+      "quantity": 500,
+      "costPrice": "5.12",
+      "sellingPrice": "9",
+      "id": 24
+    },
+    {
+      "itemName": "quinine suspension 100ml",
+      "quantity": 500,
+      "costPrice": "4.55",
+      "sellingPrice": "8",
+      "id": 25
+    },
+    {
+      "itemName": "kiss condom ",
+      "quantity": 494,
+      "costPrice": "1.48",
+      "sellingPrice": "3.0",
+      "id": 26
+    },
+    {
+      "itemName": "fiesta condom",
+      "quantity": 500,
+      "costPrice": "2.83",
+      "sellingPrice": "4.0",
+      "id": 27
+    },
+    {
+      "itemName": "rough rider condom",
+      "quantity": 500,
+      "costPrice": "6.23",
+      "sellingPrice": "9.0",
+      "id": 28
+    },
+    {
+      "itemName": "dragon spray",
+      "quantity": 500,
+      "costPrice": "22.90",
+      "sellingPrice": "30.0",
+      "id": 29
+    },
+    {
+      "itemName": "dragon tabs 4",
+      "quantity": 500,
+      "costPrice": "4.73",
+      "sellingPrice": "8",
+      "id": 30
+    },
+    {
+      "itemName": "imax delay spray 8ml",
+      "quantity": 500,
+      "costPrice": "21.78",
+      "sellingPrice": "30.0",
+      "id": 31
+    },
+    {
+      "itemName": "mr q ",
+      "quantity": 500,
+      "costPrice": "4.02",
+      "sellingPrice": "6.0",
+      "id": 32
+    },
+    {
+      "itemName": "comit 50mg",
+      "quantity": 500,
+      "costPrice": "2.2",
+      "sellingPrice": "4",
+      "id": 33
+    },
+    {
+      "itemName": "bonnisan gripe water",
+      "quantity": 500,
+      "costPrice": "15.57",
+      "sellingPrice": "22",
+      "id": 34
     },
     {
       "itemName": "pure codliver oil syr 150ml (ayrtons)",
       "quantity": 500,
-      "costPrice": 31.19,
-      "sellingPrice": 44,
-      "bought": 2,
-      "totalCost": 88,
-      "quantityRemain": 498,
-      "date": "2023-03-08",
-      "time": "12:08:02.841Z",
-      "momo": false,
-      "salesPerson": "Dickson",
-      "id": 1053
+      "costPrice": "31.19",
+      "sellingPrice": "44.0",
+      "id": 35
     },
     {
-      "itemName": "Pencil",
-      "quantity": 5,
-      "costPrice": 10,
-      "sellingPrice": 12,
-      "bought": 2,
-      "totalCost": 24,
-      "quantityRemain": 3,
-      "date": "2023-03-08",
-      "time": "12:09:00.697Z",
-      "momo": false,
-      "salesPerson": "Dickson",
-      "id": 1054
+      "itemName": "primadol syrup",
+      "quantity": 500,
+      "costPrice": "3.92",
+      "sellingPrice": "6.0",
+      "id": 36
     },
     {
-      "itemName": "pure codliver oil syr 150ml (ayrtons)",
-      "quantity": 498,
-      "costPrice": 31.19,
-      "sellingPrice": 44,
-      "bought": 2,
-      "totalCost": 88,
-      "quantityRemain": 496,
-      "date": "2023-04-20",
-      "time": "23:11:34.649Z",
-      "momo": false,
-      "salesPerson": "Derick",
-      "id": 1055
+      "itemName": "para syr (exeter)",
+      "quantity": 500,
+      "costPrice": "4.93",
+      "sellingPrice": "9",
+      "id": 37
     },
     {
-      "itemName": "kotidro",
-      "quantity": 5,
-      "costPrice": 32,
-      "sellingPrice": 35,
-      "bought": 5,
-      "totalCost": 175,
-      "quantityRemain": 0,
-      "date": "2023-04-20",
-      "time": "23:15:18.954Z",
-      "momo": false,
-      "salesPerson": "Derick",
-      "id": 1056
+      "itemName": "lydia postpill",
+      "quantity": 500,
+      "costPrice": "7.08",
+      "sellingPrice": "10.0",
+      "id": 38
     },
     {
-      "itemName": "vermox tab",
-      "quantity": 470,
-      "costPrice": 12,
-      "sellingPrice": 13,
-      "bought": 3,
-      "totalCost": 39,
-      "quantityRemain": 467,
-      "date": "2023-04-24",
-      "time": "01:21:26.531Z",
-      "momo": false,
-      "salesPerson": "Derick",
-      "id": 1057
+      "itemName": "levon-2",
+      "quantity": 500,
+      "costPrice": "5.92",
+      "sellingPrice": "8.0",
+      "id": 39
     },
     {
-      "itemName": "pure codliver oil syr 150ml (ayrtons)",
-      "quantity": 496,
-      "costPrice": 31.19,
-      "sellingPrice": 44,
-      "bought": 2,
-      "totalCost": 88,
-      "quantityRemain": 494,
-      "date": "2023-04-24",
-      "time": "01:21:28.419Z",
-      "momo": false,
-      "salesPerson": "Derick",
-      "id": 1058
+      "itemName": "dexatrol eye drop",
+      "quantity": 500,
+      "costPrice": "12.02",
+      "sellingPrice": "17.0",
+      "id": 40
+    },
+    {
+      "itemName": "neo-hycolex eye drop 5ml",
+      "quantity": 500,
+      "costPrice": "14.85",
+      "sellingPrice": "21",
+      "id": 41
+    },
+    {
+      "itemName": "cool eyes drop",
+      "quantity": 500,
+      "costPrice": "14.06",
+      "sellingPrice": "20.0",
+      "id": 42
+    },
+    {
+      "itemName": "ephedrine nasal drop (major)",
+      "quantity": 500,
+      "costPrice": "7.33",
+      "sellingPrice": "10.0",
+      "id": 43
+    },
+    {
+      "itemName": "sana nasal drops 10ml",
+      "quantity": 500,
+      "costPrice": "2.71",
+      "sellingPrice": "4.0",
+      "id": 44
+    },
+    {
+      "itemName": "genta eye/eardrops(hova)",
+      "quantity": 500,
+      "costPrice": "1.64",
+      "sellingPrice": "4.0",
+      "id": 45
+    },
+    {
+      "itemName": "normo tears eye drop",
+      "quantity": 500,
+      "costPrice": "16.73",
+      "sellingPrice": "24",
+      "id": 46
+    },
+    {
+      "itemName": "ciprolex eye & ear drop",
+      "quantity": 500,
+      "costPrice": "9.90",
+      "sellingPrice": "14.0",
+      "id": 47
+    },
+    {
+      "itemName": "refresh tears drop",
+      "quantity": 500,
+      "costPrice": "46.78",
+      "sellingPrice": "65.0",
+      "id": 48
+    },
+    {
+      "itemName": "se'clear eye drop",
+      "quantity": 500,
+      "costPrice": "7.92",
+      "sellingPrice": "11.0",
+      "id": 49
+    },
+    {
+      "itemName": "nostamine e/n drops",
+      "quantity": 500,
+      "costPrice": "13.85",
+      "sellingPrice": "19.0",
+      "id": 50
+    },
+    {
+      "itemName": "epicrom eye drop 2%",
+      "quantity": 500,
+      "costPrice": "14.74",
+      "sellingPrice": "20.0",
+      "id": 51
+    },
+    {
+      "itemName": "auntie mary gripe water 160ml",
+      "quantity": 500,
+      "costPrice": "7.8",
+      "sellingPrice": "11.0",
+      "id": 52
+    },
+    {
+      "itemName": "alpha garlic capsules ",
+      "quantity": 500,
+      "costPrice": "12.87",
+      "sellingPrice": "18",
+      "id": 53
+    },
+    {
+      "itemName": "ayulabs gripe water(promotion)",
+      "quantity": 500,
+      "costPrice": "7",
+      "sellingPrice": "9.0",
+      "id": 54
+    },
+    {
+      "itemName": "amiclox susp.(ecl)",
+      "quantity": 500,
+      "costPrice": "4.92",
+      "sellingPrice": "7.0",
+      "id": 55
+    },
+    {
+      "itemName": "cotri sus (m&g)",
+      "quantity": 500,
+      "costPrice": "3.59",
+      "sellingPrice": "5.0",
+      "id": 56
+    },
+    {
+      "itemName": "enamycin sus(ecl)",
+      "quantity": 500,
+      "costPrice": "5.54",
+      "sellingPrice": "8.0",
+      "id": 57
+    },
+    {
+      "itemName": "enacef suspension",
+      "quantity": 500,
+      "costPrice": "11.86",
+      "sellingPrice": "17.0",
+      "id": 58
+    },
+    {
+      "itemName": "enafix susp 100ml",
+      "quantity": 500,
+      "costPrice": "15.82",
+      "sellingPrice": "21.0",
+      "id": 59
+    },
+    {
+      "itemName": "amoxyl susp letap",
+      "quantity": 500,
+      "costPrice": "2.32",
+      "sellingPrice": "5.0",
+      "id": 60
+    },
+    {
+      "itemName": "exoclav susp 228mg",
+      "quantity": 500,
+      "costPrice": "8.50",
+      "sellingPrice": "12.0",
+      "id": 61
+    },
+    {
+      "itemName": "emgiflox susp",
+      "quantity": 500,
+      "costPrice": "3.92",
+      "sellingPrice": "6.0",
+      "id": 62
+    },
+    {
+      "itemName": "fluxacin susp 100ml",
+      "quantity": 500,
+      "costPrice": "6.44",
+      "sellingPrice": "9.0",
+      "id": 63
+    },
+    {
+      "itemName": "penflox sus(gr)",
+      "quantity": 500,
+      "costPrice": "4.16",
+      "sellingPrice": "6.0",
+      "id": 64
+    },
+    {
+      "itemName": "aziron 500mg tabs",
+      "quantity": 500,
+      "costPrice": "6.78",
+      "sellingPrice": "10.0",
+      "id": 65
+    },
+    {
+      "itemName": "azirocin tab",
+      "quantity": 500,
+      "costPrice": "5.35",
+      "sellingPrice": "8.0",
+      "id": 66
+    },
+    {
+      "itemName": "azilex 200mg suspension 15ml",
+      "quantity": 500,
+      "costPrice": "14",
+      "sellingPrice": "20.0",
+      "id": 67
+    },
+    {
+      "itemName": "azirocin suspension ",
+      "quantity": 500,
+      "costPrice": "6.72",
+      "sellingPrice": "10.0",
+      "id": 68
+    },
+    {
+      "itemName": "metagyl tab 200mg 500'",
+      "quantity": 500,
+      "costPrice": "0.05",
+      "sellingPrice": "1.0",
+      "id": 69
+    },
+    {
+      "itemName": "contra 72 (1)",
+      "quantity": 500,
+      "costPrice": "1.96",
+      "sellingPrice": "5.0",
+      "id": 70
+    },
+    {
+      "itemName": "borges cider vineger 355ml",
+      "quantity": 500,
+      "costPrice": "11.88",
+      "sellingPrice": "16.0",
+      "id": 71
+    },
+    {
+      "itemName": "accurate pregnancy test cassette",
+      "quantity": 500,
+      "costPrice": "1.20",
+      "sellingPrice": "5.0",
+      "id": 72
+    },
+    {
+      "itemName": "omega oil 50ml",
+      "quantity": 500,
+      "costPrice": "7",
+      "sellingPrice": "10.0",
+      "id": 73
+    },
+    {
+      "itemName": "borges 250ml",
+      "quantity": 500,
+      "costPrice": "18.81",
+      "sellingPrice": "28.5",
+      "id": 74
+    },
+    {
+      "itemName": "borges 125ml",
+      "quantity": 500,
+      "costPrice": "10.89",
+      "sellingPrice": "16.5",
+      "id": 75
+    },
+    {
+      "itemName": "savlon antisep.250ml (orange)",
+      "quantity": 500,
+      "costPrice": "12.52",
+      "sellingPrice": "20",
+      "id": 76
+    },
+    {
+      "itemName": "savlon 125ml (j&j)",
+      "quantity": 500,
+      "costPrice": "9.26",
+      "sellingPrice": "15",
+      "id": 77
+    },
+    {
+      "itemName": "savlon antisept.500ml",
+      "quantity": 500,
+      "costPrice": "22.60",
+      "sellingPrice": "30.0",
+      "id": 78
+    },
+    {
+      "itemName": "dettol 250ml",
+      "quantity": 500,
+      "costPrice": "19.80",
+      "sellingPrice": "28",
+      "id": 79
+    },
+    {
+      "itemName": "dettol 500ml",
+      "quantity": 500,
+      "costPrice": "27.23",
+      "sellingPrice": "33",
+      "id": 80
+    },
+    {
+      "itemName": "camel 250ml",
+      "quantity": 500,
+      "costPrice": "10.77",
+      "sellingPrice": "18",
+      "id": 81
+    },
+    {
+      "itemName": "camel 125ml",
+      "quantity": 500,
+      "costPrice": "8.98",
+      "sellingPrice": "17",
+      "id": 82
+    },
+    {
+      "itemName": "eskypan 10x10 ",
+      "quantity": 500,
+      "costPrice": "3.33",
+      "sellingPrice": "5.0",
+      "id": 83
+    },
+    {
+      "itemName": "morgan's anti bacteria soap 80g",
+      "quantity": 500,
+      "costPrice": "6.53",
+      "sellingPrice": "10.0",
+      "id": 84
+    },
+    {
+      "itemName": "dettol soap (twin pack) 200g",
+      "quantity": 500,
+      "costPrice": "9.90",
+      "sellingPrice": "7",
+      "id": 85
+    },
+    {
+      "itemName": "salicylic acid soap",
+      "quantity": 500,
+      "costPrice": "13.85",
+      "sellingPrice": "19.0",
+      "id": 86
+    },
+    {
+      "itemName": "m.m.t",
+      "quantity": 500,
+      "costPrice": "2.72",
+      "sellingPrice": "6",
+      "id": 87
+    },
+    {
+      "itemName": "nugel o susp",
+      "quantity": 500,
+      "costPrice": "18.54",
+      "sellingPrice": "26",
+      "id": 88
+    },
+    {
+      "itemName": "nugel susp",
+      "quantity": 500,
+      "costPrice": "15.30",
+      "sellingPrice": "23",
+      "id": 89
+    },
+    {
+      "itemName": "gastrone syrup 200ml",
+      "quantity": 500,
+      "costPrice": "9.21",
+      "sellingPrice": "15",
+      "id": 90
+    },
+    {
+      "itemName": "magacid susp 200ml",
+      "quantity": 500,
+      "costPrice": "7.29",
+      "sellingPrice": "12",
+      "id": 91
+    },
+    {
+      "itemName": "klire antacid susp b/s",
+      "quantity": 500,
+      "costPrice": "13.37",
+      "sellingPrice": "20",
+      "id": 92
+    },
+    {
+      "itemName": "martins liver salt",
+      "quantity": 500,
+      "costPrice": "0.40",
+      "sellingPrice": "1.0",
+      "id": 93
+    },
+    {
+      "itemName": "no. 10 liver salt",
+      "quantity": 500,
+      "costPrice": "0.70",
+      "sellingPrice": "1",
+      "id": 94
+    },
+    {
+      "itemName": "glucose orange (let)",
+      "quantity": 500,
+      "costPrice": "4.64",
+      "sellingPrice": "7.0",
+      "id": 95
+    },
+    {
+      "itemName": "mist sennaco",
+      "quantity": 500,
+      "costPrice": "2.72",
+      "sellingPrice": "6",
+      "id": 96
+    },
+    {
+      "itemName": "sevenseas syr",
+      "quantity": 500,
+      "costPrice": "28.07",
+      "sellingPrice": "39.0",
+      "id": 97
+    },
+    {
+      "itemName": "teeder ",
+      "quantity": 500,
+      "costPrice": "6.98",
+      "sellingPrice": "10.0",
+      "id": 98
+    },
+    {
+      "itemName": "enafen susp 60ml",
+      "quantity": 500,
+      "costPrice": "4.16",
+      "sellingPrice": "6.0",
+      "id": 99
+    },
+    {
+      "itemName": "calpol susp 6+ syrup",
+      "quantity": 500,
+      "costPrice": "33.52",
+      "sellingPrice": "46.0",
+      "id": 100
+    },
+    {
+      "itemName": "efpac jnr syr 100ml",
+      "quantity": 500,
+      "costPrice": "7.08",
+      "sellingPrice": "10",
+      "id": 101
+    },
+    {
+      "itemName": "paraking syr",
+      "quantity": 500,
+      "costPrice": "3.76",
+      "sellingPrice": "6.0",
+      "id": 102
+    },
+    {
+      "itemName": "teething mixure (ecl)",
+      "quantity": 500,
+      "costPrice": "5.92",
+      "sellingPrice": "10",
+      "id": 103
+    },
+    {
+      "itemName": "teething mixture (bels)",
+      "quantity": 500,
+      "costPrice": "18.12",
+      "sellingPrice": "25.0",
+      "id": 104
+    },
+    {
+      "itemName": "cetrizan syr 60ml",
+      "quantity": 500,
+      "costPrice": "5.37",
+      "sellingPrice": "7.5",
+      "id": 105
+    },
+    {
+      "itemName": "rhizin tab ",
+      "quantity": 500,
+      "costPrice": "4.95",
+      "sellingPrice": "2",
+      "id": 106
+    },
+    {
+      "itemName": "piriton tab (gsk)",
+      "quantity": 500,
+      "costPrice": "29.40",
+      "sellingPrice": "41.0",
+      "id": 107
+    },
+    {
+      "itemName": "promethazine syr 60ml",
+      "quantity": 500,
+      "costPrice": "2.56",
+      "sellingPrice": "6",
+      "id": 108
+    },
+    {
+      "itemName": "asmadrin tab",
+      "quantity": 500,
+      "costPrice": "13.86",
+      "sellingPrice": "20.0",
+      "id": 109
+    },
+    {
+      "itemName": "asmanol tab",
+      "quantity": 500,
+      "costPrice": "13.84",
+      "sellingPrice": "20.0",
+      "id": 110
+    },
+    {
+      "itemName": "colodium caps",
+      "quantity": 500,
+      "costPrice": "1.6",
+      "sellingPrice": "2.5",
+      "id": 111
+    },
+    {
+      "itemName": "kalamina lotion 120ml",
+      "quantity": 500,
+      "costPrice": "6.14",
+      "sellingPrice": "9.0",
+      "id": 112
+    },
+    {
+      "itemName": "drez oint 30g",
+      "quantity": 500,
+      "costPrice": "14.59",
+      "sellingPrice": "20.5",
+      "id": 113
+    },
+    {
+      "itemName": "drez powder",
+      "quantity": 500,
+      "costPrice": "6.85",
+      "sellingPrice": "10.0",
+      "id": 114
+    },
+    {
+      "itemName": "drez solution 30ml",
+      "quantity": 500,
+      "costPrice": "7.48",
+      "sellingPrice": "10.5",
+      "id": 115
+    },
+    {
+      "itemName": "mycolex powder",
+      "quantity": 500,
+      "costPrice": "19.80",
+      "sellingPrice": "28.0",
+      "id": 116
+    },
+    {
+      "itemName": "methylated spirit",
+      "quantity": 500,
+      "costPrice": "2.02",
+      "sellingPrice": "3.0",
+      "id": 117
+    },
+    {
+      "itemName": "gv paint ",
+      "quantity": 500,
+      "costPrice": "1.64",
+      "sellingPrice": "3.0",
+      "id": 118
+    },
+    {
+      "itemName": "hydrogen (ecl)",
+      "quantity": 500,
+      "costPrice": "4.95",
+      "sellingPrice": "8",
+      "id": 119
+    },
+    {
+      "itemName": "listerine 250ml",
+      "quantity": 500,
+      "costPrice": "15.35",
+      "sellingPrice": "22.0",
+      "id": 120
+    },
+    {
+      "itemName": "tcp (uk) 50ml",
+      "quantity": 500,
+      "costPrice": "30.51",
+      "sellingPrice": "43.0",
+      "id": 121
+    },
+    {
+      "itemName": "kamaclox mouth wash 300ml",
+      "quantity": 500,
+      "costPrice": "8.34",
+      "sellingPrice": "12.0",
+      "id": 122
+    },
+    {
+      "itemName": "polar ice l/s 227g",
+      "quantity": 500,
+      "costPrice": "14.85",
+      "sellingPrice": "21",
+      "id": 123
+    },
+    {
+      "itemName": "gacet supp 250mg",
+      "quantity": 500,
+      "costPrice": "0.6",
+      "sellingPrice": "1",
+      "id": 124
+    },
+    {
+      "itemName": "gacet supp 125mg ",
+      "quantity": 500,
+      "costPrice": "0.4",
+      "sellingPrice": "1",
+      "id": 125
+    },
+    {
+      "itemName": "contra 72",
+      "quantity": 500,
+      "costPrice": "1.96",
+      "sellingPrice": "5.0",
+      "id": 126
+    },
+    {
+      "itemName": "borges cider vinegar 355ml",
+      "quantity": 500,
+      "costPrice": "11.88",
+      "sellingPrice": "15.0",
+      "id": 127
+    },
+    {
+      "itemName": "accurate pregnancy test cassete",
+      "quantity": 500,
+      "costPrice": "1.2",
+      "sellingPrice": "5.0",
+      "id": 128
+    },
+    {
+      "itemName": "vomi 10mg ",
+      "quantity": 500,
+      "costPrice": "2.07",
+      "sellingPrice": "3.0",
+      "id": 129
+    },
+    {
+      "itemName": "vomi 30mg",
+      "quantity": 500,
+      "costPrice": "1.98",
+      "sellingPrice": "3.0",
+      "id": 130
+    },
+    {
+      "itemName": "diclo denk 100mg supp",
+      "quantity": 500,
+      "costPrice": "2.24",
+      "sellingPrice": "3.5",
+      "id": 131
+    },
+    {
+      "itemName": "anusol supp 12's ",
+      "quantity": 500,
+      "costPrice": "2.9",
+      "sellingPrice": "4.0",
+      "id": 132
+    },
+    {
+      "itemName": "ganymol 500mg supp 10'",
+      "quantity": 500,
+      "costPrice": "1.1",
+      "sellingPrice": "1.5",
+      "id": 133
+    },
+    {
+      "itemName": "top tonic",
+      "quantity": 500,
+      "costPrice": "10.5",
+      "sellingPrice": "14.0",
+      "id": 134
+    },
+    {
+      "itemName": "lowcare",
+      "quantity": 500,
+      "costPrice": "15",
+      "sellingPrice": "19.5",
+      "id": 135
+    },
+    {
+      "itemName": "taabea mix",
+      "quantity": 500,
+      "costPrice": "13",
+      "sellingPrice": "17",
+      "id": 136
+    },
+    {
+      "itemName": "rooter mixture",
+      "quantity": 500,
+      "costPrice": "8",
+      "sellingPrice": "11",
+      "id": 137
+    },
+    {
+      "itemName": "rooter tytonic",
+      "quantity": 500,
+      "costPrice": "14.5",
+      "sellingPrice": "21",
+      "id": 138
+    },
+    {
+      "itemName": "diagellates 125ml",
+      "quantity": 500,
+      "costPrice": "12.5",
+      "sellingPrice": "16.0",
+      "id": 139
+    },
+    {
+      "itemName": "diagellate 500",
+      "quantity": 500,
+      "costPrice": "35.5",
+      "sellingPrice": "46.0",
+      "id": 140
+    },
+    {
+      "itemName": "diagellates 250",
+      "quantity": 500,
+      "costPrice": "20.5",
+      "sellingPrice": "27.0",
+      "id": 141
+    },
+    {
+      "itemName": "masada syr",
+      "quantity": 500,
+      "costPrice": "10.50",
+      "sellingPrice": "15",
+      "id": 142
+    },
+    {
+      "itemName": "living bitters capsule",
+      "quantity": 500,
+      "costPrice": "20.15",
+      "sellingPrice": "27.0",
+      "id": 143
+    },
+    {
+      "itemName": "living s/s bitters",
+      "quantity": 500,
+      "costPrice": "16.62",
+      "sellingPrice": "22.0",
+      "id": 144
+    },
+    {
+      "itemName": "sparnis garlic bitters ",
+      "quantity": 500,
+      "costPrice": "10.50",
+      "sellingPrice": "14.0",
+      "id": 145
+    },
+    {
+      "itemName": "agbeve pheveh",
+      "quantity": 500,
+      "costPrice": "8",
+      "sellingPrice": "12",
+      "id": 146
+    },
+    {
+      "itemName": "agbeve tonic",
+      "quantity": 500,
+      "costPrice": "8",
+      "sellingPrice": "12",
+      "id": 147
+    },
+    {
+      "itemName": "adom koo caps",
+      "quantity": 500,
+      "costPrice": "13.5",
+      "sellingPrice": "19",
+      "id": 148
+    },
+    {
+      "itemName": "lucky v  care",
+      "quantity": 500,
+      "costPrice": "15",
+      "sellingPrice": "23",
+      "id": 149
+    },
+    {
+      "itemName": "franko herbal mixture",
+      "quantity": 500,
+      "costPrice": "15",
+      "sellingPrice": "21",
+      "id": 150
+    },
+    {
+      "itemName": "sibi men power caps",
+      "quantity": 500,
+      "costPrice": "12",
+      "sellingPrice": "19",
+      "id": 151
+    },
+    {
+      "itemName": "sibi women",
+      "quantity": 500,
+      "costPrice": "12",
+      "sellingPrice": "19",
+      "id": 152
+    },
+    {
+      "itemName": "pylin caps",
+      "quantity": 500,
+      "costPrice": "40",
+      "sellingPrice": "55",
+      "id": 153
+    },
+    {
+      "itemName": "pilief tab 60",
+      "quantity": 500,
+      "costPrice": "23",
+      "sellingPrice": "35",
+      "id": 154
+    },
+    {
+      "itemName": "tinatet venecare",
+      "quantity": 500,
+      "costPrice": "22",
+      "sellingPrice": "30",
+      "id": 155
+    },
+    {
+      "itemName": "givers koo caps",
+      "quantity": 500,
+      "costPrice": "21",
+      "sellingPrice": "27.0",
+      "id": 156
+    },
+    {
+      "itemName": "mist pot cit 200ml",
+      "quantity": 500,
+      "costPrice": "2.8",
+      "sellingPrice": "6",
+      "id": 157
+    },
+    {
+      "itemName": "gifas mix",
+      "quantity": 500,
+      "costPrice": "13",
+      "sellingPrice": "14.0",
+      "id": 158
+    },
+    {
+      "itemName": "adutwumwaa bitters",
+      "quantity": 500,
+      "costPrice": "8.2",
+      "sellingPrice": "12",
+      "id": 159
+    },
+    {
+      "itemName": "roll plaster ",
+      "quantity": 500,
+      "costPrice": "8",
+      "sellingPrice": "10.5",
+      "id": 160
+    },
+    {
+      "itemName": "madam catherine",
+      "quantity": 500,
+      "costPrice": "8.5",
+      "sellingPrice": "13",
+      "id": 161
+    },
+    {
+      "itemName": "kingdom garlic bitters",
+      "quantity": 500,
+      "costPrice": "15",
+      "sellingPrice": "21",
+      "id": 162
+    },
+    {
+      "itemName": "father martin",
+      "quantity": 500,
+      "costPrice": "11.5",
+      "sellingPrice": "15.0",
+      "id": 163
+    },
+    {
+      "itemName": "prostajoy caps",
+      "quantity": 500,
+      "costPrice": "29",
+      "sellingPrice": "40",
+      "id": 164
+    },
+    {
+      "itemName": "gana man caps",
+      "quantity": 500,
+      "costPrice": "30",
+      "sellingPrice": "40",
+      "id": 165
+    },
+    {
+      "itemName": "mist sennaco 200ml",
+      "quantity": 500,
+      "costPrice": "2.8",
+      "sellingPrice": "4.0",
+      "id": 166
+    },
+    {
+      "itemName": "wellman caps ",
+      "quantity": 500,
+      "costPrice": "64.58",
+      "sellingPrice": "84.0",
+      "id": 167
+    },
+    {
+      "itemName": "perfectil plus",
+      "quantity": 500,
+      "costPrice": "141.54",
+      "sellingPrice": "198.0",
+      "id": 168
+    },
+    {
+      "itemName": "vitafol cap",
+      "quantity": 500,
+      "costPrice": "8.17",
+      "sellingPrice": "11.5",
+      "id": 169
+    },
+    {
+      "itemName": "b-co strong 30's (krka)",
+      "quantity": 500,
+      "costPrice": "27.23",
+      "sellingPrice": "38.0",
+      "id": 170
+    },
+    {
+      "itemName": "valupak vit e 400iu",
+      "quantity": 500,
+      "costPrice": "21.78",
+      "sellingPrice": "30.0",
+      "id": 171
+    },
+    {
+      "itemName": "spemen tab",
+      "quantity": 500,
+      "costPrice": "39.89",
+      "sellingPrice": "56.0",
+      "id": 172
+    },
+    {
+      "itemName": "omega h3 cap",
+      "quantity": 500,
+      "costPrice": "47.68",
+      "sellingPrice": "67.3",
+      "id": 173
+    },
+    {
+      "itemName": "proman caps 30's",
+      "quantity": 500,
+      "costPrice": "31.65",
+      "sellingPrice": "45",
+      "id": 174
+    },
+    {
+      "itemName": "pro woman caps 30's",
+      "quantity": 500,
+      "costPrice": "38.58",
+      "sellingPrice": "54.0",
+      "id": 175
+    },
+    {
+      "itemName": "ovacare tabs 30's",
+      "quantity": 500,
+      "costPrice": "20.79",
+      "sellingPrice": "29.5",
+      "id": 176
+    },
+    {
+      "itemName": "ginsomin caps",
+      "quantity": 500,
+      "costPrice": "44.35",
+      "sellingPrice": "62.0",
+      "id": 177
+    },
+    {
+      "itemName": "ginsomin eve",
+      "quantity": 500,
+      "costPrice": "50.09",
+      "sellingPrice": "74.0",
+      "id": 178
+    },
+    {
+      "itemName": "pregnacare 19",
+      "quantity": 500,
+      "costPrice": "54.30",
+      "sellingPrice": "76.0",
+      "id": 179
+    },
+    {
+      "itemName": "enat 400iu caps",
+      "quantity": 500,
+      "costPrice": "38.69",
+      "sellingPrice": "55.0",
+      "id": 180
+    },
+    {
+      "itemName": "nat-b caps",
+      "quantity": 500,
+      "costPrice": "40.58",
+      "sellingPrice": "57.0",
+      "id": 181
+    },
+    {
+      "itemName": "ostecare tab(uk)",
+      "quantity": 500,
+      "costPrice": "27.81",
+      "sellingPrice": "39.0",
+      "id": 182
+    },
+    {
+      "itemName": "ideos ",
+      "quantity": 500,
+      "costPrice": "50.49",
+      "sellingPrice": "70.0",
+      "id": 183
+    },
+    {
+      "itemName": "m2 tone tab 20's",
+      "quantity": 500,
+      "costPrice": "51.48",
+      "sellingPrice": "72.0",
+      "id": 184
+    },
+    {
+      "itemName": "prostat 60mg 10's",
+      "quantity": 500,
+      "costPrice": "29.70",
+      "sellingPrice": "42.0",
+      "id": 185
+    },
+    {
+      "itemName": "prostat 60mg 30's",
+      "quantity": 500,
+      "costPrice": "89.09",
+      "sellingPrice": "124.6",
+      "id": 186
+    },
+    {
+      "itemName": "feroglobin",
+      "quantity": 500,
+      "costPrice": "38.63",
+      "sellingPrice": "54",
+      "id": 187
+    },
+    {
+      "itemName": "feroglobin cap",
+      "quantity": 500,
+      "costPrice": "38.12",
+      "sellingPrice": "53.0",
+      "id": 188
+    },
+    {
+      "itemName": "ferodex syr",
+      "quantity": 500,
+      "costPrice": "5.74",
+      "sellingPrice": "8.5",
+      "id": 189
+    },
+    {
+      "itemName": "polyfer syr 200ml",
+      "quantity": 500,
+      "costPrice": "5.69",
+      "sellingPrice": "10",
+      "id": 190
+    },
+    {
+      "itemName": "polyfer caps",
+      "quantity": 500,
+      "costPrice": "4.35",
+      "sellingPrice": "7",
+      "id": 191
+    },
+    {
+      "itemName": "zincofer syr",
+      "quantity": 500,
+      "costPrice": "13.55",
+      "sellingPrice": "17.0",
+      "id": 192
+    },
+    {
+      "itemName": "zincofer caps ",
+      "quantity": 500,
+      "costPrice": "14.60",
+      "sellingPrice": "21.0",
+      "id": 193
+    },
+    {
+      "itemName": "nexcofer syr l/s",
+      "quantity": 500,
+      "costPrice": "8.22",
+      "sellingPrice": "12.0",
+      "id": 194
+    },
+    {
+      "itemName": "nescofer caps",
+      "quantity": 500,
+      "costPrice": "5.34",
+      "sellingPrice": "8",
+      "id": 195
+    },
+    {
+      "itemName": "durol tonic 200ml",
+      "quantity": 500,
+      "costPrice": "8.61",
+      "sellingPrice": "12",
+      "id": 196
+    },
+    {
+      "itemName": "durol syr 300ml",
+      "quantity": 500,
+      "costPrice": "9.11",
+      "sellingPrice": "13.0",
+      "id": 197
+    },
+    {
+      "itemName": "foliron syr (letap)",
+      "quantity": 500,
+      "costPrice": "3.98",
+      "sellingPrice": "6.0",
+      "id": 198
+    },
+    {
+      "itemName": "finelife tonic",
+      "quantity": 500,
+      "costPrice": "6.20",
+      "sellingPrice": "9.0",
+      "id": 199
+    },
+    {
+      "itemName": "haemo forte 200ml",
+      "quantity": 500,
+      "costPrice": "16.36",
+      "sellingPrice": "23.0",
+      "id": 200
+    },
+    {
+      "itemName": "feroclear syr 200ml",
+      "quantity": 500,
+      "costPrice": "18.60",
+      "sellingPrice": "26.0",
+      "id": 201
+    },
+    {
+      "itemName": "foligrow syrup",
+      "quantity": 500,
+      "costPrice": "19.82",
+      "sellingPrice": "28.0",
+      "id": 202
+    },
+    {
+      "itemName": "foligrow caps ",
+      "quantity": 500,
+      "costPrice": "14.85",
+      "sellingPrice": "21.0",
+      "id": 203
+    },
+    {
+      "itemName": "city blood tonic 200ml",
+      "quantity": 500,
+      "costPrice": "7.90",
+      "sellingPrice": "11.0",
+      "id": 204
+    },
+    {
+      "itemName": "virol tonic ",
+      "quantity": 500,
+      "costPrice": "6.78",
+      "sellingPrice": "10.0",
+      "id": 205
+    },
+    {
+      "itemName": "jarifan 2 syrup",
+      "quantity": 500,
+      "costPrice": "12.16",
+      "sellingPrice": "17.0",
+      "id": 206
+    },
+    {
+      "itemName": "bioferon syrup",
+      "quantity": 500,
+      "costPrice": "19.75",
+      "sellingPrice": "28.0",
+      "id": 207
+    },
+    {
+      "itemName": "bioferon cap",
+      "quantity": 500,
+      "costPrice": "17.32",
+      "sellingPrice": "24.0",
+      "id": 208
+    },
+    {
+      "itemName": "rescofer syrup",
+      "quantity": 500,
+      "costPrice": "17.32",
+      "sellingPrice": "24.0",
+      "id": 209
+    },
+    {
+      "itemName": "neoferon syrup 200ml",
+      "quantity": 500,
+      "costPrice": "10.87",
+      "sellingPrice": "15.0",
+      "id": 210
+    },
+    {
+      "itemName": "tot'hema",
+      "quantity": 500,
+      "costPrice": "2.3",
+      "sellingPrice": "20",
+      "id": 211
+    },
+    {
+      "itemName": "haemoglobin syrup letap",
+      "quantity": 500,
+      "costPrice": "3.53",
+      "sellingPrice": "5.0",
+      "id": 212
+    },
+    {
+      "itemName": "haemoglobin syr (ayrton)",
+      "quantity": 500,
+      "costPrice": "4.41",
+      "sellingPrice": "6.0",
+      "id": 213
+    },
+    {
+      "itemName": "haemoglobin syrup m & g",
+      "quantity": 500,
+      "costPrice": "5.18",
+      "sellingPrice": "7.0",
+      "id": 214
+    },
+    {
+      "itemName": "magnavit syrup",
+      "quantity": 500,
+      "costPrice": "7.67",
+      "sellingPrice": "11.0",
+      "id": 215
+    },
+    {
+      "itemName": "glo power syrup",
+      "quantity": 500,
+      "costPrice": "11.06",
+      "sellingPrice": "15.0",
+      "id": 216
+    },
+    {
+      "itemName": "glo power caps",
+      "quantity": 500,
+      "costPrice": "9.80",
+      "sellingPrice": "14.0",
+      "id": 217
+    },
+    {
+      "itemName": "apeti syrup geo",
+      "quantity": 500,
+      "costPrice": "11.06",
+      "sellingPrice": "20.0",
+      "id": 218
+    },
+    {
+      "itemName": "super apeti plus tab",
+      "quantity": 500,
+      "costPrice": "1.51",
+      "sellingPrice": "2.0",
+      "id": 219
+    },
+    {
+      "itemName": "bonaplex syrup 200ml",
+      "quantity": 500,
+      "costPrice": "15.80",
+      "sellingPrice": "22.0",
+      "id": 220
+    },
+    {
+      "itemName": "cyprodin caps 30's",
+      "quantity": 500,
+      "costPrice": "29.5",
+      "sellingPrice": "41",
+      "id": 221
+    },
+    {
+      "itemName": "cyprodin syrup",
+      "quantity": 500,
+      "costPrice": "27.23",
+      "sellingPrice": "38.0",
+      "id": 222
+    },
+    {
+      "itemName": "leena syrup",
+      "quantity": 500,
+      "costPrice": "8.28",
+      "sellingPrice": "11.0",
+      "id": 223
+    },
+    {
+      "itemName": "tres orix syr 250ml l/s",
+      "quantity": 500,
+      "costPrice": "19.85",
+      "sellingPrice": "28.0",
+      "id": 224
+    },
+    {
+      "itemName": "becoactin tab",
+      "quantity": 500,
+      "costPrice": "9.90",
+      "sellingPrice": "14.0",
+      "id": 225
+    },
+    {
+      "itemName": "heptopep syr",
+      "quantity": 500,
+      "costPrice": "15.25",
+      "sellingPrice": "21.0",
+      "id": 226
+    },
+    {
+      "itemName": "dynewell syr",
+      "quantity": 500,
+      "costPrice": "3.38",
+      "sellingPrice": "5.0",
+      "id": 227
+    },
+    {
+      "itemName": "gudapet syr",
+      "quantity": 500,
+      "costPrice": "7.08",
+      "sellingPrice": "10.0",
+      "id": 228
+    },
+    {
+      "itemName": "zincovit syrup",
+      "quantity": 500,
+      "costPrice": "14.05",
+      "sellingPrice": "20.0",
+      "id": 229
+    },
+    {
+      "itemName": "zincovit tab",
+      "quantity": 500,
+      "costPrice": "18.16",
+      "sellingPrice": "27.0",
+      "id": 230
+    },
+    {
+      "itemName": "cyfen syr",
+      "quantity": 500,
+      "costPrice": "11.67",
+      "sellingPrice": "16.0",
+      "id": 231
+    },
+    {
+      "itemName": "cororange syr",
+      "quantity": 500,
+      "costPrice": "7.82",
+      "sellingPrice": "11.0",
+      "id": 232
+    },
+    {
+      "itemName": "multivitammin tab(pharm)",
+      "quantity": 500,
+      "costPrice": "0.2",
+      "sellingPrice": "0.5",
+      "id": 233
+    },
+    {
+      "itemName": "b-co tab",
+      "quantity": 500,
+      "costPrice": "0.3",
+      "sellingPrice": "0.5",
+      "id": 234
+    },
+    {
+      "itemName": "folic acid",
+      "quantity": 500,
+      "costPrice": "0.2",
+      "sellingPrice": "0.5",
+      "id": 235
+    },
+    {
+      "itemName": "vigorix syrup 200ml",
+      "quantity": 500,
+      "costPrice": "8.59",
+      "sellingPrice": "12.0",
+      "id": 236
+    },
+    {
+      "itemName": "salo apeti syrup",
+      "quantity": 500,
+      "costPrice": "9.90",
+      "sellingPrice": "14.0",
+      "id": 237
+    },
+    {
+      "itemName": "abyvita syr",
+      "quantity": 500,
+      "costPrice": "9.07",
+      "sellingPrice": "13.0",
+      "id": 238
+    },
+    {
+      "itemName": "wellkid syrup",
+      "quantity": 500,
+      "costPrice": "57.32",
+      "sellingPrice": "80.0",
+      "id": 239
+    },
+    {
+      "itemName": "vikil 20",
+      "quantity": 500,
+      "costPrice": "25.13",
+      "sellingPrice": "37",
+      "id": 240
+    },
+    {
+      "itemName": "prokid drops",
+      "quantity": 500,
+      "costPrice": "5.92",
+      "sellingPrice": "8.5",
+      "id": 241
+    },
+    {
+      "itemName": "abidec drop",
+      "quantity": 500,
+      "costPrice": "26.17",
+      "sellingPrice": "36.0",
+      "id": 242
+    },
+    {
+      "itemName": "ascoryl syr 125ml",
+      "quantity": 500,
+      "costPrice": "6.97",
+      "sellingPrice": "10",
+      "id": 243
+    },
+    {
+      "itemName": "ascovite cee syr 100ml",
+      "quantity": 500,
+      "costPrice": "6.24",
+      "sellingPrice": "9.0",
+      "id": 244
+    },
+    {
+      "itemName": "zincovit drop",
+      "quantity": 500,
+      "costPrice": "6.98",
+      "sellingPrice": "10.0",
+      "id": 245
+    },
+    {
+      "itemName": "lavet ",
+      "quantity": 500,
+      "costPrice": "15.25",
+      "sellingPrice": "22",
+      "id": 246
+    },
+    {
+      "itemName": "v/ firm cream",
+      "quantity": 500,
+      "costPrice": "16.87",
+      "sellingPrice": "24.0",
+      "id": 247
+    },
+    {
+      "itemName": "infa v pess",
+      "quantity": 500,
+      "costPrice": "18.81",
+      "sellingPrice": "27.0",
+      "id": 248
+    },
+    {
+      "itemName": "gogynax cream 30g ",
+      "quantity": 500,
+      "costPrice": "4.06",
+      "sellingPrice": "6",
+      "id": 249
+    },
+    {
+      "itemName": "gogynox tab",
+      "quantity": 500,
+      "costPrice": "3.47",
+      "sellingPrice": "5.0",
+      "id": 250
+    },
+    {
+      "itemName": "vaginax cream",
+      "quantity": 500,
+      "costPrice": "3.78",
+      "sellingPrice": "6.0",
+      "id": 251
+    },
+    {
+      "itemName": "vaginax vag tab 6'",
+      "quantity": 500,
+      "costPrice": "2.67",
+      "sellingPrice": "5.0",
+      "id": 252
+    },
+    {
+      "itemName": "gynomycolex pess",
+      "quantity": 500,
+      "costPrice": "25",
+      "sellingPrice": "18",
+      "id": 253
+    },
+    {
+      "itemName": "candiderm cream 15mg",
+      "quantity": 500,
+      "costPrice": "7.95",
+      "sellingPrice": "11.0",
+      "id": 254
+    },
+    {
+      "itemName": "candid v3 pess",
+      "quantity": 500,
+      "costPrice": "8.94",
+      "sellingPrice": "13.0",
+      "id": 255
+    },
+    {
+      "itemName": "candid v6 pess 6'",
+      "quantity": 500,
+      "costPrice": "7.58",
+      "sellingPrice": "11.0",
+      "id": 256
+    },
+    {
+      "itemName": "asnac 75ml",
+      "quantity": 500,
+      "costPrice": "4.94",
+      "sellingPrice": "7.0",
+      "id": 257
+    },
+    {
+      "itemName": "dymol tab",
+      "quantity": 500,
+      "costPrice": "3.57",
+      "sellingPrice": "6.0",
+      "id": 258
+    },
+    {
+      "itemName": "paingay2.8",
+      "quantity": 500,
+      "costPrice": "2.8",
+      "sellingPrice": "4.5",
+      "id": 259
+    },
+    {
+      "itemName": "cyfen tab ",
+      "quantity": 500,
+      "costPrice": "1.38",
+      "sellingPrice": "2.0",
+      "id": 260
+    },
+    {
+      "itemName": "kwick action",
+      "quantity": 500,
+      "costPrice": "0.61",
+      "sellingPrice": "1.0",
+      "id": 261
+    },
+    {
+      "itemName": "ibucap 10's s/s",
+      "quantity": 500,
+      "costPrice": "1.5",
+      "sellingPrice": "3",
+      "id": 262
+    },
+    {
+      "itemName": "fenebase extra",
+      "quantity": 500,
+      "costPrice": "2",
+      "sellingPrice": "3.0",
+      "id": 263
+    },
+    {
+      "itemName": "diclo denk 100mg tab",
+      "quantity": 500,
+      "costPrice": "12",
+      "sellingPrice": "16.0",
+      "id": 264
+    },
+    {
+      "itemName": "para tab letap",
+      "quantity": 500,
+      "costPrice": "0.6",
+      "sellingPrice": "1.0",
+      "id": 265
+    },
+    {
+      "itemName": "para tab exeter",
+      "quantity": 500,
+      "costPrice": "1",
+      "sellingPrice": "2.0",
+      "id": 266
+    },
+    {
+      "itemName": "para tab ayrton",
+      "quantity": 500,
+      "costPrice": "0.6",
+      "sellingPrice": "1.0",
+      "id": 267
+    },
+    {
+      "itemName": "efpac tab ",
+      "quantity": 500,
+      "costPrice": "1.3",
+      "sellingPrice": "2.0",
+      "id": 268
+    },
+    {
+      "itemName": "letacam caps",
+      "quantity": 500,
+      "costPrice": "0.5",
+      "sellingPrice": "1.5",
+      "id": 269
+    },
+    {
+      "itemName": "piroxilex 20mg caps",
+      "quantity": 500,
+      "costPrice": "1.5",
+      "sellingPrice": "2.5",
+      "id": 270
+    },
+    {
+      "itemName": "ibuprofen 400mg (eskay)",
+      "quantity": 500,
+      "costPrice": "0.7",
+      "sellingPrice": "1.5",
+      "id": 271
+    },
+    {
+      "itemName": "cafaprin tab (letap)",
+      "quantity": 500,
+      "costPrice": "0.6",
+      "sellingPrice": "1.5",
+      "id": 272
+    },
+    {
+      "itemName": "socomol tab 20x10",
+      "quantity": 500,
+      "costPrice": "1",
+      "sellingPrice": "2.0",
+      "id": 273
+    },
+    {
+      "itemName": "pain zab tab",
+      "quantity": 500,
+      "costPrice": "1.8",
+      "sellingPrice": "3.0",
+      "id": 274
+    },
+    {
+      "itemName": "pinpac extra ",
+      "quantity": 500,
+      "costPrice": "1",
+      "sellingPrice": "2.0",
+      "id": 275
+    },
+    {
+      "itemName": "parafenac tab ",
+      "quantity": 500,
+      "costPrice": "1.4",
+      "sellingPrice": "2.5",
+      "id": 276
+    },
+    {
+      "itemName": "zudrex tab",
+      "quantity": 500,
+      "costPrice": "2.7",
+      "sellingPrice": "4.0",
+      "id": 277
+    },
+    {
+      "itemName": "coldrilif caps",
+      "quantity": 500,
+      "costPrice": "3.3",
+      "sellingPrice": "5.0",
+      "id": 278
+    },
+    {
+      "itemName": "citro c tabs 25's",
+      "quantity": 500,
+      "costPrice": "1.4",
+      "sellingPrice": "2.0",
+      "id": 279
+    },
+    {
+      "itemName": "flurest tab",
+      "quantity": 500,
+      "costPrice": "14.85",
+      "sellingPrice": "21.0",
+      "id": 280
+    },
+    {
+      "itemName": "congestyl tabs",
+      "quantity": 500,
+      "costPrice": "6.44",
+      "sellingPrice": "9.0",
+      "id": 281
+    },
+    {
+      "itemName": "strobin l/s",
+      "quantity": 500,
+      "costPrice": "0.7",
+      "sellingPrice": "2",
+      "id": 282
+    },
+    {
+      "itemName": "fisherman's friend",
+      "quantity": 500,
+      "costPrice": "6.44",
+      "sellingPrice": "9.0",
+      "id": 283
+    },
+    {
+      "itemName": "malin loz",
+      "quantity": 500,
+      "costPrice": "2.27",
+      "sellingPrice": "4.0",
+      "id": 284
+    },
+    {
+      "itemName": "pofakof jnr syr",
+      "quantity": 500,
+      "costPrice": "6.85",
+      "sellingPrice": "10.0",
+      "id": 285
+    },
+    {
+      "itemName": "pofakof baby syr ",
+      "quantity": 500,
+      "costPrice": "6.64",
+      "sellingPrice": "9.0",
+      "id": 286
+    },
+    {
+      "itemName": "luex baby cough",
+      "quantity": 500,
+      "costPrice": "9.80",
+      "sellingPrice": "14.0",
+      "id": 287
+    },
+    {
+      "itemName": "luex adult chesty",
+      "quantity": 500,
+      "costPrice": "6.80",
+      "sellingPrice": "14.0",
+      "id": 288
+    },
+    {
+      "itemName": "samalin jnr",
+      "quantity": 500,
+      "costPrice": "4.65",
+      "sellingPrice": "8",
+      "id": 289
+    },
+    {
+      "itemName": "dyfex jnr",
+      "quantity": 500,
+      "costPrice": "5.84",
+      "sellingPrice": "8.5",
+      "id": 290
+    },
+    {
+      "itemName": "menthox adult ",
+      "quantity": 500,
+      "costPrice": "5.18",
+      "sellingPrice": "7.0",
+      "id": 291
+    },
+    {
+      "itemName": "malin jnr",
+      "quantity": 500,
+      "costPrice": "5.67",
+      "sellingPrice": "9",
+      "id": 292
+    },
+    {
+      "itemName": "malin baby",
+      "quantity": 500,
+      "costPrice": "6.21",
+      "sellingPrice": "9.0",
+      "id": 293
+    },
+    {
+      "itemName": "my baby cough syr 100ml",
+      "quantity": 500,
+      "costPrice": "4.36",
+      "sellingPrice": "7",
+      "id": 294
+    },
+    {
+      "itemName": "amcof jnr syr",
+      "quantity": 500,
+      "costPrice": "5.77",
+      "sellingPrice": "10",
+      "id": 295
+    },
+    {
+      "itemName": "amcof baby",
+      "quantity": 500,
+      "costPrice": "5.45",
+      "sellingPrice": "8.0",
+      "id": 296
+    },
+    {
+      "itemName": "flemex jnr syr",
+      "quantity": 500,
+      "costPrice": "6.44",
+      "sellingPrice": "10",
+      "id": 297
+    },
+    {
+      "itemName": "coldrilif susp",
+      "quantity": 500,
+      "costPrice": "5.24",
+      "sellingPrice": "7.0",
+      "id": 298
+    },
+    {
+      "itemName": "salocold syr",
+      "quantity": 500,
+      "costPrice": "6.93",
+      "sellingPrice": "10.0",
+      "id": 299
+    },
+    {
+      "itemName": "basecold syr",
+      "quantity": 500,
+      "costPrice": "3.92",
+      "sellingPrice": "6",
+      "id": 300
+    },
+    {
+      "itemName": "stopkof children syr 100ml",
+      "quantity": 500,
+      "costPrice": "6.91",
+      "sellingPrice": "10.0",
+      "id": 301
+    },
+    {
+      "itemName": "lintus child syr ",
+      "quantity": 500,
+      "costPrice": "3.56",
+      "sellingPrice": "7",
+      "id": 302
+    },
+    {
+      "itemName": "samalin jnr (non-drowsy)",
+      "quantity": 500,
+      "costPrice": "5.74",
+      "sellingPrice": "9",
+      "id": 303
+    },
+    {
+      "itemName": "menthodex s/s",
+      "quantity": 500,
+      "costPrice": "13.37",
+      "sellingPrice": "19.0",
+      "id": 304
+    },
+    {
+      "itemName": "menthodex l/s",
+      "quantity": 500,
+      "costPrice": "22.77",
+      "sellingPrice": "32",
+      "id": 305
+    },
+    {
+      "itemName": "pofakof adult syr",
+      "quantity": 500,
+      "costPrice": "7.19",
+      "sellingPrice": "10.0",
+      "id": 306
+    },
+    {
+      "itemName": "amcof adult syr",
+      "quantity": 500,
+      "costPrice": "5.25",
+      "sellingPrice": "10",
+      "id": 307
+    },
+    {
+      "itemName": "viscof  s syr",
+      "quantity": 500,
+      "costPrice": "11.82",
+      "sellingPrice": "17",
+      "id": 308
+    },
+    {
+      "itemName": "viscof d syr",
+      "quantity": 500,
+      "costPrice": "9.75",
+      "sellingPrice": "16",
+      "id": 309
+    },
+    {
+      "itemName": "viscof plain syr",
+      "quantity": 500,
+      "costPrice": "8.66",
+      "sellingPrice": "14",
+      "id": 310
+    },
+    {
+      "itemName": "go cough syr",
+      "quantity": 500,
+      "costPrice": "4.36",
+      "sellingPrice": "6.0",
+      "id": 311
+    },
+    {
+      "itemName": "malin adult",
+      "quantity": 500,
+      "costPrice": "7.10",
+      "sellingPrice": "10.0",
+      "id": 312
+    },
+    {
+      "itemName": "mist expect seed (mal)",
+      "quantity": 500,
+      "costPrice": "2.72",
+      "sellingPrice": "6",
+      "id": 313
+    },
+    {
+      "itemName": "bella cough mixture",
+      "quantity": 500,
+      "costPrice": "5.54",
+      "sellingPrice": "8.0",
+      "id": 314
+    },
+    {
+      "itemName": "carbozap adult syr",
+      "quantity": 500,
+      "costPrice": "5.10",
+      "sellingPrice": "10",
+      "id": 315
+    },
+    {
+      "itemName": "diphex jnr",
+      "quantity": 500,
+      "costPrice": "5.10",
+      "sellingPrice": "10",
+      "id": 316
+    },
+    {
+      "itemName": "diphex (broncho & mucolytic) syr",
+      "quantity": 500,
+      "costPrice": "6.93",
+      "sellingPrice": "10.0",
+      "id": 317
+    },
+    {
+      "itemName": "pronalin adult",
+      "quantity": 500,
+      "costPrice": "3.45",
+      "sellingPrice": "7",
+      "id": 318
+    },
+    {
+      "itemName": "sedalyn children syr",
+      "quantity": 500,
+      "costPrice": "5.15",
+      "sellingPrice": "8",
+      "id": 319
+    },
+    {
+      "itemName": "samalin adult",
+      "quantity": 500,
+      "costPrice": "5.10",
+      "sellingPrice": "7.0",
+      "id": 320
+    },
+    {
+      "itemName": "stopkof adult ",
+      "quantity": 500,
+      "costPrice": "5.83",
+      "sellingPrice": "10",
+      "id": 321
+    },
+    {
+      "itemName": "stopkof dry cough syr",
+      "quantity": 500,
+      "costPrice": "5.83",
+      "sellingPrice": "10",
+      "id": 322
+    },
+    {
+      "itemName": "joy ointment",
+      "quantity": 500,
+      "costPrice": "2.38",
+      "sellingPrice": "4",
+      "id": 323
+    },
+    {
+      "itemName": "deep heat rub 35g",
+      "quantity": 500,
+      "costPrice": "20.9",
+      "sellingPrice": "30",
+      "id": 324
+    },
+    {
+      "itemName": "deep heat spray 150ml",
+      "quantity": 500,
+      "costPrice": "26.13",
+      "sellingPrice": "36.5",
+      "id": 325
+    },
+    {
+      "itemName": "leorub gel 30g ",
+      "quantity": 500,
+      "costPrice": "3.44",
+      "sellingPrice": "5.0",
+      "id": 326
+    },
+    {
+      "itemName": "leopard cream ",
+      "quantity": 500,
+      "costPrice": "7.97",
+      "sellingPrice": "11",
+      "id": 327
+    },
+    {
+      "itemName": "diclolex gel",
+      "quantity": 500,
+      "costPrice": "5.94",
+      "sellingPrice": "9",
+      "id": 328
+    },
+    {
+      "itemName": "lofnac gel",
+      "quantity": 500,
+      "costPrice": "5.20",
+      "sellingPrice": "9",
+      "id": 329
+    },
+    {
+      "itemName": "aboniki oint",
+      "quantity": 500,
+      "costPrice": "3.96",
+      "sellingPrice": "6.0",
+      "id": 330
+    },
+    {
+      "itemName": "chocho cream",
+      "quantity": 500,
+      "costPrice": "4.90",
+      "sellingPrice": "7.0",
+      "id": 331
+    },
+    {
+      "itemName": "epiderm cream 30g l/s",
+      "quantity": 500,
+      "costPrice": "4.24",
+      "sellingPrice": "6.0",
+      "id": 332
+    },
+    {
+      "itemName": "mycolex-3",
+      "quantity": 500,
+      "costPrice": "16.73",
+      "sellingPrice": "24.0",
+      "id": 333
+    },
+    {
+      "itemName": "mycolex cream 20g",
+      "quantity": 500,
+      "costPrice": "14.85",
+      "sellingPrice": "21.0",
+      "id": 334
+    },
+    {
+      "itemName": "funbact a cream",
+      "quantity": 500,
+      "costPrice": "7.92",
+      "sellingPrice": "11.0",
+      "id": 335
+    },
+    {
+      "itemName": "ketazol cream",
+      "quantity": 500,
+      "costPrice": "5.41",
+      "sellingPrice": "8.0",
+      "id": 336
+    },
+    {
+      "itemName": "always pad single",
+      "quantity": 500,
+      "costPrice": "8",
+      "sellingPrice": "10.0",
+      "id": 337
+    },
+    {
+      "itemName": "faytex pad",
+      "quantity": 500,
+      "costPrice": "8",
+      "sellingPrice": "10.0",
+      "id": 338
+    },
+    {
+      "itemName": "softcare pad",
+      "quantity": 500,
+      "costPrice": "6",
+      "sellingPrice": "8.0",
+      "id": 339
+    },
+    {
+      "itemName": "propa pad",
+      "quantity": 500,
+      "costPrice": "7",
+      "sellingPrice": "9.0",
+      "id": 340
+    },
+    {
+      "itemName": "a+ panty liner ",
+      "quantity": 500,
+      "costPrice": "3",
+      "sellingPrice": "4.0",
+      "id": 341
+    },
+    {
+      "itemName": "yazz pad",
+      "quantity": 500,
+      "costPrice": "7",
+      "sellingPrice": "9.0",
+      "id": 342
+    },
+    {
+      "itemName": "cotten 25g",
+      "quantity": 500,
+      "costPrice": "2",
+      "sellingPrice": "4.0",
+      "id": 343
+    },
+    {
+      "itemName": "vit c 1gm",
+      "quantity": 500,
+      "costPrice": "16",
+      "sellingPrice": "20.0",
+      "id": 344
+    },
+    {
+      "itemName": "co-trim tab(letap)",
+      "quantity": 500,
+      "costPrice": "0.6",
+      "sellingPrice": "1.5",
+      "id": 345
+    },
+    {
+      "itemName": "cipro 500mg tab 10'(gr)",
+      "quantity": 500,
+      "costPrice": "3.7",
+      "sellingPrice": "5.0",
+      "id": 346
+    },
+    {
+      "itemName": "ciprolex tab",
+      "quantity": 500,
+      "costPrice": "11.88",
+      "sellingPrice": "17.0",
+      "id": 347
+    },
+    {
+      "itemName": "cloxa cap 250mg ",
+      "quantity": 500,
+      "costPrice": "1.3",
+      "sellingPrice": "2.0",
+      "id": 348
+    },
+    {
+      "itemName": "ampicllin 250mg caps(letap)",
+      "quantity": 500,
+      "costPrice": "1.2",
+      "sellingPrice": "2.0",
+      "id": 349
+    },
+    {
+      "itemName": "amoxyl 250mg caps",
+      "quantity": 500,
+      "costPrice": "1.1",
+      "sellingPrice": "1.5",
+      "id": 350
+    },
+    {
+      "itemName": "amoxyl 500mg caps",
+      "quantity": 500,
+      "costPrice": "4",
+      "sellingPrice": "6.0",
+      "id": 351
+    },
+    {
+      "itemName": "amoksiklav 625mg tab",
+      "quantity": 500,
+      "costPrice": "23.58",
+      "sellingPrice": "30.0",
+      "id": 352
+    },
+    {
+      "itemName": "amoksiklav 1g tab",
+      "quantity": 500,
+      "costPrice": "34.16",
+      "sellingPrice": "47.0",
+      "id": 353
+    },
+    {
+      "itemName": "ciprolex tz tab 14's",
+      "quantity": 500,
+      "costPrice": "25",
+      "sellingPrice": "34",
+      "id": 354
+    },
+    {
+      "itemName": "enacin-c 150mg caps",
+      "quantity": 500,
+      "costPrice": "6",
+      "sellingPrice": "8.0",
+      "id": 355
+    },
+    {
+      "itemName": "klinda 300mg",
+      "quantity": 500,
+      "costPrice": "10",
+      "sellingPrice": "14.0",
+      "id": 356
+    },
+    {
+      "itemName": "enacef 500mg(ecl)",
+      "quantity": 500,
+      "costPrice": "24.73",
+      "sellingPrice": "42",
+      "id": 357
+    },
+    {
+      "itemName": "foxitil 250mg",
+      "quantity": 500,
+      "costPrice": "12.87",
+      "sellingPrice": "18.0",
+      "id": 358
+    },
+    {
+      "itemName": "zinnat tab 250mg",
+      "quantity": 500,
+      "costPrice": "59.50",
+      "sellingPrice": "83.0",
+      "id": 359
+    },
+    {
+      "itemName": "t-sec(secnidazole)1gm",
+      "quantity": 500,
+      "costPrice": "2.62",
+      "sellingPrice": "5.0",
+      "id": 360
+    },
+    {
+      "itemName": "doxycycline tabs 200 '(ecl)",
+      "quantity": 500,
+      "costPrice": "2.2",
+      "sellingPrice": "3.0",
+      "id": 361
+    },
+    {
+      "itemName": "fluconazole 150mg",
+      "quantity": 500,
+      "costPrice": "8.41",
+      "sellingPrice": "12",
+      "id": 362
+    },
+    {
+      "itemName": "flucron 150mg",
+      "quantity": 500,
+      "costPrice": "1",
+      "sellingPrice": "5.0",
+      "id": 363
+    },
+    {
+      "itemName": "grisoral susp(hovi)",
+      "quantity": 500,
+      "costPrice": "8.70",
+      "sellingPrice": "12.0",
+      "id": 364
+    },
+    {
+      "itemName": "letavin 125mg tab",
+      "quantity": 500,
+      "costPrice": "0.9",
+      "sellingPrice": "1.5",
+      "id": 365
+    },
+    {
+      "itemName": "letavin 500mg tab",
+      "quantity": 500,
+      "costPrice": "5.8",
+      "sellingPrice": "8.0",
+      "id": 366
+    },
+    {
+      "itemName": "nifedi-denk 20mg",
+      "quantity": 500,
+      "costPrice": "5.3",
+      "sellingPrice": "7.0",
+      "id": 367
+    },
+    {
+      "itemName": "pinek 20mg tab",
+      "quantity": 500,
+      "costPrice": "1.1",
+      "sellingPrice": "2.0",
+      "id": 368
+    },
+    {
+      "itemName": "bendro 2.5mg 500's (ecl)",
+      "quantity": 500,
+      "costPrice": "0.5",
+      "sellingPrice": "150.0",
+      "id": 369
+    },
+    {
+      "itemName": "bendro 2.5mg (uk)",
+      "quantity": 500,
+      "costPrice": "6.75",
+      "sellingPrice": "9.5",
+      "id": 370
+    },
+    {
+      "itemName": "amlodipine 5mg",
+      "quantity": 500,
+      "costPrice": "6.92",
+      "sellingPrice": "10.0",
+      "id": 371
+    },
+    {
+      "itemName": "amlodipine 10mg",
+      "quantity": 500,
+      "costPrice": "7.92",
+      "sellingPrice": "11.0",
+      "id": 372
+    },
+    {
+      "itemName": "nifecard xl tab 30mg",
+      "quantity": 500,
+      "costPrice": "26.4",
+      "sellingPrice": "36.0",
+      "id": 373
+    },
+    {
+      "itemName": "lisinopril 10mg ",
+      "quantity": 500,
+      "costPrice": "12",
+      "sellingPrice": "17.0",
+      "id": 374
+    },
+    {
+      "itemName": "lisinopril 5mg (uk)",
+      "quantity": 500,
+      "costPrice": "16.4",
+      "sellingPrice": "22.0",
+      "id": 375
+    },
+    {
+      "itemName": "atenolol 50mg 28's (uk)",
+      "quantity": 500,
+      "costPrice": "6.53",
+      "sellingPrice": "9.0",
+      "id": 376
+    },
+    {
+      "itemName": "o- formin 500mg tab 100'",
+      "quantity": 500,
+      "costPrice": "0.4",
+      "sellingPrice": "1",
+      "id": 377
+    },
+    {
+      "itemName": "metformin denk 500mg",
+      "quantity": 500,
+      "costPrice": "5.5",
+      "sellingPrice": "8.0",
+      "id": 378
+    },
+    {
+      "itemName": "ominprazole tabs 10*10 (omesk)",
+      "quantity": 500,
+      "costPrice": "1.4",
+      "sellingPrice": "5",
+      "id": 379
+    },
+    {
+      "itemName": "omzole caps 30's (omiprazole) bedita",
+      "quantity": 500,
+      "costPrice": "2.6",
+      "sellingPrice": "10",
+      "id": 380
+    },
+    {
+      "itemName": "ventolin inhaler",
+      "quantity": 500,
+      "costPrice": "29.70",
+      "sellingPrice": "40.0",
+      "id": 381
+    },
+    {
+      "itemName": "salamol cfc inhaler",
+      "quantity": 500,
+      "costPrice": "21.78",
+      "sellingPrice": "30.0",
+      "id": 382
+    },
+    {
+      "itemName": "salbutamol 4mg 500'(ecl)",
+      "quantity": 500,
+      "costPrice": "0.3",
+      "sellingPrice": "1.0",
+      "id": 383
+    },
+    {
+      "itemName": "predimisolone 5mg (letap)",
+      "quantity": 500,
+      "costPrice": "0.5",
+      "sellingPrice": "1.0",
+      "id": 384
+    },
+    {
+      "itemName": "jet2 inhaler 6",
+      "quantity": 500,
+      "costPrice": "6",
+      "sellingPrice": "9",
+      "id": 385
+    },
+    {
+      "itemName": "zulu tab 10",
+      "quantity": 500,
+      "costPrice": "3.37",
+      "sellingPrice": "5.0",
+      "id": 386
+    },
+    {
+      "itemName": "zulu extra tabs",
+      "quantity": 500,
+      "costPrice": "3.96",
+      "sellingPrice": "8.0",
+      "id": 387
+    },
+    {
+      "itemName": "panadol extral ",
+      "quantity": 500,
+      "costPrice": "2.8",
+      "sellingPrice": "4.0",
+      "id": 388
+    },
+    {
+      "itemName": "panadol plain",
+      "quantity": 500,
+      "costPrice": "2.8",
+      "sellingPrice": "4.0",
+      "id": 389
+    },
+    {
+      "itemName": "polygel susp 200ml",
+      "quantity": 500,
+      "costPrice": "7.62",
+      "sellingPrice": "12",
+      "id": 390
+    },
+    {
+      "itemName": "polygel susp 120ml",
+      "quantity": 500,
+      "costPrice": "4.94",
+      "sellingPrice": "8",
+      "id": 391
+    },
+    {
+      "itemName": "ayulabs gripe water ",
+      "quantity": 500,
+      "costPrice": "4",
+      "sellingPrice": "6.0",
+      "id": 392
+    },
+    {
+      "itemName": "gebedol forte",
+      "quantity": 500,
+      "costPrice": "1.5",
+      "sellingPrice": "3.0",
+      "id": 393
+    },
+    {
+      "itemName": "gebedol tablet",
+      "quantity": 500,
+      "costPrice": "1.2",
+      "sellingPrice": "2.0",
+      "id": 394
+    },
+    {
+      "itemName": "zubes loz",
+      "quantity": 500,
+      "costPrice": "0.5",
+      "sellingPrice": "1.0",
+      "id": 395
+    },
+    {
+      "itemName": "lubrica",
+      "quantity": 500,
+      "costPrice": "10",
+      "sellingPrice": "15.0",
+      "id": 396
+    },
+    {
+      "itemName": "fluxacin cap 250mg",
+      "quantity": 500,
+      "costPrice": "2",
+      "sellingPrice": "3.0",
+      "id": 397
+    },
+    {
+      "itemName": "fluxamox 500 cap",
+      "quantity": 500,
+      "costPrice": "6",
+      "sellingPrice": "8.0",
+      "id": 398
+    },
+    {
+      "itemName": "indocine 250 cap",
+      "quantity": 500,
+      "costPrice": "1",
+      "sellingPrice": "1.5",
+      "id": 399
+    },
+    {
+      "itemName": "metrolex f tab",
+      "quantity": 500,
+      "costPrice": "12.87",
+      "sellingPrice": "19",
+      "id": 400
+    },
+    {
+      "itemName": "amalfi shower gel",
+      "quantity": 500,
+      "costPrice": "12",
+      "sellingPrice": "18",
+      "id": 401
+    },
+    {
+      "itemName": "fine liquid soap",
+      "quantity": 500,
+      "costPrice": "12",
+      "sellingPrice": "15.0",
+      "id": 402
+    },
+    {
+      "itemName": "postinor 2",
+      "quantity": 500,
+      "costPrice": "3",
+      "sellingPrice": "5.0",
+      "id": 403
+    },
+    {
+      "itemName": "plaster roll 2inches",
+      "quantity": 500,
+      "costPrice": "6",
+      "sellingPrice": "8.0",
+      "id": 404
+    },
+    {
+      "itemName": "plaster roll 3inches",
+      "quantity": 500,
+      "costPrice": "8",
+      "sellingPrice": "10.0",
+      "id": 405
+    },
+    {
+      "itemName": "plaster roll",
+      "quantity": 500,
+      "costPrice": "10",
+      "sellingPrice": "12.0",
+      "id": 406
+    },
+    {
+      "itemName": "augmentin ta 625mg",
+      "quantity": 500,
+      "costPrice": "72.00",
+      "sellingPrice": "100.0",
+      "id": 407
+    },
+    {
+      "itemName": "painzap ",
+      "quantity": 500,
+      "costPrice": "1.8",
+      "sellingPrice": "3.0",
+      "id": 408
+    },
+    {
+      "itemName": "lofnac 100mg",
+      "quantity": 500,
+      "costPrice": "1.4",
+      "sellingPrice": "2.0",
+      "id": 409
+    },
+    {
+      "itemName": "paingay",
+      "quantity": 500,
+      "costPrice": "2.8",
+      "sellingPrice": "4.5",
+      "id": 410
+    },
+    {
+      "itemName": "cyfen tab",
+      "quantity": 500,
+      "costPrice": "1.38",
+      "sellingPrice": "2.0",
+      "id": 411
+    },
+    {
+      "itemName": "kwik action tab",
+      "quantity": 500,
+      "costPrice": "0.6",
+      "sellingPrice": "1.0",
+      "id": 412
+    },
+    {
+      "itemName": "ibucap 10's/s",
+      "quantity": 500,
+      "costPrice": "1.5",
+      "sellingPrice": "2.5",
+      "id": 413
+    },
+    {
+      "itemName": "cheers condom",
+      "quantity": 500,
+      "costPrice": "1.00",
+      "sellingPrice": "2.0",
+      "id": 414
+    },
+    {
+      "itemName": "ibuprofen 400mg",
+      "quantity": 500,
+      "costPrice": "0.7",
+      "sellingPrice": "1.5",
+      "id": 415
+    },
+    {
+      "itemName": "ronfit forte",
+      "quantity": 500,
+      "costPrice": "3.00",
+      "sellingPrice": "5.0",
+      "id": 416
+    },
+    {
+      "itemName": "becoactin",
+      "quantity": 500,
+      "costPrice": "9.90",
+      "sellingPrice": "14.0",
+      "id": 417
+    },
+    {
+      "itemName": "major nasal drop",
+      "quantity": 500,
+      "costPrice": "6",
+      "sellingPrice": "11",
+      "id": 418
+    },
+    {
+      "itemName": "chloram cap",
+      "quantity": 500,
+      "costPrice": "1.8",
+      "sellingPrice": "3.0",
+      "id": 419
+    },
+    {
+      "itemName": "panadol tablet",
+      "quantity": 500,
+      "costPrice": "2.8",
+      "sellingPrice": "4.0",
+      "id": 420
+    },
+    {
+      "itemName": "metagyl susp",
+      "quantity": 500,
+      "costPrice": "4.84",
+      "sellingPrice": "7.0",
+      "id": 421
+    },
+    {
+      "itemName": "koffex adult syr",
+      "quantity": 500,
+      "costPrice": "5",
+      "sellingPrice": "8.0",
+      "id": 422
+    },
+    {
+      "itemName": "kidiron syr 200ml",
+      "quantity": 500,
+      "costPrice": "7.92",
+      "sellingPrice": "13",
+      "id": 423
+    },
+    {
+      "itemName": "kidicare syr",
+      "quantity": 500,
+      "costPrice": "13.86",
+      "sellingPrice": "19.0",
+      "id": 424
+    },
+    {
+      "itemName": "kidivite syr 200ml",
+      "quantity": 500,
+      "costPrice": "9.48",
+      "sellingPrice": "14",
+      "id": 425
+    },
+    {
+      "itemName": "gyprone plus tab ",
+      "quantity": 500,
+      "costPrice": "1.8",
+      "sellingPrice": "4",
+      "id": 426
+    },
+    {
+      "itemName": "surfaz cream",
+      "quantity": 500,
+      "costPrice": "10.45",
+      "sellingPrice": "15",
+      "id": 427
+    },
+    {
+      "itemName": "imboost mix",
+      "quantity": 500,
+      "costPrice": "13.37",
+      "sellingPrice": "19.0",
+      "id": 428
+    },
+    {
+      "itemName": "time herbal mix",
+      "quantity": 500,
+      "costPrice": "15",
+      "sellingPrice": "20",
+      "id": 429
+    },
+    {
+      "itemName": "letavit syr 125ml",
+      "quantity": 500,
+      "costPrice": "1.98",
+      "sellingPrice": "5",
+      "id": 430
+    },
+    {
+      "itemName": "bx syr 100ml",
+      "quantity": 500,
+      "costPrice": "5.45",
+      "sellingPrice": "9",
+      "id": 431
+    },
+    {
+      "itemName": "bx syr 200ml",
+      "quantity": 500,
+      "costPrice": "7.08",
+      "sellingPrice": "12",
+      "id": 432
+    },
+    {
+      "itemName": "wellbay drop",
+      "quantity": 500,
+      "costPrice": "54.95",
+      "sellingPrice": "80",
+      "id": 433
+    },
+    {
+      "itemName": "amoksiklav 457 susp",
+      "quantity": 500,
+      "costPrice": "23.66",
+      "sellingPrice": "34.0",
+      "id": 434
+    },
+    {
+      "itemName": "amoxi+clav 228.5",
+      "quantity": 500,
+      "costPrice": "12.00",
+      "sellingPrice": "17.0",
+      "id": 435
+    },
+    {
+      "itemName": "chocho tea",
+      "quantity": 500,
+      "costPrice": "6.21",
+      "sellingPrice": "9.0",
+      "id": 436
+    },
+    {
+      "itemName": "becoactin syr",
+      "quantity": 500,
+      "costPrice": "10.89",
+      "sellingPrice": "15.0",
+      "id": 437
+    },
+    {
+      "itemName": "prenacare conception ",
+      "quantity": 500,
+      "costPrice": "54.30",
+      "sellingPrice": "76.0",
+      "id": 438
+    },
+    {
+      "itemName": "brenex syr",
+      "quantity": 500,
+      "costPrice": "14.36",
+      "sellingPrice": "21",
+      "id": 439
+    },
+    {
+      "itemName": "pen v tab",
+      "quantity": 500,
+      "costPrice": "0.80",
+      "sellingPrice": "1.5",
+      "id": 440
+    },
+    {
+      "itemName": "letalin expect",
+      "quantity": 500,
+      "costPrice": "2.22",
+      "sellingPrice": "4.0",
+      "id": 441
+    },
+    {
+      "itemName": "ernest oint",
+      "quantity": 500,
+      "costPrice": "2.7",
+      "sellingPrice": "5",
+      "id": 442
+    },
+    {
+      "itemName": "zubes extra strong cough mix",
+      "quantity": 500,
+      "costPrice": "15.31",
+      "sellingPrice": "22.0",
+      "id": 443
+    },
+    {
+      "itemName": "saline nasal drop",
+      "quantity": 500,
+      "costPrice": "3.00",
+      "sellingPrice": "5.0",
+      "id": 444
+    },
+    {
+      "itemName": "c-h eye drop",
+      "quantity": 500,
+      "costPrice": "1.65",
+      "sellingPrice": "5.0",
+      "id": 445
+    },
+    {
+      "itemName": "chloramphenicol eye oint",
+      "quantity": 500,
+      "costPrice": "2.20",
+      "sellingPrice": "4.0",
+      "id": 446
+    },
+    {
+      "itemName": "fumet susp",
+      "quantity": 500,
+      "costPrice": "4.21",
+      "sellingPrice": "6.0",
+      "id": 447
+    },
+    {
+      "itemName": "metrolex f susp",
+      "quantity": 500,
+      "costPrice": "16.9",
+      "sellingPrice": "24.0",
+      "id": 448
+    },
+    {
+      "itemName": "permoxyl susp",
+      "quantity": 500,
+      "costPrice": "5.98",
+      "sellingPrice": "8.5",
+      "id": 449
+    },
+    {
+      "itemName": "metronidazole susp ",
+      "quantity": 500,
+      "costPrice": "4.41",
+      "sellingPrice": "6.0",
+      "id": 450
+    },
+    {
+      "itemName": "unidus comdom",
+      "quantity": 500,
+      "costPrice": "6.7",
+      "sellingPrice": "13",
+      "id": 451
+    },
+    {
+      "itemName": "ncp 100ml",
+      "quantity": 500,
+      "costPrice": "20.04",
+      "sellingPrice": "28.0",
+      "id": 452
+    },
+    {
+      "itemName": "givers p caps",
+      "quantity": 500,
+      "costPrice": "21",
+      "sellingPrice": "27.0",
+      "id": 453
+    },
+    {
+      "itemName": "rapinol tab",
+      "quantity": 500,
+      "costPrice": "0.5",
+      "sellingPrice": "1.0",
+      "id": 454
+    },
+    {
+      "itemName": "apetamin syr",
+      "quantity": 500,
+      "costPrice": "16",
+      "sellingPrice": "29",
+      "id": 455
+    },
+    {
+      "itemName": "unidus condom",
+      "quantity": 500,
+      "costPrice": "7.7",
+      "sellingPrice": "13.0",
+      "id": 456
+    },
+    {
+      "itemName": "cotton 50g",
+      "quantity": 500,
+      "costPrice": "3",
+      "sellingPrice": "5.0",
+      "id": 457
+    },
+    {
+      "itemName": "chocho soap",
+      "quantity": 500,
+      "costPrice": "4.5",
+      "sellingPrice": "6.5",
+      "id": 458
+    },
+    {
+      "itemName": "adutwumwaa cap",
+      "quantity": 500,
+      "costPrice": "13.5",
+      "sellingPrice": "19.0",
+      "id": 459
+    },
+    {
+      "itemName": "mono preg kit",
+      "quantity": 500,
+      "costPrice": "1",
+      "sellingPrice": "3.0",
+      "id": 460
+    },
+    {
+      "itemName": "zin tab 20mg",
+      "quantity": 500,
+      "costPrice": "0.70",
+      "sellingPrice": "1.5",
+      "id": 461
+    },
+    {
+      "itemName": "conbact.n cream",
+      "quantity": 500,
+      "costPrice": "5.6",
+      "sellingPrice": "8.0",
+      "id": 462
+    },
+    {
+      "itemName": "roxidol tab",
+      "quantity": 500,
+      "costPrice": "1.73",
+      "sellingPrice": "2.5",
+      "id": 463
+    },
+    {
+      "itemName": "k-y jelly",
+      "quantity": 500,
+      "costPrice": "29.8",
+      "sellingPrice": "40.0",
+      "id": 464
+    },
+    {
+      "itemName": "naklofen duo cap ",
+      "quantity": 500,
+      "costPrice": "2.1",
+      "sellingPrice": "3.0",
+      "id": 465
+    },
+    {
+      "itemName": "para syr riddles",
+      "quantity": 500,
+      "costPrice": "6.2",
+      "sellingPrice": "9.0",
+      "id": 466
+    },
+    {
+      "itemName": "riddles baby",
+      "quantity": 500,
+      "costPrice": "6.4",
+      "sellingPrice": "10.0",
+      "id": 467
+    },
+    {
+      "itemName": "co-trimoxazole susp",
+      "quantity": 500,
+      "costPrice": "2.9",
+      "sellingPrice": "5.0",
+      "id": 468
+    },
+    {
+      "itemName": "ors",
+      "quantity": 500,
+      "costPrice": "0.5",
+      "sellingPrice": "1.0",
+      "id": 469
+    },
+    {
+      "itemName": "promicine syr",
+      "quantity": 500,
+      "costPrice": "2.2",
+      "sellingPrice": "4.0",
+      "id": 470
+    },
+    {
+      "itemName": "dexitrolite",
+      "quantity": 500,
+      "costPrice": "0.6",
+      "sellingPrice": "1.5",
+      "id": 471
+    },
+    {
+      "itemName": "dicnac supp 100mg",
+      "quantity": 500,
+      "costPrice": "1",
+      "sellingPrice": "1.5",
+      "id": 472
+    },
+    {
+      "itemName": "calcium  soluble",
+      "quantity": 500,
+      "costPrice": "15",
+      "sellingPrice": "22.0",
+      "id": 473
+    },
+    {
+      "itemName": "magnesium soluble",
+      "quantity": 500,
+      "costPrice": "15",
+      "sellingPrice": "22.0",
+      "id": 474
+    },
+    {
+      "itemName": "vit c with zinc",
+      "quantity": 500,
+      "costPrice": "15",
+      "sellingPrice": "22.0",
+      "id": 475
+    },
+    {
+      "itemName": "longrich paste",
+      "quantity": 500,
+      "costPrice": "25",
+      "sellingPrice": "38",
+      "id": 476
+    },
+    {
+      "itemName": "gauze bandage",
+      "quantity": 500,
+      "costPrice": "1",
+      "sellingPrice": "1.5",
+      "id": 477
+    },
+    {
+      "itemName": "gloves",
+      "quantity": 500,
+      "costPrice": "0.6",
+      "sellingPrice": "1.0",
+      "id": 478
+    },
+    {
+      "itemName": "magacid tablet",
+      "quantity": 500,
+      "costPrice": "0.5",
+      "sellingPrice": "1.0",
+      "id": 479
+    },
+    {
+      "itemName": "irovit baby drop",
+      "quantity": 500,
+      "costPrice": "26.17",
+      "sellingPrice": "37",
+      "id": 480
+    },
+    {
+      "itemName": "honey ",
+      "quantity": 500,
+      "costPrice": "60.00",
+      "sellingPrice": "75.0",
+      "id": 481
+    },
+    {
+      "itemName": "nazo ",
+      "quantity": 500,
+      "costPrice": "1.5",
+      "sellingPrice": "3.0",
+      "id": 482
+    },
+    {
+      "itemName": "victory galic mix",
+      "quantity": 500,
+      "costPrice": "11",
+      "sellingPrice": "16.0",
+      "id": 483
+    },
+    {
+      "itemName": "adusa capsules",
+      "quantity": 500,
+      "costPrice": "18.5",
+      "sellingPrice": "26.0",
+      "id": 484
+    },
+    {
+      "itemName": "adusa mix",
+      "quantity": 500,
+      "costPrice": "17.8",
+      "sellingPrice": "25.0",
+      "id": 485
+    },
+    {
+      "itemName": "hepa plus",
+      "quantity": 500,
+      "costPrice": "9",
+      "sellingPrice": "13.0",
+      "id": 486
+    },
+    {
+      "itemName": "zubes expect",
+      "quantity": 500,
+      "costPrice": "12.98",
+      "sellingPrice": "18.0",
+      "id": 487
+    },
+    {
+      "itemName": "fluxamox susp",
+      "quantity": 500,
+      "costPrice": "10.98",
+      "sellingPrice": "16.0",
+      "id": 488
+    },
+    {
+      "itemName": "salicylic acid oint",
+      "quantity": 500,
+      "costPrice": "6.50",
+      "sellingPrice": "9.0",
+      "id": 489
+    },
+    {
+      "itemName": "doreta tab",
+      "quantity": 500,
+      "costPrice": "1.4",
+      "sellingPrice": "2",
+      "id": 490
+    },
+    {
+      "itemName": "adom ladies mix",
+      "quantity": 500,
+      "costPrice": "12",
+      "sellingPrice": "17.0",
+      "id": 491
+    },
+    {
+      "itemName": "dangyl tab 400mg",
+      "quantity": 500,
+      "costPrice": "1",
+      "sellingPrice": "2.0",
+      "id": 492
+    },
+    {
+      "itemName": "combat n",
+      "quantity": 500,
+      "costPrice": "6",
+      "sellingPrice": "8.0",
+      "id": 493
+    },
+    {
+      "itemName": "voltic",
+      "quantity": 500,
+      "costPrice": "2.8",
+      "sellingPrice": "4.0",
+      "id": 494
+    },
+    {
+      "itemName": "vitamilk",
+      "quantity": 500,
+      "costPrice": "5.8",
+      "sellingPrice": "7.0",
+      "id": 495
+    },
+    {
+      "itemName": "lucozade",
+      "quantity": 500,
+      "costPrice": "5.8",
+      "sellingPrice": "7.0",
+      "id": 496
+    },
+    {
+      "itemName": "don simon 1.5l",
+      "quantity": 500,
+      "costPrice": "12.5",
+      "sellingPrice": "15.0",
+      "id": 497
+    },
+    {
+      "itemName": "don simon 0.5l",
+      "quantity": 500,
+      "costPrice": "5",
+      "sellingPrice": "8.0",
+      "id": 498
+    },
+    {
+      "itemName": "fan max ",
+      "quantity": 500,
+      "costPrice": "4.3",
+      "sellingPrice": "6.0",
+      "id": 499
+    },
+    {
+      "itemName": "hollandia 1t",
+      "quantity": 500,
+      "costPrice": "15",
+      "sellingPrice": "18.0",
+      "id": 500
+    },
+    {
+      "itemName": "hollandia 300ml",
+      "quantity": 500,
+      "costPrice": "4",
+      "sellingPrice": "6.0",
+      "id": 501
+    },
+    {
+      "itemName": "fruteli 1t",
+      "quantity": 500,
+      "costPrice": "10",
+      "sellingPrice": "12.0",
+      "id": 502
+    },
+    {
+      "itemName": "malt",
+      "quantity": 500,
+      "costPrice": "4",
+      "sellingPrice": "6.0",
+      "id": 503
+    },
+    {
+      "itemName": "paingay gel",
+      "quantity": 500,
+      "costPrice": "5",
+      "sellingPrice": "7.0",
+      "id": 504
+    },
+    {
+      "itemName": "panacin tab",
+      "quantity": 500,
+      "costPrice": "0.7",
+      "sellingPrice": "1.5",
+      "id": 505
+    },
+    {
+      "itemName": "gana balm s/s",
+      "quantity": 500,
+      "costPrice": "4.5",
+      "sellingPrice": "6.0",
+      "id": 506
+    },
+    {
+      "itemName": "voltic m/s",
+      "quantity": 500,
+      "costPrice": "1.3",
+      "sellingPrice": "2.0",
+      "id": 507
+    },
+    {
+      "itemName": "vermox susp",
+      "quantity": 500,
+      "costPrice": "16",
+      "sellingPrice": "22.0",
+      "id": 508
+    },
+    {
+      "itemName": "metro susp m/g",
+      "quantity": 500,
+      "costPrice": "4.57",
+      "sellingPrice": "7.0",
+      "id": 509
+    },
+    {
+      "itemName": "delayman cap",
+      "quantity": 500,
+      "costPrice": "14",
+      "sellingPrice": "20.0",
+      "id": 510
+    },
+    {
+      "itemName": "yodi tab",
+      "quantity": 500,
+      "costPrice": "0.8",
+      "sellingPrice": "2.0",
+      "id": 511
+    },
+    {
+      "itemName": "wellwoman 50plus",
+      "quantity": 500,
+      "costPrice": "58.94",
+      "sellingPrice": "83.0",
+      "id": 512
+    },
+    {
+      "itemName": "folic acid crescent",
+      "quantity": 500,
+      "costPrice": "8.71",
+      "sellingPrice": "13.0",
+      "id": 513
+    },
+    {
+      "itemName": "no spa 400mg tab",
+      "quantity": 500,
+      "costPrice": "7.2",
+      "sellingPrice": "10.0",
+      "id": 514
+    },
+    {
+      "itemName": "dexone tab",
+      "quantity": 500,
+      "costPrice": "1.8",
+      "sellingPrice": "3.0",
+      "id": 515
+    },
+    {
+      "itemName": "magacid fastmelt",
+      "quantity": 500,
+      "costPrice": "0.4",
+      "sellingPrice": "1.0",
+      "id": 516
+    },
+    {
+      "itemName": "durol tonic 300ml",
+      "quantity": 500,
+      "costPrice": "11.68",
+      "sellingPrice": "16.0",
+      "id": 517
+    },
+    {
+      "itemName": "hi lady",
+      "quantity": 500,
+      "costPrice": "16.33",
+      "sellingPrice": "23.0",
+      "id": 518
+    },
+    {
+      "itemName": "coldiron syr",
+      "quantity": 500,
+      "costPrice": "7.43",
+      "sellingPrice": "13",
+      "id": 519
+    },
+    {
+      "itemName": "basecold tab 10s",
+      "quantity": 500,
+      "costPrice": "1",
+      "sellingPrice": "3",
+      "id": 520
+    },
+    {
+      "itemName": "basecold tab 4s",
+      "quantity": 500,
+      "costPrice": "1.00",
+      "sellingPrice": "2.0",
+      "id": 521
+    },
+    {
+      "itemName": "epanol syr",
+      "quantity": 500,
+      "costPrice": "3.00",
+      "sellingPrice": "6.0",
+      "id": 522
+    },
+    {
+      "itemName": "living bitters tonic",
+      "quantity": 500,
+      "costPrice": "16",
+      "sellingPrice": "22.0",
+      "id": 523
+    },
+    {
+      "itemName": "riddles adult",
+      "quantity": 500,
+      "costPrice": "6",
+      "sellingPrice": "9.0",
+      "id": 524
+    },
+    {
+      "itemName": "living bitters cap",
+      "quantity": 500,
+      "costPrice": "21",
+      "sellingPrice": "30.0",
+      "id": 525
+    },
+    {
+      "itemName": "malaria test ",
+      "quantity": 500,
+      "costPrice": "1.5",
+      "sellingPrice": "5.0",
+      "id": 526
+    },
+    {
+      "itemName": "",
+      "quantity": 0,
+      "costPrice": "",
+      "sellingPrice": "",
+      "id": 527
+    },
+    {
+      "itemName": "Cigarette",
+      "quantity": "5",
+      "costPrice": "34",
+      "sellingPrice": "54",
+      "id": 528
+    },
+    {
+      "itemName": "Condom",
+      "quantity": "7",
+      "costPrice": "34",
+      "sellingPrice": "54",
+      "id": 529
+    },
+    {
+      "itemName": "book",
+      "quantity": "23",
+      "costPrice": "54",
+      "sellingPrice": "78",
+      "id": 530
     }
   ]
 }
