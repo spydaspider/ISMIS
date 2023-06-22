@@ -8,7 +8,7 @@ const AddToStore = () =>{
        const [fieldEmpty,setFieldEmpty] = useState(false);
        const [greaterCostPrice,setGreaterCostPrice] = useState(false);
        const [itemExists,setItemExists] = useState(false);
-       const {data:items} = useFetch(' http://localhost:8050/items');
+       const {data:items} = useFetch(' http://localhost:7600/items');
        const [invalidNumber,setInvalidNumber] = useState(false);
        const [success,setSuccess] = useState(false);
        const [addError, setAddError] = useState(false);
@@ -65,7 +65,7 @@ const AddToStore = () =>{
             else
             {
                 const newItems = {itemName,quantity,costPrice,sellingPrice};
-                fetch('http://localhost:8050/items',{
+                fetch('http://localhost:7600/items',{
                     method: "POST",
                     headers: {"Content-type": "Application/json"},
                     body: JSON.stringify(newItems)
@@ -103,7 +103,7 @@ const AddToStore = () =>{
             <input onChange = {(e)=>setQuantity(e.target.value)} type = "number" value = {quantity} placeholder = "Quantity" required/>
             <input onChange = {(e)=>setCostPrice(e.target.value)} type = "number" value = {costPrice} placeholder = "Cost Price" required/>
             <input onChange = {(e)=>setSellingPrice(e.target.value)} type = "number" value = {sellingPrice} placeholder = "Selling Price" required/>
-            <button className = "add">Add</button>
+            <button className = "add">save</button>
             </form>
         </div>
     )

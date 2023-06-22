@@ -1,6 +1,8 @@
 *{
   box-sizing: border-box;
-  font-family: myFont;
+  font-family:  'Euclid Circular A','Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-weight: 200;
+  
 
 }
 @font-face{
@@ -15,27 +17,31 @@ body{
   margin:0;
   padding:0;
   color: #4d5666;
-  background: url(/public/images/hardware.jpg);
-  background-repeat: no-repeat;
+  background: url(/public/images/blackPharma.jpg);
   background-size: 100%;
-  background-position: fixed;
+  background-position: bottom;
   background-color: #fcfcfc;
+  overflow-y: scroll;
 
+  
 }
 .search-wrapper {
   display:flex;
   flex-flow: column;
   max-width: 1100px;
-  margin:2em auto;
-  padding: 5% 1%;
-  background: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  
 }
 .nav-bar {
   display: flex;
-  background: #00695c;
+  background: rgb(2, 134, 2);
+  background: white;
+  
   justify-content: space-around;
   align-items: center;
-  height: 50px;
+  height: 70px;
   position: fixed;
   top:0;
   right:0;
@@ -43,16 +49,20 @@ body{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 
 }
+.nav-bar img{
+  width: 100px;
+  cursor: pointer;
+}
 .nav-bar h1 {
   color: rgb(235, 234, 234);
 }
 .links {
   width: 25%;
   display: flex;
-  justify-content: space-around;
+  align-items: center;
 }
 .links a {
-  color: white;
+  color:  rgb(2, 134, 2);
   text-decoration: none;
   cursor: pointer;
   font-weight: 600;
@@ -61,8 +71,9 @@ body{
   padding: 0.7em;
 }
 .links a:hover {
-  background: #004d40;
+  background:  rgb(2, 134, 2);
   transition: background-color 1s ease-out;
+  color: white;
 }
 .search{
   height: 45px;
@@ -83,11 +94,20 @@ body{
   grid-column: 1/13;
   
 }
+table{
+  border-collapse: collapse;
+}
+
 .search-table th {
-  background: #00695c;
+  background:  rgb(2, 134, 2);
   padding: 0.5em;
   font-size: 20px;
   color: #fff;
+
+  
+}
+th{
+  border: 1px solid #333;
 }
 .edit-icon{
   margin-bottom: -0.9em;
@@ -104,10 +124,16 @@ body{
   grid-column: 1/13;
 }
 tr:nth-child(even) {
-  background: #bdbdbd;
+  background: white;
 }
 .item{
   font-size: 90px;
+}
+tr{
+  background: white;
+}
+td{
+  border: 1px solid #cecaca;
 }
 .search-table td {
   padding: 0.5em;
@@ -116,12 +142,14 @@ tr:nth-child(even) {
 }
 .cart-table {
   margin-top: 2em;
+  
 }
 .cart-table th {
-  background: #00695c;
+  background: rgb(102, 21, 21);
   color: #fff;
   padding: 0.5em;
   font-size: 20px;
+
 }
 .cart-table td {
   padding: 0.5em;
@@ -131,8 +159,8 @@ tr:nth-child(even) {
 .cumulative-total {
   font-size: 25px;
   margin-top: 1em;
-  background: #cfd8dc;
-  padding: 0.5em;
+  background: white;
+  padding: 0.8em;
   font-weight: 600;
   color: #333;
 }
@@ -176,6 +204,7 @@ tr:nth-child(even) {
   margin-left: 1em;
   font-size: 20px;
   font-weight: 700;
+  background: white;
 }
 .plus {
   padding: 0.5em;
@@ -279,7 +308,7 @@ tr:nth-child(even) {
 
 }
 .item-list-wrapper{
-  padding:5% 0;
+  margin-top: 80px;
   
 }
 .records-wrapper{
@@ -298,6 +327,10 @@ tr:nth-child(even) {
     text-align: center;
     grid-column:1/10;
     color: #344563;
+    background: white;
+    width: 30%;
+    align-self: center;
+    padding: 0.5em;
 
 }
 .items-table{
@@ -309,7 +342,7 @@ tr:nth-child(even) {
     text-align: center;
 }
 .items-table th{
-  background: #00695c;
+  background:  rgb(2, 134, 2);
   color: #fff;
   padding: 0.5em;
   font-size: 20px;
@@ -322,8 +355,8 @@ tr:nth-child(even) {
 }
 /*Styles for the add new item*/
 .add-items{
-  max-width: 800px;
-  margin: 2em auto;
+  max-width: 600px;
+  margin: 100px auto;
   display: grid;
   grid-template-columns: repeat(12,1fr);
   padding: 5% 1em;
@@ -336,7 +369,7 @@ tr:nth-child(even) {
   text-align: center;
   font-size: 30px;
   color:#344563;
-
+  font-weight: 500;
 }
 .item-form{
   grid-column: 1/13;
@@ -348,8 +381,13 @@ tr:nth-child(even) {
   width: 100%;
   height: 40px;
   font-size: 18px;
-  border: 1px solid #bdbdbd;
+  border: 2px solid #bdbdbd;
   outline: none;
+}
+.item-form label{
+  color: rgb(2, 134, 2);
+  font-size: 18px;
+  font-weight: 500;
 }
 .item-form input:hover{
   box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
@@ -363,13 +401,17 @@ tr:nth-child(even) {
   font-size: 18px;
   border: none;
   font-size: 25px;
-  background: #6070ff;
+  background: rgb(2, 134, 2);
   color: #fff;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 
 }
 .add:hover{
-  background:#495af9;
+  background:rgb(102, 21, 21);
+}
+.links a.active{
+  background:rgb(102, 21, 21);
+  color: #ffffff;
 }
 .add-success{
   background: #6070ff;
@@ -393,14 +435,14 @@ tr:nth-child(even) {
 }
 /*Styles for the login page*/
 .log-style{
-  color: #fff;
+  color: rgb(2, 134, 2);
   padding: 0.8em;
   margin-left: 1em;
   cursor:pointer;
+  font-size: 18px;
+  border: 3px solid rgb(2, 134, 2);
 }
-.log-style:hover{
-  background:#004d40;
-}
+
 .log-wrapper{
   margin-top: 15%;
 }
@@ -410,24 +452,15 @@ tr:nth-child(even) {
   color: rgb(119, 119, 119);
   
 }
-.login-container{
-  background: rgb(227, 225, 225);
-  top:8%;
-  left:0;
-  right:0;
-  bottom:0;
-  position: absolute;
-}
 .login-form{
   max-width:500px;
   height: auto;
   border: 2px solid rgb(214, 212, 212);
-  margin:10% auto;
+  margin:150px auto;
   display: grid;
   padding-bottom:1em;
   grid-template-columns: repeat(12,1fr);
   background: #fff;
-  border-radius:8px;
  
 }
 .login-title{
@@ -448,10 +481,11 @@ tr:nth-child(even) {
   margin-top: 1em;
   font-size: 18px;
   outline: none;
+  border: 2px solid #d6d5d5;
 }
 .login-form input:hover{
   box-shadow: 3px 5px 5px rgba(0,0,0,0.1);
-  border: 1px solid #00695c;
+  border: 1px solid  rgb(2, 134, 2);
   
 }
 .login-form button{
@@ -463,12 +497,12 @@ tr:nth-child(even) {
 .login-button{
   font-size: 18px;
   padding: 0.5em;
-  background:#00695c;
+  background: rgb(2, 134, 2);
  
   
 }
 .login-button:hover{
-  background:#004d40;
+  background: rgb(2, 134, 2);;
 }
 .signup-button{
   font-size: 18px;
@@ -490,24 +524,17 @@ tr:nth-child(even) {
   padding: 0.5em;
  text-align: center;
 }
-.create-account-wrapper{
-  background: rgb(226, 226, 226);
-  position: absolute;
-  top:8%;
-  left:0;
-  right:0;
-  bottom:0;
-}
+
 .create-account{
   max-width:500px;
   height: auto;
   border: 2px solid rgb(214, 212, 212);
-  margin:5% auto;
+  margin:150px auto;
   display: grid;
   padding-bottom:1em;
   grid-template-columns: repeat(12,1fr);
   background: #fff;
-  border-radius:8px;
+  
 }
 .create-account-title{
   grid-column: 1/13;
@@ -526,8 +553,8 @@ tr:nth-child(even) {
   width: 100px;
   padding: 0.3em;
   font-size: 15px;
-  border: 3px solid #00695c;
-  color: #00695c;
+  border: 3px solid  rgb(2, 134, 2);;
+  color:  rgb(2, 134, 2);;
   font-weight: 600;
   background: #ffffff;
   cursor:pointer;
@@ -539,11 +566,11 @@ tr:nth-child(even) {
   margin-top: 1em;
   font-size: 18px;
   outline: none;
+  border: 2px solid #d1cece;
 }
 .create-account input:hover{
   box-shadow: 3px 5px 5px rgba(0,0,0,0.1);
-  border: 1px solid #00695c;
-  
+  border: 1px solid  rgb(2, 134, 2);  
 } 
 .create-account button{
   margin-top: 1em;
@@ -551,12 +578,12 @@ tr:nth-child(even) {
   font-size: 18px;
   justify-self: center;
   cursor: pointer;
-  background: #00695c;
+  background:  rgb(2, 134, 2);
   color: #fff;
   border:none;
 }
 .create-account button:hover{
-  background:#004d40;
+  background: rgb(2, 134, 2);;
 }
 .create-account-error{
   grid-column: 1/13;
@@ -577,7 +604,7 @@ tr:nth-child(even) {
   font-size: 20px;
   padding: 0.5em;
   color: #fff;
-  background: #00695c;
+  background:  rgb(2, 134, 2);
 }
 .detail-table td{
   padding: 0.5em;
@@ -644,7 +671,7 @@ tr:nth-child(even) {
   
 }
 .records-list-wrapper{
-  background: url(/public/images/hardware.jpg);
+  background: url(/public/images/blackPharma.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: fixed;
@@ -684,22 +711,29 @@ tr:nth-child(even) {
 .records-wrapper select:hover{
   border: 2px solid #00695c;
 }
+.home-content{
+  padding-bottom: 5em;
+}
 .search-record{
   margin-top: 1em;
-  font-size: 20px;
+  font-size: 20px; 
   padding: 0.6em;
   width: 25%;
   align-self: center;
-  background: #fff;
-  border: 2px solid #00695c;
-  color: #00695c
+  background: rgb(2, 134, 2);
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
   
 }
 .search-record:hover{
-  background: #00695c;
+  background: rgb(102, 21, 21);
   transition: background-color 1s ease-out;
   color: #fff;
- 
+  -webkit-transition: background-color 1s ease-out;
+  -moz-transition: background-color 1s ease-out;
+  -ms-transition: background-color 1s ease-out;
+  -o-transition: background-color 1s ease-out;
 }
 .sales{
   text-align: center;

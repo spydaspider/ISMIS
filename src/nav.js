@@ -1,9 +1,22 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import Store from './helpers/storage';
 import { useHistory } from 'react-router-dom';
+import felowaxLogo  from './images/logo.png';
+import { useEffect, useState } from 'react';
 const Navigation = () =>{
      const history = useHistory();
- 
+     const [user, setUser] = useState(null);
+   useEffect(()=>{
+    let log = Store.getLocalStorage('log');
+    if(log.logged === true)
+   {
+         setUser(true);
+   }
+   else
+   {
+      setUser(null);
+   }
+   },[])
     const handleLogin=()=>{
         let log = Store.getLocalStorage('log');
         if(log.logged === 'true')
@@ -24,14 +37,14 @@ const Navigation = () =>{
     }
    return(
     <div className = "nav-bar">
-        <h1>ISMIS2</h1>
+        <img src = {felowaxLogo} alt = 'log of the shop'/>
         <div className = "links">
-        <Link to = "/search">Search</Link>
-        <Link to = "/add">Add</Link>
-        <Link to = "/store">Store</Link>
-        <Link to = "/records">Records</Link>
-        <span onClick = {handleLogin} className = "log-style">login</span>
-        <span onClick = {handleLogout} className = "log-style">logout</span>
+        <NavLink to = "/search">Sell</NavLink>
+        <NavLink to = "/add">Add</NavLink>
+        <NavLink to = "/store">Store</NavLink>
+        <NavLink to = "/records">Records</NavLink>
+        {!user && <span onClick = {handleLogin} className = "log-style">login</span>}
+        {user && <span onClick = {handleLogout} className = "log-style">logout</span>}
         </div>
         
     </div>
